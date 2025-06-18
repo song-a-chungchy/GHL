@@ -1,0 +1,1034 @@
+/* =============================
+
+    박보라
+    Copryright 2017 Chungchuy.com
+
+ ============================= */
+
+@charset "utf-8";
+
+/******* Layout *******/
+
+#wrap {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    -webkit-tap-highlight-color: transparent;
+}
+
+#bg {
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/common/bg.png) top left;
+    background-attachment: fixed;
+    display: table;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/* 문제영역 상단 */
+header.test-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 1030px;
+    height: 147px;
+    margin: 0 auto;
+    padding: 0 3px;
+    background: #d4effc;
+    z-index: 11;
+}
+
+div.test-wrap {
+    height: 120px;
+    padding-top: 20px;
+    margin-bottom: 15px;
+    border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    -webkit-border-radius: 0 0 10px 10px;
+    background-color: #248ab2;
+    box-shadow: 0.5px 0.866px 4px 0px rgba(2, 8, 2, 0.2);
+}
+
+div.test-wrap div.time {
+    margin: 0 auto;
+    width: 262px;
+    /* 262/1024 */
+    height: 50px;
+    background: #fff;
+    border-radius: 25px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+}
+
+div.test-wrap div.qt-wrap {
+    width: 584px;
+    /* 262/1024 */
+}
+
+div.test-wrap div.time>div {
+    width: 210px;
+    /* 210/262 */
+    margin: 0 auto;
+}
+
+/* div.test-wrap div.qt-wrap > div {
+    float : left;
+} */
+
+div.test-wrap div.time>div.qt {
+    padding-left: 25px;
+    width: 311px;
+    /* 210/262 */
+    margin: 0 auto;
+}
+
+div.test-wrap div.time h1 {
+    padding-left: 31px;
+    /* 31/210 */
+    font-size: 1.555555555555556em;
+    /* 28/18 */
+    line-height: 48px;
+    letter-spacing: -0.05em;
+    font-weight: 700;
+    color: #248ab2;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/common/icn-time.png) center left no-repeat;
+    float: left;
+}
+
+div.test-wrap div.time div.qt h1 {
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/common/icn-qt.png) center left no-repeat;
+}
+
+div.test-wrap div.qt-wrap>div.title_line {
+    margin: 15px 19px 0;
+    width: 2px;
+    height: 20px;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/common/title-line.png) center left no-repeat;
+}
+
+div.test-wrap div.time h2,
+div.test-wrap div.time span,
+div.test-wrap div.time h3 {
+    font-size: 1.555555555555556em;
+    /* 28/18 */
+    font-weight: 700;
+    float: left;
+    line-height: 48px;
+}
+
+div.test-wrap div.time h2 {
+    padding-left: 22px;
+    /* 25/210 */
+    color: #414042;
+}
+
+div.test-wrap div.time div.qt h2 {
+    padding-left: 14px;
+}
+
+div.test-wrap div.time span {
+    display: inline-block;
+    width: 6%;
+    line-height: 44px;
+    text-align: center;
+}
+
+div.test-wrap div.time div.qt span {
+    margin: 2px 4px 0;
+}
+
+div.test-wrap div.time h3 {
+    color: #eb4335;
+}
+
+div.test-wrap .test-close a {
+    float: right;
+    width: 50px;
+    height: 50px;
+    margin-right: 2.44140625%;
+    /*25/1024*/
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/common/icn-close.png) no-repeat;
+    background-size: contain;
+}
+
+div.test-wrap .test-close a:hover {
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/common/icn-close-on.png);
+}
+
+div.test-wrap .test-close img {
+    width: 100%;
+}
+
+div.test-wrap>h2 {
+    padding-top: 10px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.222222222222222em;
+    /* 22/18 */
+    font-weight: 400;
+}
+
+.fake-test-top {
+    width: 100%;
+    position: relative;
+}
+
+.fake-test-top div {
+    position: absolute;
+    top: 0;
+    height: 12px;
+}
+
+.fake-test-top div img {
+    vertical-align: top;
+}
+
+.test-tl {
+    left: -2px;
+}
+
+.test-t {
+    left: 10px;
+    width: 98.046875%;
+    /* 1004/1024 */
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/common/test-t-bg.png) top left repeat-x;
+}
+
+.test-tr {
+    right: -4px;
+}
+
+main.test {
+    margin: 0 auto;
+    width: 1024px;
+    height: 100%;
+}
+
+main.test section {
+    height: 100%;
+    padding: 170px 0 30px 0;
+    background-color: #fff;
+    /* background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/common/line-bg.png);
+    background-position: top left;
+    background-repeat: repeat; */
+    box-shadow: 0.5px 0.866px 4px 0px rgba(2, 8, 2, 0.2);
+}
+
+main.test section>div {
+    position: relative;
+    width: 745px;
+    margin: 0 auto;
+}
+
+.question {
+    padding-bottom: 30px;
+    letter-spacing: -0.025em;
+    font-size: 1.555555555555556em;
+    /* 28/18 */
+    color: #000000;
+    word-break: break-word;
+}
+
+@media screen and (max-width: 1044px) {
+    header.test-header {
+        width: 98.65900383141762%;
+        /* 1030/1044 */
+    }
+
+    main.test {
+        width: 98.08429118773946%;
+        /* 1024/1044 */
+    }
+}
+
+@media screen and (max-width: 800px) {
+    header.test-header {
+        width: 89.58333333333333%;
+        /* 688/768 */
+    }
+
+    main.test {
+        width: 89.58333333333333%;
+        /* 688/768 */
+    }
+
+    main.test section {
+        width: 99%;
+        margin: 0 auto;
+    }
+
+    main.test section>div {
+        width: 95%;
+    }
+}
+
+/* 모바일 style */
+@media screen and (max-width: 640px) {
+    header.test-header {
+        width: 100%;
+        /* 688/768 */
+        height: 4.8226em;
+        background: none;
+        z-index: 10;
+    }
+
+    div.test-wrap {
+        padding-top: 0.3859em;
+        /* 20 */
+        width: 92.59259259259259%;
+        /* 1000/1080 */
+        height: 3.5880em;
+        /* 186 */
+        margin: 0 auto;
+        border-radius: 0 0 0.2481em 0.2481em;
+        -moz-border-radius: 0 0 0.2481em 0.2481em;
+        -webkit-border-radius: 0 0 0.2481em 0.2481em;
+    }
+
+    .fake-test-top {
+        display: none;
+    }
+
+    div.test-wrap div.time {
+        width: 46%;
+        /* 460/1000 */
+        height: 1.5433em;
+    }
+
+    div.test-wrap div.qt-wrap {
+        width: 95%;
+        /* 950/1000 */
+    }
+
+    div.test-wrap div.time>div {
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+        padding: 0 8.69565217391304%;
+        /* 40/460 */
+    }
+
+    div.test-wrap .test-close a {
+        width: 1.5433em;
+        height: 1.5433em;
+    }
+
+    div.test-wrap .test-close a:hover {
+        background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/common/icn-close.png) no-repeat;
+        background-size: contain;
+    }
+
+    div.test-wrap div.qt-wrap>div {
+        width: 42.94736842105263%;
+        /*408/950*/
+        margin: 0;
+        overflow: hidden;
+        padding: 0 2.73684210526316%;
+        /*26/950*/
+    }
+
+    div.test-wrap div.qt-wrap>div.qt {
+        width: 56.84210526315789%;
+        /*540/950*/
+        padding: 0 2.73684210526316%;
+        /*26/950*/
+    }
+
+    div.test-wrap div.time>div.title_line {
+        padding: 0;
+        margin: 0;
+        /*6/950*/
+        width: 2px;
+        /*2/950*/
+    }
+
+    .mb-time {
+        width: 49.73684210526316%;
+        /* 189/380 */
+        overflow: hidden;
+        float: right;
+        font-size: 0;
+        text-align: right;
+    }
+
+    div.test-wrap div.time div.qt .mb-time {
+        width: 43%;
+    }
+
+    div.test-wrap div.time h1,
+    div.test-wrap div.time h2,
+    div.test-wrap div.time span,
+    div.test-wrap div.time h3 {
+        font-size: 0.89rem;
+        /* 50 */
+        display: inline-block;
+    }
+
+    div.test-wrap div.time h1 {
+        padding-left: 13.48039215686275%;
+        /* 55/408 */
+        width: 28.43137254901961%;
+        /* 116/408 */
+        -webkit-background-size: 27.41379310344828%;
+        /*26/116*/
+        background-size: 27.41379310344828%;
+    }
+
+    div.test-wrap div.time div.qt h1 {
+        padding-left: 10.18518518518519%;
+        /* 55/540 */
+        width: 46.11111111111111%;
+        /* 249/540 */
+        -webkit-background-size: 17.21052631578947%;
+        /*28/304*/
+        background-size: 17.21052631578947%;
+    }
+
+    div.test-wrap div.time h1,
+    div.test-wrap div.time div.qt h1 {
+        text-align: left;
+    }
+
+    div.test-wrap div.time div.qt span {
+        margin: 1px 3px 0;
+    }
+
+    div.test-wrap div.time h2 {
+        padding-left: 0%;
+    }
+
+    div.test-wrap div.time span {
+        width: 9.23076923076923%;
+        /* 30/325 */
+    }
+
+    div.test-wrap>h2 {
+        padding-top: 5px;
+        font-size: 0.7717em;
+        /* 40 */
+    }
+
+    main.test {
+        width: 100%;
+        /* 688/768 */
+    }
+
+    main.test section {
+        padding: 4.8226em 0 0.4939em;
+        width: 99%;
+        margin: 0 auto;
+        background: none;
+    }
+
+    main.test section>div {
+        position: relative;
+        width: 85.27777777777778%;
+        /* 921/1080 */
+    }
+
+    .question {
+        padding-bottom: 1.1575em;
+        /* 60 */
+        font-size: 0.9260em;
+        /* 48 */
+    }
+}
+
+@media screen and (max-width: 320px) {
+    div.test-wrap div.qt-wrap {
+        width: 98%;
+    }
+
+    div.test-wrap div.qt-wrap div.qt span {
+        margin: 2px 3px 0;
+    }
+
+    div.test-wrap div.qt-wrap>div.title_line {
+        margin: 0 3px 0;
+    }
+
+    div.test-wrap div.time h1,
+    div.test-wrap div.time h2,
+    div.test-wrap div.time span,
+    div.test-wrap div.time h3 {
+        font-size: 0.75rem;
+        /* 50 */
+    }
+}
+
+/******* //Layout *******/
+
+
+
+/******* 모듈 *******/
+/* 문제공통 */
+/* 문제유형 공통 */
+.skill01 li>span,
+.v-list ul li>div {
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    background-repeat: no-repeat;
+}
+
+.skill01 li>span:hover,
+.v-list ul li>div:hover {
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/common/check-hov.png);
+    /* 697/744 */
+    background-color: #e1f4fd;
+}
+
+/* 지문형식문항 */
+.skill01 li>span:hover,
+.skill01 li span.focus {
+    background-position: 96.908602150538% center;
+}
+
+/* 단어형식문항 */
+.v-list ul li>div:hover,
+.v-list ul li div.focus {
+    background-position: 91.66666666666667% 10px;
+    /* 220/240 */
+}
+
+.skill01 li span.focus,
+.v-list ul li div.focus {
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/common/check-act.png);
+    /* 697/744 */
+    background-color: #248ab2;
+}
+
+.skill01 li span.focus,
+.v-list ul li div.focus span {
+    color: #fff;
+}
+
+/* 넥스트 버튼 */
+.next-btn {
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+    width: 24.16107382550336%;
+    /* 180/745 */
+    float: right;
+    /* margin-right: -13.42281879194631%; */
+    /* 100/745 */
+}
+
+.next-btn img {
+    width: 100%;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.next-btn a {
+    display: none;
+}
+
+@media screen and (max-width: 1044px) {
+    .next-btn {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {}
+
+/* 공통 bg */
+.cmm-bg {
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0.5px 0.866px 4px 0px rgba(2, 8, 2, 0.2);
+}
+
+@media screen and (max-width: 640px) {
+    #bg {
+        background: none;
+    }
+
+    .cmm-bg {
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .skill01 li>span,
+    .v-list ul li>div {
+        border-radius: 0.2481em;
+        -moz-border-radius: 0.2481em;
+        -webkit-border-radius: 0.2481em;
+    }
+
+    .flex-v-center {
+        display: -webkit-flex !important;
+        display: flex !important;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .flex-h-center {
+        display: -webkit-flex !important;
+        display: flex !important;
+        -webkit-justify-content: center;
+        justify-content: center;
+    }
+
+    .flex {
+        display: -webkit-flex !important;
+        display: flex !important;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .btn-cyan {
+        box-shadow: 0 2px #056084;
+    }
+
+    .next-btn {
+        position: fixed;
+        width: 27.77777777777778%;
+        /* 300/1080 */
+        right: 3.7037037037037%;
+        /* 40 */
+        bottom: 2.1220em;
+        /* 110 */
+    }
+
+    .next-btn a {
+        position: fixed;
+        right: 3.7037037037037%; /* 40 */
+        bottom: 2.1220em; /* 110 */
+        min-width: 160px;
+        height: 44px;
+        line-height: 44px;
+        border-radius: 22px;
+        -moz-border-radius: 22px;
+        -webkit-border-radius: 22px;
+        font-size: 1.111111111111111em;
+        font-weight: 600;
+        position: fixed;
+    }
+
+    .next-btn img {
+        display: none;
+    }
+}
+
+
+
+/* 클릭하는 효과 나는 button style (reset) */
+.btn-click {
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn-click:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+/* .btn-cyan, btn-blue, btn-violet, btn-redLine, btn-gray 공통 */
+.btn-cyan,
+.btn-blue,
+.btn-violet,
+.btn-redLine,
+.btn-gray,
+.btn-lightB,
+.btn-orange {
+    color: #fff;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+    border-radius: 4px;
+}
+
+/* btn-cyan */
+.btn-cyan {
+    color: #ffff;
+    border-radius: 4px;
+    background: #248ab2;
+    box-shadow: 0 5px #056084;
+}
+
+.btn-cyan:hover {
+    color: #ffff;
+    box-shadow: 0 4px #056084;
+    top: 1px;
+}
+
+.btn-cyan:active {
+    color: #ffff;
+    box-shadow: 0 0 #056084;
+    top: 5px;
+}
+
+/* btn-gray */
+.btn-gray {
+    background: #a7a9ac;
+    box-shadow: 0 5px #808285;
+}
+
+.btn-gray:hover {
+    box-shadow: 0 4px #808285;
+    top: 1px;
+}
+
+.btn-gray:active {
+    box-shadow: 0 0 #808285;
+    top: 5px;
+}
+
+/* btn-blue */
+.btn-blue {
+    background: #367ec1;
+    box-shadow: 0 5px #195790;
+}
+
+.btn-blue:hover {
+    box-shadow: 0 4px #195790;
+    top: 1px;
+}
+
+.btn-blue:active {
+    box-shadow: 0 0 #195790;
+    top: 5px;
+}
+
+/* btn-orange */
+.btn-orange {
+    background: #ec7614;
+    box-shadow: 0 5px #be5500;
+}
+
+.btn-orange:hover {
+    box-shadow: 0 4px #be5500;
+    top: 1px;
+}
+
+.btn-orange:active {
+    box-shadow: 0 0 #be5500;
+    top: 5px;
+}
+
+/* btn-violet */
+.btn-violet {
+    box-shadow: 0 5px #602084;
+    background: #8e47b6;
+}
+
+.btn-violet:hover {
+    box-shadow: 0 4px #602084;
+    top: 1px;
+}
+
+.btn-violet:active {
+    box-shadow: 0 0 #602084;
+    top: 5px;
+}
+
+/* btn-redLine */
+.btn-redLine {
+    border: 1px solid #ea485b;
+    box-shadow: 0 5px #ea485b;
+    background: #fff;
+    color: #ea485b;
+    line-height: 43px;
+}
+
+.btn-redLine:hover {
+    box-shadow: 0 4px #ea485b;
+    top: 1px;
+}
+
+.btn-redLine:active {
+    box-shadow: 0 0 #ea485b;
+    top: 5px;
+}
+
+/* btn-lightB */
+.btn-lightB {
+    border-radius: 4px;
+    background: #4356a4;
+    box-shadow: 0 5px #233684;
+}
+
+.btn-lightB:hover {
+    box-shadow: 0 4px #233684;
+    top: 1px;
+}
+
+.btn-lightB:active {
+    box-shadow: 0 0 #233684;
+    top: 5px;
+}
+
+@media screen and (max-width: 640px) {
+    .btn-cyan {
+        box-shadow: 0 3px #056084;
+    }
+}
+
+/* select */
+.select {
+    overflow: hidden;
+}
+
+.select h2 {
+    font-size: 0.7778em;
+    /* 14/18 */
+    float: right;
+    font-weight: 400;
+    height: 35px;
+    line-height: 35px;
+}
+
+.select select {
+    width: 100px;
+    height: 35px;
+    padding: 0 5px;
+    margin-left: 10px;
+    float: right;
+    border: 1px solid #d2d3d4;
+    font-size: 0.7778em;
+    /* 14/18 */
+    color: #a7a9ac;
+    -webkit-appearance: none;
+    /* 네이티브 외형 감추기 */
+    -moz-appearance: none;
+    appearance: none;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/common/select-arrow.png) no-repeat 95% 50%, #fff;
+    /* 화살표 모양의 이미지 */
+
+}
+
+/* IE 10, 11의 네이티브 화살표 숨기기 */
+select::-ms-expand {
+    display: none;
+}
+
+
+/* paginate */
+/* pag */
+.dataTables_paginate {
+    position: relative;
+    padding-top: 30px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0;
+}
+
+.dataTables_paginate img {
+    vertical-align: -1px;
+}
+
+.dataTables_paginate a {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    cursor: pointer;
+}
+
+.dataTables_paginate span {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.dataTables_paginate span a {
+    width: 32px;
+    height: 32px;
+    line-height: 30px;
+    margin: 0 2px;
+    border: 1px solid #d1d3d4;
+    border-radius: 2px;
+    color: #58595b;
+    font-weight: 400;
+    font-size: 14px;
+    /* 14/18 */
+}
+
+.dataTables_paginate span a.paginate_active {
+    border: 1px solid #a7a9ac;
+    background: #a7a9ac;
+    color: #fff;
+}
+
+.dataTables_paginate .previous,
+.dataTables_paginate .next {
+    margin: 0 8px;
+}
+
+.dataTables_paginate .previous,
+.dataTables_paginate .next {
+    width: 42px;
+    height: 32px;
+    text-indent: -1000em;
+    overflow: hidden;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/common/btn_pag.png) no-repeat;
+    border: 0 none;
+    border-radius: 0;
+}
+
+.dataTables_paginate .previous {
+    background-position: 0 0;
+}
+
+.dataTables_paginate .next {
+    background-position: 100% 0;
+}
+
+/* table */
+table {
+    width: 100%;
+}
+
+table.blue {
+    margin-top: 5px;
+}
+
+table th,
+table td {
+    font-size: 0.7778em;
+    /* 14/18 */
+    font-weight: 400;
+    text-align: center;
+    height: 40px;
+}
+
+table.blue thead {
+    background: #4356a4;
+}
+
+table.blue thead th {
+    border-right: 1px solid #fff;
+    color: #fff;
+}
+
+table.blue thead th:last-child {
+    border-right: 0 none;
+}
+
+table.blue tbody td {
+    border-right: 1px solid #d1d3d4;
+    border-bottom: 1px solid #d1d3d4;
+}
+
+table.blue tbody td:first-child {
+    border-left: 1px solid #d1d3d4;
+}
+
+td.table-title {
+    text-align: left;
+    padding: 0 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+}
+
+.table-lv {
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/library/table-lv-bg.png);
+    background-repeat: no-repeat;
+    -ms-background-position-x: center;
+    background-position-x: center;
+    color: #fff;
+}
+
+.table-lv1_5 {
+    -ms-background-position-y: 8px;
+    background-position-y: 8px;
+}
+
+.table-lv6_10 {
+    -ms-background-position-y: -27px;
+    background-position-y: -27px;
+}
+
+.table-lv11_15 {
+    -ms-background-position-y: -63px;
+    background-position-y: -63px;
+}
+
+.table-lv16_20 {
+    -ms-background-position-y: -98px;
+    background-position-y: -98px;
+}
+
+.table-lv21_25 {
+    -ms-background-position-y: -133px;
+    background-position-y: -133px;
+}
+
+.table-lv26_30 {
+    -ms-background-position-y: -168px;
+    background-position-y: -168px;
+}
+
+
+.indent {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* 글씨 안보이게 */
+
+.ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+}
+
+/* 말줄임 */
+
+.clearfix:after,
+.clearfixDiv {
+    display: block;
+    visibility: hidden;
+    content: ".";
+    clear: both;
+    text-indent: -9999px;
+    height: 0;
+}
+
+div.beta {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: 80px;
+}
+
+@media screen and (max-width: 768px) {
+    .test-header>div.beta img {
+        width: 45%;
+        margin-top: 7.32px;
+        margin-left: -15px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    div.beta {
+        display: none;
+    }
+}
+
+
+/******* //모듈 *******/

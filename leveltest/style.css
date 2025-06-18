@@ -1,0 +1,1427 @@
+@charset "utf-8";
+
+/* main */
+main.main {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+main.main section {
+    position: relative;
+    display: inline-block;
+    width: 1024px;
+    height: 740px;
+    padding-bottom: 0;
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/main/bg.png);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}
+
+main.main section>div {
+    padding-top: 160px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/main/main-title.png) top center no-repeat;
+}
+
+main.main section>div.up-main {
+    padding-top: 260px;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/main/main-title.png) top center no-repeat;
+}
+
+.main h1 {
+    font-size: 1.7em;
+    /* 36/18 */
+    color: #414042;
+    letter-spacing: -0.025em;
+}
+
+.main>.cmm-bg>div>h1 {
+    margin-top: 15%;
+    /*10%;*/
+}
+
+h1.up-h1 {
+    margin-top: 0 !important;
+    font-size: 1.555555555555556em;
+    /* 28/18 */
+}
+
+.main select {
+    margin-top: 20px;
+    padding-left: 12.109375%;
+    /* 124/1024 */
+    width: 39.0625%;
+    /* 400/1024 */
+    height: 80px;
+    border: 4px solid #d1d3d4;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/main/main-select-arrow.png) no-repeat 90% 50%, #fff;
+    font-size: 2.666666666666667em;
+    /* 48/18 */
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    -webkit-appearance: none;
+    /* 네이티브 외형 감추기 */
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.ie9 .main select {
+    background: none;
+}
+
+.main select option {
+    text-align: center;
+    letter-spacing: 0.2em;
+    font-weight: 700;
+}
+
+/* IE 10, 11의 네이티브 화살표 숨기기 */
+.main select::-ms-expand {
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    display: none;
+}
+
+.main-btn {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+    width: 34.1796875%;
+    /* 350/1024 */
+    margin: 0 auto;
+}
+
+.main-btn a {
+    display: block;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    font-size: 1.555555555555556em;
+    /* 28/18 */
+    font-weight: 700;
+}
+
+.main-btn a:hover {
+    color: #fff;
+}
+
+div.up-main-btn {
+    width: 62.5%;
+    /* 640/1024 */
+}
+
+div.up-main-btn a {
+    float: left;
+    width: 46.875%;
+    /* 300/640 */
+}
+
+div.up-main-btn a.btn-up {
+    float: right;
+}
+
+a.btn2row {
+    line-height: 25px;
+    padding-top: 5px;
+}
+
+a.btn2row span {
+    color: #fff;
+    font-size: .7em;
+    display: block;
+}
+
+@media screen and (max-width: 1044px) {
+    main.main section {
+        width: 98.08429118773946%;
+        /* 1024/1044 */
+        margin: 0 auto;
+        -webkit-background-size: contain;
+        background-size: contain;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    main.main section {
+        width: 97.39583333333333%;
+        /* 748/768 */
+        height: 540px;
+        padding-bottom: 0;
+        margin: 0 10px;
+    }
+
+    .main h1 {
+        font-size: 1.2em;
+        /* 26/18 */
+    }
+
+    h1.up-h1 {
+        font-size: 1.111111111111111em;
+        /* 20/18 */
+    }
+
+    .main select {
+        margin-top: 14px;
+        padding-left: 12.109375%;
+        /* 124/768 */
+        height: 60px;
+        font-size: 1.944444444444444em;
+        /* 35/18 */
+    }
+
+    main.main section>div {
+        padding-top: 120px;
+        background-size: contain;
+    }
+
+    main.main section>div.up-main {
+        padding-top: 183px;
+        background-size: contain;
+    }
+
+    .main-btn {
+        bottom: 30px;
+        width: 34.1796875%;
+        /* 350/1024 */
+        margin: 0 auto;
+    }
+
+    .main-btn a {
+        height: 44px;
+        line-height: 44px;
+        border-radius: 22px;
+        -moz-border-radius: 22px;
+        -webkit-border-radius: 22px;
+        font-size: 1.111111111111111em;
+        /* 20/18 */
+    }
+
+    a.btn2row {
+        padding-top: 4px;
+        line-height: 17px;
+    }
+}
+
+/* 메인 모바일 style */
+@media screen and (max-width: 640px) {
+    main.main section>div.up-main .mb-main-dummy {
+        padding-bottom: 0%;
+        /* 180/375 */
+    }
+
+    .mb-main-dummy {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 40.33333333333333%;
+        /* 180/375 */
+    }
+
+    main.main {
+        display: block;
+        height: 100%;
+    }
+
+    main.main section {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/main/mb-bg.png) top center no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+
+    main.main section>div {
+        position: static;
+        padding: 0;
+        background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/main/mb-main-title.png) top center no-repeat;
+        -webkit-background-size: contain;
+        background-size: contain;
+    }
+
+    main.main section>div.up-main {
+        background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/main/up-mb-main-title.png) top center no-repeat;
+        -webkit-background-size: contain;
+        background-size: contain;
+    }
+
+    .main h1 {
+        margin-top: 15% !important;
+        padding-top: 0;
+        /* 550px */
+        padding-bottom: 10px;
+        font-size: 0.9em;
+        /* 54 */
+        letter-spacing: 0;
+    }
+
+    h1.up-h1 {
+        font-size: 0.8em;
+        /* 20/18 */
+    }
+
+    .mb-select {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 11.11111111111111%;
+        /* 120/1080 */
+    }
+
+    .main select {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        padding-left: 17.12962962962963%;
+        /* 185/1080 */
+        width: 55.55555555555556%;
+        /* 600/1080 */
+        height: 100%;
+        /* 120px */
+        border-width: 0.1158em;
+        -webkit-background-size: 8%;
+        background-size: 8%;
+        font-size: 1.3889em;
+        /* 72 */
+        border-radius: 0.1930em;
+        -moz-border-radius: 0.1930em;
+        -webkit-border-radius: 0.1930em;
+    }
+
+    .mb-main-bottom-dummmy {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 45.3125%;
+        /* 491/1080 */
+    }
+
+    .main-btn {
+        position: relative;
+        bottom: 0;
+        width: 48.14814814814815%;
+        /* 520/1080 */
+        height: 0;
+        margin-bottom: 50px;
+        padding-bottom: 12.96296296296296%;
+        /* 140/1080 */
+    }
+
+    .main-btn a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        bottom: 0;
+        border-radius: 1.3504em;
+        -moz-border-radius: 1.3504em;
+        -webkit-border-radius: 1.3504em;
+    }
+
+    div.up-main-btn {
+        width: 85.18518518518519%;
+        /* 920/1080 */
+    }
+
+    .main-btn a:first-child {
+        left: 0;
+    }
+
+    .main-btn a:last-child {
+        left: initial;
+        right: 0;
+    }
+
+    a.btn2row {
+        display: block !important;
+        padding-top: 2px;
+        line-height: 23px;
+    }
+
+    div.two-btn {
+        margin-bottom: 100px;
+    }
+
+    div.two-btn a {
+        width: 100%;
+    }
+
+    div.two-btn a:last-child {
+        top: 66px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .mb-main-dummy {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 40%;
+        /* 180/375 */
+    }
+
+    main.main section {
+        width: 320px;
+    }
+
+    .main h1 {
+        font-size: 0.8em;
+    }
+
+    a.btn2row {
+        padding-top: 2px;
+        letter-spacing: -1px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+}
+
+/* 문제 */
+/* 문제유형공통스타일은 common.css에 있음 */
+/* 문제유형1 */
+.skill01 li {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.skill01 li span {
+    display: block;
+    padding: 0 3.09139784946237%;
+    width: 100%;
+    height: 100%;
+    font-size: 1.222222222222222em;
+    /* 22/18 */
+    letter-spacing: -0.025em;
+    line-height: 38px;
+    color: #000;
+}
+
+/* ë¬¸ì œìœ í˜•1 + audio */
+
+.skill01.audio li img {
+    float: left;
+    cursor: pointer;
+    width: auto;
+    margin: 7px 0;
+    padding: 0 1.34228187919463% 0 3.09139784946237%;
+    /*23/745*/
+}
+
+
+
+/* 문제유형2 */
+.skill02 {
+    margin-bottom: 30px;
+    padding: 25px 34px;
+    border: 3px solid #e6e7e8;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    font-size: 1.222222222222222em;
+    /* 22/18 */
+    line-height: 1.636;
+    letter-spacing: -0.025em;
+    color: #000;
+}
+
+/* 문제유형3 */
+.voca01 {
+    width: 85.90604026845638%;
+    /* 640/745 */
+    margin: 0 auto;
+}
+
+.voca01 li {
+    width: 50%;
+    /* 320 */
+    margin-bottom: 20px;
+}
+
+.voca01 li {
+    float: left;
+}
+
+.voca01 li:nth-child(even) {
+    float: right;
+}
+
+.voca01 li div {
+    width: 75%;
+    /* 240/320 */
+    margin: 0 auto;
+    padding: 7px 6.25% 20px;
+    /* 20/320 */
+}
+
+li.dont div {
+    padding: 0 6.25%;
+    height: 40px;
+}
+
+li.dont div span {
+    line-height: 40px;
+}
+
+.voca01 li span {
+    display: block;
+    font-size: 1.222222222222222em;
+    /* 22/18 */
+    letter-spacing: -0.025em;
+}
+
+.voca01 li img {
+    margin-top: 7px;
+    width: 100%;
+    /* 200/240 */
+    display: block;
+}
+
+/* 문제유형4 */
+.voca02 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* intro */
+main.main .intro-close {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background-image: url(/public_html/images/icn-intro-exit.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main.main section>div.intro a.btn-cyan {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    max-width: 350px;
+    min-width: 250px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    font-size: 1.555555555555556em;
+    font-weight: 700;
+}
+
+main.main section>div.intro h1 {
+    color: #262626;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+main.main section>div.intro h1 span {
+    color: #FF4747;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+main.main section>div.intro .student-info {
+    height: calc(100% - 140px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main.main section>div.intro .info-wrap {
+    text-align: left;
+    margin: 0 auto;
+    font-size: 24px;
+}
+
+main.main section>div.intro .info-wrap h2 {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.48px;
+}
+
+main.main section>div.intro .info-wrap ul {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+main.main section>div.intro .info-wrap ul li {
+    font-size: 24px;
+    color: #262626;
+    letter-spacing: -0.48px;
+}
+
+main.main section>div.intro .info-wrap ul li::before {
+    content: "";
+    background: #262626;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 12px;
+    margin-right: 10px;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    main.main section>div.intro a.btn-cyan {
+        height: 44px;
+        line-height: 44px;
+        border-radius: 22px;
+        -moz-border-radius: 22px;
+        -webkit-border-radius: 22px;
+        font-size: 1.111111111111111em;
+        /* 20/18 */
+    }
+
+    main.main section>div.intro .student-info {
+        height: calc(100% - 100px);
+    }
+
+    main.main section>div.intro h1 {
+        font-size: 24px;
+    }
+
+    main.main section>div.intro h1 span {
+        font-size: 24px;
+    }
+
+    main.main section>div.intro .info-wrap h2 {
+        font-size: 20px;
+    }
+
+    main.main section>div.intro .info-wrap ul li {
+        font-size: 20px;
+    }
+
+    @media screen and (max-width: 640px) {
+        main.main section>div.intro .student-info {
+            height: calc(100% - 120px);
+        }
+    }
+
+    @media screen and (max-width: 460px) {}
+}
+
+/* 결과 */
+main.main section>div.result {
+    padding-top: 187px;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/result/result-title.png) top center no-repeat;
+}
+
+main.main section>div.up-result {
+    padding-top: 208px;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/result/up-result-title.png) top center no-repeat;
+}
+
+main.main section>div.result.intro {
+    padding-top: 187px;
+    background: url(/public_html/images/intro-page.png) top center no-repeat;
+}
+
+
+.mylevel {
+    margin: 0 auto;
+    width: 140px;
+    height: 112px;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/result/level-bg.png) no-repeat;
+}
+
+.mlv-pink {
+    background-position: left bottom;
+}
+
+.mlv-violet {
+    background-position: left -480px;
+}
+
+.mlv-orange {
+    background-position: left -360px;
+}
+
+.mlv-green {
+    background-position: left -240px;
+}
+
+.mlv-blue {
+    background-position: left -120px;
+}
+
+.mlv-yello {
+    background-position: left top;
+}
+
+.mylevel h2 {
+    font-size: 2.2222em;
+    /* 40/18 */
+    color: #fff;
+    text-align: center;
+    line-height: 106px;
+    font-weight: bold;
+}
+
+/* 레벨업테스트 텍스트 */
+.txt-result {
+    margin: 0 auto;
+    width: 334px;
+    height: 73px;
+}
+
+
+/* student Information, test result */
+.student-info {
+    margin: 37px auto 0;
+}
+
+.up-student-info {
+    margin: 46px auto 0 !important;
+}
+
+.test-result {
+    margin: 28px auto 0;
+}
+
+.up-test-result {
+    margin: 15px auto 0 !important;
+}
+
+.student-info h1,
+.test-result h1 {
+    padding-bottom: 6px;
+    font-size: 1.222222222222222em;
+    /* 22/18 */
+    letter-spacing: -0.025em;
+    text-align: left;
+}
+
+li.table-tit,
+.test-result table thead tr th {
+    background: #4356a4 !important;
+    color: #fff;
+}
+
+.test-result table thead tr th,
+.test-result table td,
+.name li,
+.date li {
+    height: 50px;
+    font-size: 1.222222222222222em;
+    /* 22/18 */
+    line-height: 48px;
+}
+
+.name,
+.name li,
+.date li {
+    float: left;
+}
+
+.date {
+    float: right;
+}
+
+.name,
+.date {
+    width: 48.59060402684564%;
+    /* 362/745 */
+}
+
+li.table-tit {
+    width: 41.43646408839779% !important;
+    /* 150/362 */
+    border-top: 0 none !important;
+    border-right: 0 none !important;
+    border-bottom: 0 none !important;
+}
+
+.name li,
+.date li {
+    width: 58.56353591160221%;
+    /* 212/362 */
+    border-top: 1px solid #d1d3d4;
+    border-right: 1px solid #d1d3d4;
+    border-bottom: 1px solid #d1d3d4;
+    background: #fff;
+}
+
+.test-result table thead tr th {
+    border-right: 1px solid #fff;
+    border-top: 0 none !important;
+    border-bottom: 0 none !important;
+    padding: 15px 0;
+}
+
+.up-result .test-result table thead tr th {
+    padding: 0;
+}
+
+.test-result table td {
+    border-right: 1px solid #d1d3d4;
+    border-bottom: 1px solid #d1d3d4;
+    background: #fff;
+}
+
+.test-result table thead tr th.bd-no {
+    border-right: 0 none;
+    line-height: 25px;
+}
+
+.test-result table td.bd-no {
+    border-left: 1px solid #d1d3d4;
+}
+
+.test-result ul {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .student-info {
+        margin: 27px auto 0;
+    }
+
+    .up-student-info {
+        margin: 30px auto 0 !important;
+    }
+
+    .test-result {
+        margin: 14px auto 0;
+    }
+
+    .student-info h1,
+    .test-result h1 {
+        padding-bottom: 2px;
+        font-size: 0.8888888888888889em;
+        /* 16/18 */
+    }
+
+    .test-result table thead tr th,
+    .test-result table td,
+    .name li,
+    .date li {
+        height: 37px;
+        font-size: 0.8888888888888889em;
+        /* 16/18 */
+        line-height: 35px;
+    }
+
+    /* 레벨업테스트 텍스트 */
+    .txt-result {
+        width: 243px;
+        height: 52px;
+    }
+
+    .test-result table thead tr th.bd-no {
+        line-height: 20px;
+    }
+}
+
+
+/* 결과도출중 */
+main.main section>div.resulting {
+    padding: 0;
+    position: relative;
+    background: none;
+}
+
+div.resulting div {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: -145px auto 0;
+}
+
+@media screen and (max-width: 768px) {
+    main.main section>div.result {
+        padding-top: 119px !important;
+        background-size: contain !important;
+    }
+
+    main.main section>div.up-result {
+        padding-top: 152px !important;
+    }
+
+    div.resulting div {
+        width: 148px;
+        margin: -106px auto 0;
+    }
+}
+
+/* 결과 모바일 style */
+@media screen and (max-width: 640px) {
+    main.main section>div.result {
+        padding-top: 26vw !important;
+        /* 370 */
+        background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/result/mb-result-title.png) top center no-repeat;
+    }
+
+    main.main section>div.up-result {
+        padding-top: 6.7490em !important;
+        /* 348 */
+        background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/result/up-mb-result-title.png) top center no-repeat;
+    }
+
+    main.main section>div.intro {
+        margin-top: 12.5000vw;
+        background: url(/public_html/resource/images/leveltest/intro-page.png) top center no-repeat;
+    }
+
+    /* .mylevel {
+        zoom: 0.6;
+    } */
+    .mylevel h2 {
+        /* font-size: 1.1523em; */
+        /* 70 */
+    }
+
+    /* 레벨업테스트 텍스트 */
+    .txt-result {
+        width: 40.92592592592593%;
+        /* 442/1080 */
+        height: 1.8326em;
+        /* 95 */
+    }
+
+    .txt-result img {
+        min-width: 100%;
+    }
+
+
+    .student-info,
+    .test-result {
+        width: 85.18518518518519%;
+        /* 920/1080 */
+    }
+
+    .name,
+    .date {
+        width: 100%;
+        /* 920 */
+        border-top: 1px solid #d1d3d4;
+        border-bottom: 1px solid #d1d3d4;
+    }
+
+    .date {
+        margin-top: -1px;
+    }
+
+    li.table-tit {
+        width: 38.04347826086957% !important;
+        /* 350/920 */
+        line-height: 18px;
+    }
+
+    .name li,
+    .date li {
+        width: 61.95652173913043%;
+        /* 570/920 */
+        border-top: none;
+        border-bottom: none;
+        border-right: none;
+        display: -webkit-flex !important;
+        display: flex !important;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .up-student-info .name li.table-tit,
+    .up-test-result .name li.table-tit,
+    .up-student-info .date li.table-tit,
+    .up-test-result .date li.table-tit {
+        width: 45.65217391304348% !important;
+        /* 420/920 */
+    }
+
+    .up-student-info .name li,
+    .up-test-result .name li,
+    .up-student-info .date li,
+    .up-test-result .date li {
+        width: 54.34782608695652% !important;
+        /* 500/920 */
+    }
+
+    .test-result table thead tr th,
+    .test-result table td,
+    .name li,
+    .date li {
+        /* height: 2.35em; /* 102 */
+        height: 3.5em;
+        font-size: 0.8066em;
+        /* 40 */
+    }
+
+    .student-info h1,
+    .test-result h1 {
+        padding-bottom: 3px;
+        font-size: 0.8066em;
+        /* 40 */
+    }
+
+    .test-result table {
+        display: none;
+    }
+
+    .test-result ul {
+        display: block;
+    }
+
+    .mb-result-bottom-dummmy {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 7.59259259259259%;
+    }
+
+    div.resulting div {
+        width: 37.03703703703704%;
+    }
+
+    div.resulting div img {
+        min-width: 100%;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    main.main section>div.intro h1 {
+        font-size: 20px;
+    }
+
+    main.main section>div.intro h1 span {
+        font-size: 20px;
+    }
+
+    main.main section>div.intro .info-wrap h2 {
+        font-size: 16px;
+    }
+
+    main.main section>div.intro .info-wrap ul li {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .test-result table thead tr th,
+    .test-result table td,
+    .name li,
+    .date li {
+        font-size: 0.7331em;
+        /*38*/
+    }
+
+    .main-btn a {
+        font-size: 0.7717em;
+        /*40*/
+    }
+
+    .mylevel {
+        zoom: 0.6;
+    }
+}
+
+
+
+/* 문제 모바일 style */
+@media screen and (max-width: 640px) {
+    .skill01 li {
+        height: 1.9291em;
+        /* 100 */
+        margin-bottom: 0.7717em;
+        /* 30 */
+    }
+
+    .skill01 li span {
+        padding: 0 9.78260869565217% 0 3.09139784946237%;
+        /* 90/920 */
+        font-size: 0.7717em;
+        /* 40 */
+        line-height: normal;
+        display: -webkit-flex !important;
+        display: flex !important;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .skill01 li span.focus,
+
+    .skill01 li>span:hover {
+        -webkit-background-size: 4.77272727272727%;
+        background-size: 4.77272727272727%;
+        /* 42/880 */
+    }
+
+    .skill01.audio li span {
+        display: inherit !important;
+        line-height: 38px;
+    }
+
+    .skill01.audio li img {
+        width: 40px;
+    }
+
+    .v-list ul li div.focus,
+    .v-list ul li>div:hover {
+        -webkit-background-size: 10.5%;
+        background-size: 10.5%;
+        /* 42/400 */
+        background-position: 91.66666666666667% 0.4823em;
+        /* 20 */
+    }
+
+    .skill02 {
+        padding: 3.58306188925081%;
+        /* 33/921 */
+        margin-bottom: 0.7717em;
+        /* 30 */
+        border: 0.0579em solid #e6e7e8;
+        font-size: 0.7717em;
+        /* 40 */
+    }
+
+    .voca01 {
+        width: 100%;
+        /* 920/1080 */
+    }
+
+    .voca01 li {
+        width: 47.82608695652174%;
+        /* 440/920 */
+        margin-bottom: 0.7717em;
+        /* 40 */
+    }
+
+    .voca01 li div {
+        width: 90.90909090909091%;
+        /* 400/440 */
+        padding: 0.1930em 4.54545454545455% 0.3859em;
+        /* 20/440 */
+    }
+
+    .voca01 li span {
+        font-size: 0.7717em;
+        /* 40 */
+    }
+
+    .voca01 li img {
+        margin-top: 0.3859em;
+        /* 20 */
+    }
+
+    .voca01 li.dont div,
+    .voca01 li.dont div span {
+        height: 2.1220em;
+        /* 110 */
+        line-height: 2.1220em;
+        /* 110 */
+    }
+
+    .v-list ul li.dont div.focus,
+    .v-list ul li.dont>div:hover {
+        background-position: 91.66666666666667% center;
+    }
+
+    .voca02 {
+        width: 38.04347826086957%;
+        /* 350/920 */
+        margin: 0 auto 0.7441em;
+        /* 30 */
+    }
+
+    .voca02 img {
+        min-width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 320px) {}
+
+/* btn-cyan */
+.btn-cyan {
+    color: #ffff;
+    border-radius: 4px;
+    background: #248ab2;
+    box-shadow: 0 5px #056084;
+}
+
+.btn-cyan:hover {
+    color: #ffff;
+    box-shadow: 0 4px #056084;
+    top: 1px;
+}
+
+.btn-cyan:active {
+    color: #ffff;
+    box-shadow: 0 0 #056084;
+    top: 5px;
+}
+
+/* 레벨 레이어팝업 */
+#book-layer {
+    display: block;
+    /*     background: rgba(0,0,0,0.7); */
+}
+
+#book-layer div.level-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto 0;
+    padding: 0;
+    width: 500px;
+    height: 300px;
+    background: #fff url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/mypage/lv-layer-bg.png) no-repeat;
+    border-radius: 15px 15px 5px 5px;
+    -moz-border-radius: 15px 15px 5px 5px;
+    -webkit-border-radius: 15px 15px 5px 5px;
+    border: 0 none;
+}
+
+div.level-layer h1 {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: #248ab2;
+    color: #fff;
+    font-size: 1.2222em;
+    /* 22/18 */
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+}
+
+div.level-layer h2 {
+    padding-top: 70px;
+    font-size: 1.1111em;
+    /* 20/18 */
+    text-align: center;
+}
+
+.lv-layer-btn {
+    margin-top: 74px;
+    font-size: 0;
+    text-align: center;
+}
+
+.lv-layer-btn.btn-fixed {
+    margin-top: 28px;
+    position: fixed;
+}
+
+div.lv-layer-btn button.btn-gray {
+    margin-left: 60px;
+}
+
+.lv-beta .lv-layer-btn {
+    margin-top: 51px;
+}
+
+.lv-layer-btn button {
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* 배경지운 팝업 */
+#book-layer div.level-layer.alert {
+    background: #fff;
+}
+
+.lv-layer-btn.one-btn button {
+    text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+    #book-layer div.level-layer {
+        width: 100%;
+        min-height: 191px;
+        height: 100%;
+    }
+
+    div.level-layer h2 {
+        padding-top: 20px;
+        font-size: 1.1111em;
+        /* 20/18 */
+        text-align: center;
+    }
+
+    .lv-layer-btn {
+        margin-top: 20px;
+        font-size: 0;
+    }
+}
+
+/* 레이어팝업(모바일겸용) */
+
+.result-popUp .assignment .book-info p {
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.result-popUp .assignment .btn-wrap.last-btn-wrap {
+    margin-bottom: 0;
+    padding: 0;
+    gap: 8px;
+    justify-content: center;
+    padding-bottom: 0;
+    border: none;
+}
+
+.result-popUp .assignment .book-info {
+    margin-bottom: 24px;
+}
+
+.result-popUp .assignment .btn-wrap.last-btn-wrap .btn {
+    font-size: 18px;
+    padding: 12px;
+    max-width: 128px;
+}
+
+.layer-wrap {
+    width: 400px;
+    border: 1px solid #cecece;
+    background-color: #ffffff;
+    border-radius: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    text-align: center;
+    padding: 24px;
+    border-radius: 40px;
+    border: 1px solid #cecece;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.layer-wrap h1 {
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #248AB2;
+}
+
+.layer-wrap .txt-wrap {
+    margin-bottom: 24px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.layer-wrap .btn-wrap {
+    margin-bottom: 0;
+    padding: 0;
+    gap: 8px;
+    justify-content: center;
+    padding-bottom: 0;
+    border: none;
+}
+
+.layer-wrap .btn-wrap button {
+    font-size: 18px;
+    padding: 12px;
+    max-width: 128px;
+    box-shadow: none;
+    border-radius: 50px;
+    height: auto;
+    line-height: normal;
+}
+
+.layer-wrap .btn-wrap .btn-lightB {
+    background-color: #4e68d2;
+    border: 1px solid #cccccc;
+}
+
+.layer-wrap .btn-wrap .btn-gray {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    color: #262626;
+}
+
+
+/* .layer- */
+wrap .content {
+    padding: 30px 0 15px;
+}
+
+.layer-wrap h2 {
+    font-size: 1em;
+    text-align: center;
+    color: #414042;
+    line-height: 25px;
+}
+
+.layer-wrap .layer-btn {
+    padding: 30px 0 15px;
+    text-align: center;
+}
+
+.layer-wrap .close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.layer-wrap button {
+    width: 140px;
+    height: 35px;
+    margin-left: 10px;
+    line-height: 35px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 640px) {
+    .layer-wrap {
+        width: 320px;
+        padding: 16px;
+        border-radius: 20px;
+    }
+
+    .layer-wrap h1 {
+        margin-bottom: 16px;
+    }
+
+    .layer-wrap .txt-wrap {
+        font-size: 16px;
+        letter-spacing: -0.04em;
+        margin-bottom: 16px;
+    }
+
+    .layer-wrap .btn-wrap button {
+        font-size: 16px;
+    }
+}
+
+/* /레이어팝업(모바일겸용) */

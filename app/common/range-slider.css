@@ -1,0 +1,297 @@
+header .range-slider {
+    display: none;
+    position: relative;
+    top: -38px;
+    right: 26.42276422764228%;
+    /*265/984*/
+    text-align: right;
+}
+
+header .range-slider li {
+    /* display: none; */
+    float: right;
+    width: 13.17886178861789%;
+    margin-right: 0.50813008130081%;
+}
+
+header .range-slider li a {
+    display: block;
+    font-size: 0.7778em;
+    /* 14/18 */
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 18px;
+    -moz-border-radius: 18px;
+    -webkit-border-radius: 18px;
+    background: #dcddde;
+    color: #939598;
+}
+
+header ul li a.hover, header ul li a.tab-act {
+    background: #4356a4;
+    color: #fff;
+    font-weight: bold;
+}
+
+#slider {
+    float: none;
+    width: 68.93203883495146%;
+    /*710/1030*/
+    margin: 0 auto;
+}
+
+#slider a {
+    text-decoration: none;
+    outline: none;
+}
+
+#min, #max {
+    position: relative;
+    top: -40px !important;
+    left : -21px !important;
+    padding: 10px 25px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2858rem;
+    /*24*/
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/books/count.png) no-repeat 50% 37%;
+    /* background-position: 50% 50%; */
+}
+
+#min {
+    left : -15px !important;
+}
+
+.range-wrap div {
+    position: relative;
+    /* top: 35px;
+    right: 0px; */
+}
+
+.range-wrap .range-slider {
+    margin-top: 2.8393rem;
+}
+
+.range-wrap .range-slider div {
+    float: left;
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 2.6786rem;
+    /*50*/
+}
+
+.range-wrap .range-slider ul li:first-child {
+    width: 74.87927642276422%;
+    margin-top: 4px;
+}
+
+.range-wrap .range-slider ul li:last-child {
+    margin-right: 0;
+}
+
+.range-wrap .range-slider ul .bar {
+    width: 1px;
+    height: 30px;
+    margin: 3px 1.01626016260163% 0 0.50813008130081%;
+    ;
+    /* 10/984 & 5/984 */
+    background-color: #d1d3d4;
+}
+
+.range-wrap .range-slider .level {
+    float: left;
+    width: 4.0635rem; /*80*/
+    height: 4.0635rem; /*80*/
+    margin-top: -0.6786rem;
+    line-height: 4.0635rem;
+    border-radius: 40px;
+    font-size: 1.6254rem;/*32*/
+    background-color: #fff;
+    border: 1px solid #d1d3d4;
+    text-align: center;
+    color: #6d6e71;
+}
+
+.range-wrap .range-slider .end {
+    float: right;
+}
+
+/* Component containers */
+
+.ui-widget {
+    font-size: 1.1em;
+}
+
+.ui-widget .ui-widget {
+    font-size: 1em;
+}
+
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
+    font-size: 1em;
+}
+
+.ui-widget-content {
+    border: 1px solid #dddddd;
+    background: #dcddde;
+    webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, .2);
+    -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, .2);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .2);
+}
+
+.ui-widget-content a {
+    color: #362b36;
+}
+
+.ui-widget-header {
+    background: #f7cc1a;
+    color: #222222;
+    font-weight: bold;
+}
+
+.ui-widget-header a {
+    color: #222222;
+}
+
+/* Interaction states */
+
+.ui-state-default, .ui-widget-content .ui-state-default {
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/books/m-range-slider-btn.png) no-repeat;
+    background-size: contain;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/books/m-range-slider-btn.png) no-repeat;
+    background-size: contain;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: transparent !important;
+}
+
+.ui-widget :active {
+    outline: none;
+}
+
+/* Corner radius */
+
+.range-slider .ui-corner-all {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/* jQuery UI Slider @VERSION */
+
+.ui-slider {
+    position: relative;
+    text-align: left;
+}
+
+.ui-slider .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    width: 3.2143rem;
+    height: 3.2143rem;
+    top: -.1em;
+    cursor: default;
+}
+
+.ui-slider .ui-slider-range {
+    position: absolute;
+    z-index: 1;
+    font-size: .7em;
+    display: block;
+    border: 0;
+    background-position: 0 0;
+}
+
+.ui-slider-horizontal>.ui-slider-handle {
+    margin-left: -5%;
+}
+
+@media screen and (max-width: 768px) {
+    header div input {
+        width: 100px !important;
+    }
+    header .range-slider {
+        display: block
+    }
+    .range-wrap .range-slider ul .bar {
+        display: none;
+    }
+    .range-wrap .range-slider ul li:first-child {
+        display: block;
+        width: 100%;
+    }
+    .range-wrap .range-slider ul li {
+        display: none;
+    }
+    .range-slider .ui-slider.ui-corner-all {
+        -moz-border-radius: 100px;
+        -webkit-border-radius: 100px;
+        border-radius: 100px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .range-wrap .range-slider .level {
+        width: 2.3810rem;/*80*/
+        height: 2.3810rem;
+        margin-top: -0.4786rem;
+        line-height: 2.3810rem;
+        font-size: 0.9524rem; /*32*/
+    }
+    .range-wrap .range-slider div {
+        height: 1.4881rem;/*50*/
+    }
+    .ui-slider .ui-slider-handle {
+        width: 1.7858rem;
+        height: 1.7858rem;
+    }
+    #min, #max{
+        top: -30px !important;
+        font-size: 0.7143rem;
+        background-size: 60%;
+    }
+    .range-wrap .range-slider {
+    margin-top: 1.6370rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .range-wrap .range-slider .level {
+        width: 1.9842rem;/*80*/
+        height: 1.9842rem;
+        margin-top: -0.2786rem;
+        line-height: 1.9842rem;
+        font-size: 0.7937rem; /*32*/
+    }
+    .range-wrap .range-slider div {
+        height: 1.3079rem;/*50*/
+    }
+    .ui-slider .ui-slider-handle {
+        width: 1.5695rem;
+        height: 1.5695rem;
+    }
+    #min, #max{
+        top: -30px !important;
+        font-size: 0.6278rem;
+        background-size: 60%;
+    }
+    .range-wrap .range-slider {
+    margin-top: 1.6370rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .range-wrap .range-slider .level {
+        width: 1.6932rem;/*80*/
+        height: 1.6932rem;
+        line-height: 1.6932rem;
+        font-size: 0.6773rem; /*32*/
+    }
+}

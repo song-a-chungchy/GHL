@@ -1,0 +1,177 @@
+/* =============================
+
+	박보라
+	Copryright 2017 Chungchuy.com
+
+	- 칼라 견본 -
+	#248ab2 / main color
+	#4356a4 / sub color
+    #d1d3d4 / line color
+    
+    width: 1044px;
+    font-size: 18px;
+ ============================= */
+
+@charset"utf-8";
+
+/* Eric Meyer reset.css */
+html,body,div,span,applet,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,
+del,dfn,em,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,
+b,u,i,center,
+dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,embed, 
+figure,figcaption,footer,header,hgroup, 
+menu,nav,output,ruby,section,summary,
+time,mark,audio,video,select {
+    margin:0; 
+    padding:0; 
+    border:0 none; 
+    font-family:"Montserrat", sans-serif; 
+    font-weight: 400;
+    color:#414042;
+}
+html, body {
+    background-color:transparent;
+	font-size: 18px;
+	font-weight: 400;
+	height : 100%;
+	-webkit-text-size-adjust: none; 
+	-moz-text-size-adjust: none; 
+	-o-text-size-adjust: none; 
+	-ms-text-size-adjust: none; 
+	text-size-adjust: none;
+	/* 아이폰의 경우 뷰포트가 변경이 되면 자동으로 폰트 크기를 조절합니다.
+	그래서 text-size-adjust: none를 사용하여 텍스트의 크기를 자동으로 조절하지 못하게 합니다.
+	body의 폰트크기를 설정하고 미디어쿼리를 사용하여 좀더 세밀하게 조절해서 사용하고 위의 속성을 사용하여 자동으로 조절하지 못하게합니다.
+	표준이 아니기에 벤더 사용. */
+}
+header, nav, section, article, aside, main {
+    display: block;
+}
+/* opera fix */
+body:before {
+    content: "";
+    height: 100%;
+    float: left;
+    width: 0;
+    margin-top: -32767px;
+}
+ol, ul, li {
+	list-style:none;
+}
+table {
+	border-collapse:collapse; 
+	border-spacing:0; 
+	width:100%; 
+	table-layout:fixed; 
+	word-break:break-all;
+}
+* html { 
+	height: 1px; 
+}
+html, body, div, section, article, header, footer, nav, ul, li, img, a, span, form {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+input, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family:"Montserrat", sans-serif; 
+    font-weight: 400;
+}
+img {
+	max-width: 100%;
+	/* width: 100%; */
+	height: auto;
+	vertical-align: middle;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+img,fieldset,iframe {
+	border:0 none;
+}
+*::selection {
+    background: #248ab2;
+    color: #fff;
+}
+a {
+    color:#414042; 
+    text-decoration:none;
+    -webkit-transition: color 0.3s, background-color 0.3s, border 0.3s; 
+    -moz-transition: color 0.3s, background-color 0.3s, border 0.3s; 
+    -o-transition: color 0.3s, background-color 0.3s, border 0.3s; 
+    -ms-transition: color 0.3s, background-color 0.3s, border 0.3s; 
+    transition: color 0.3s, background-color 0.3s, border 0.3s;
+}
+a:hover {
+    color:#414042; 
+    text-decoration:none;
+}
+
+
+@font-face{
+    font-family: 'Montserrat';
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V7/library/public_html/resource/fonts/Montserrat-Thin.eot');
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V7/library/public_html/resource/fonts/Montserrat-Thin.eot?#iefix') format('embedded-opentype'),
+         url('https://web-cdn.chungchy.com/Highlights_Global_V7/library/public_html/resource/fonts/Montserrat-Thin.ttf')  format('truetype'),
+         url('https://web-cdn.chungchy.com/Highlights_Global_V7/library/public_html/resource/fonts/Montserrat-Thin.woff') format('woff');
+    font-weight: 100;
+}
+
+@font-face{
+    font-family: 'Montserrat';
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V7/library/public_html/resource/fonts/Montserrat-Light.eot');
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V7/library/public_html/resource/fonts/Montserrat-Light.eot?#iefix') format('embedded-opentype'),
+         url('https://web-cdn.chungchy.com/Highlights_Global_V7/library/public_html/resource/fonts/Montserrat-Light.ttf')  format('truetype'),
+         url('https://web-cdn.chungchy.com/Highlights_Global_V7/library/public_html/resource/fonts/Montserrat-Light.woff') format('woff');
+    font-weight: 300;
+}
+
+@font-face{
+    font-family: 'Montserrat';
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V7/library/public_html/resource/fonts/Montserrat-Regular.eot');
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V7/library/public_html/resource/fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+         url('https://web-cdn.chungchy.com/Highlights_Global_V7/library/public_html/resource/fonts/Montserrat-Regular.ttf')  format('truetype'),
+         url('https://web-cdn.chungchy.com/Highlights_Global_V7/library/public_html/resource/fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: 'Montserrat';
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V7/library/public_html/resource/fonts/Montserrat-Bold.eot');
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V7/library/public_html/resource/fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+         url('https://web-cdn.chungchy.com/Highlights_Global_V7/library/public_html/resource/fonts/Montserrat-Bold.ttf')  format('truetype'),
+         url('https://web-cdn.chungchy.com/Highlights_Global_V7/library/public_html/resource/fonts/Montserrat-Bold.woff') format('woff');
+    font-weight: 700;
+}
+
+@font-face{
+    font-family: 'Montserrat';
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V7/library/public_html/resource/fonts/Montserrat-Black.eot');
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V7/library/public_html/resource/fonts/Montserrat-Black.eot?#iefix') format('embedded-opentype'),
+         url('https://web-cdn.chungchy.com/Highlights_Global_V7/library/public_html/resource/fonts/Montserrat-Black.ttf')  format('truetype'),
+         url('https://web-cdn.chungchy.com/Highlights_Global_V7/library/public_html/resource/fonts/Montserrat-Black.woff') format('woff');
+    font-weight: 900;
+}
+
+header::after{
+	clear:both;
+}
+
+.clearfix:after,
+.clearfixDiv {
+    display: block;
+    visibility: hidden;
+    content: ".";
+    clear: both;
+    text-indent: -9999px;
+    height: 0;
+}

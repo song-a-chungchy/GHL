@@ -1,0 +1,1924 @@
+@charset "utf-8";
+
+/* div {
+    box-sizing: border-box
+} */
+
+/* 210901_GHL LMS Home-Reporting-more detail */
+.more_detail .dashboard-popup {
+    display: none;
+    padding: 0 20px 20px;
+}
+
+.dashboard-popup.current {
+    display: inherit;
+}
+
+.dashboard-popup section h2 {
+    padding: 5px 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #414042;
+}
+
+.dashboard-popup .bar_wrap {
+    margin-bottom: 20px;
+}
+
+.dashboard-popup .sort_bar {
+    position: relative;
+    width: 100%;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+
+.dashboard-popup select {
+    padding: 3px;
+    font-size: 13px;
+    line-height: 13px;
+    color: #727272;
+    border: 1px solid #a9a9a9;
+}
+
+.dashboard-popup .table_box {
+    clear: both;
+    overflow: hidden;
+}
+
+.dashboard-popup table {
+    float: left;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.dashboard-popup table td.t_left {
+    text-align: left;
+    padding: 0 15px;
+}
+
+.dashboard-popup table td.t_left a,
+.dashboard-popup .bar_wrap a {
+    float: right;
+}
+
+.dashboard-popup .bar_wrap h2,
+.dashboard-popup .bar_wrap .sort_bar {
+    float: left;
+}
+
+.dashboard-popup .bar_wrap .sort_bar {
+    margin-left: 20px;
+    margin-bottom: 0;
+    padding-top: 0;
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+
+.dashboard-popup .bar_wrap .sort_bar+span {
+    margin-left: 20px;
+    margin-top: -3px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 31px;
+}
+
+.dashboard-popup .bar_wrap a {
+    margin-top: 1px;
+}
+
+.dashboard-popup .listA {
+    table-layout: fixed;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.dashboard-popup .listA th,
+.dashboard-popup .listA td {
+    text-align: center;
+    font-size: 14px;
+}
+
+/* 240612 Number of books read td hover */
+.dashboard-popup .listA tr {
+    position: relative;
+}
+
+.dashboard-popup .listA td.sorting_1 span {
+    position: absolute;
+    right: 10px;
+    top: 36px;
+    max-width: 420px;
+    padding: 10px;
+    text-align: left;
+    background-color: #ffffff;
+    border: 1px solid #cecece;
+    word-break: keep-all;
+    z-index: 999;
+}
+
+/* 240612 Number of books read td hover end */
+
+.dashboard-popup .listA th {
+    padding: 14px 0;
+    color: #fff;
+    background-color: #4356a4;
+    border-right: 1px solid #fff;
+    border-bottom: 0;
+    border-left: 0;
+}
+
+.dashboard-popup .listA th:first-child {
+    border-left: 1px solid #4356a4;
+}
+
+.dashboard-popup .listA th.last {
+    border-right: 1px solid #4356a4;
+}
+
+.dashboard-popup .listA td {
+    padding: 11px 5px;
+    color: #727272;
+    border: 1px solid #dbdbdb;
+    border-left: 0;
+    border-bottom: 0;
+}
+
+.dashboard-popup .listA td:first-child {
+    border-left: 1px solid #dbdbdb;
+}
+
+.dashboard-popup .dataTables_info {
+    font: 13px/1.5 "Montserrat", sans-serif;
+}
+
+.dashboard-popup .dataTables_paginate {
+    margin-top: 10px;
+}
+
+.dashboard-popup .dataTables_paginate a {
+    color: #727272;
+}
+
+.dashboard-popup .dataTables_paginate span {
+    padding: 0 9px 0 7px;
+}
+
+.dashboard_report .table_wrap table.type-s th,
+.dashboard_report .table_wrap table.type-s td {
+    position: relative;
+    font-size: 12px;
+    line-height: 13px;
+    padding: 12px 3px;
+}
+
+.dashboard_report .table_wrap table.type-s tr:hover td {
+    background: #fdf7e7;
+}
+
+/* 240527 - 8.0 book read hover */
+.dashboard_report .table_wrap table.type-s tr td:last-child span.caption {
+    display: none;
+}
+
+.dashboard_report .table_wrap table.type-s tr:hover td:last-child span.caption {
+    position: absolute;
+    top: 36px;
+    right: 8px;
+    display: block;
+    width: 300px;
+    background-color: #fff;
+    padding: 8px;
+    word-break: keep-all;
+    text-align: left;
+    line-height: 1.4;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.41);
+    z-index: 100;
+}
+
+/* 240527 - 8.0 book read hover end */
+
+/* 210901_dashboard_reporting_common-points */
+.dashboard_report span.quick_stats,
+.dashboard_report .please_select {
+    font-size: 19px;
+    font-weight: 700;
+    color: #414042;
+}
+
+.dashboard_report span.class_select,
+.dashboard_report .date_select,
+.dashboard_report .inactive_students {
+    font-size: 15px;
+}
+
+.dashboard_report span.class_select select,
+.dashboard_report .date_select select {
+    width: 115px;
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+/* 210607 GHL LMS Home-Dashboard */
+.dashboard p.dashboard_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 14px;
+}
+
+.dashboard .Statistics {
+    width: 1000px;
+    height: 160px;
+    border: 1px solid #dbdbdb;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+
+.dashboard .Statistics ul {
+    width: 100%;
+    height: 100%;
+    padding: 20px 30px;
+    box-sizing: border-box;
+}
+
+.dashboard .Statistics ul::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.dashboard .Statistics ul li {
+    float: left;
+    width: 312px;
+    height: 100%;
+}
+
+.dashboard .Statistics ul li h1 {
+    line-height: 1;
+    font-size: 19px;
+    letter-spacing: -1px;
+    font-weight: 300;
+    color: #737373;
+}
+
+.dashboard .Statistics ul li p {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    margin-top: 19px;
+    color: #000;
+    font-size: 70px;
+    font-weight: 700;
+    background-position: 211px center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.dashboard .Statistics ul.fs_4 li p {
+    font-size: 40px;
+}
+
+.dashboard .Statistics ul.fs_5 li p {
+    font-size: 50px;
+}
+
+.dashboard .Statistics ul.fs_6 li p {
+    font-size: 60px;
+}
+
+.dashboard .Statistics ul.fs_7 li p {
+    font-size: 70px;
+}
+
+.dashboard .Statistics .first_li p {
+    padding-left: 19px;
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/mypage/dash_icn_read.png);
+}
+
+.dashboard .Statistics .second_li {
+    border-left: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+}
+
+.dashboard .Statistics .second_li h1,
+.dashboard .Statistics .third_li h1 {
+    margin-left: 28px;
+}
+
+.dashboard .Statistics .second_li p {
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/mypage/dash_icn_min2.png);
+}
+
+.dashboard .Statistics .second_li p,
+.dashboard .Statistics .third_li p {
+    padding-left: 48px;
+}
+
+.dashboard .Statistics .third_li p {
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/mypage/dash_icn_act.png);
+}
+
+.dashboard .shortcut {
+    width: 1000px;
+    height: 297px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: 16px 30px;
+    background-color: #f9f9f9;
+}
+
+.dashboard .shortcut svg {
+    display: block;
+    margin: 0 auto 25px;
+}
+
+.dashboard .shortcut ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.dashboard .shortcut ul li span {
+    display: flex;
+    justify-content: center;
+}
+
+.dashboard .shortcut ul li span.view_report {
+    margin-bottom: 35px;
+}
+
+.dashboard .shortcut ul li span.create_assignment {
+    margin-bottom: 30px;
+}
+
+.dashboard .shortcut ul li span.read_books {
+    margin-bottom: 30px;
+}
+
+.dashboard .shortcut ul li a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    width: 292px;
+    height: 45px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 300;
+    background-color: #47589f;
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/home/arrow.png);
+    background-repeat: no-repeat;
+    background-position: 264px center;
+}
+
+/* 210608_GHL LMS Home-Reporting */
+.reporting .please_select_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px auto 30px;
+}
+
+.reporting .select_classes_and_dates {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 874px;
+    height: 49px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #e8e8e8;
+    box-sizing: border-box;
+    padding: 0 20px;
+    color: #727272;
+}
+
+.reporting .reporting_tap {
+    width: 1000px;
+    height: 70px;
+    background-color: #f9f9f9;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.reporting .reporting_tap ul {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 65px;
+}
+
+.reporting .reporting_tap ul li {
+    width: 33.333333%;
+    text-align: center;
+    font-size: 18px;
+    color: #c5c5c5;
+    transition: color 0.5s ease-out;
+    cursor: pointer;
+}
+
+.reporting .reporting_tap ul li.act {
+    color: #4356a4;
+}
+
+.reporting .reporting_tap ul li:hover {
+    color: #4356a4;
+}
+
+.reporting .reporting_tap p {
+    width: 33.333333%;
+    height: 5px;
+    background-color: #4356a4;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: left 0.5s ease;
+}
+
+.reporting .display_class_date {
+    font-size: 18px;
+    color: #000;
+    float: right;
+    margin-bottom: 10px;
+}
+
+.reporting .table_wrap {
+    width: 1000px;
+    border: 1px solid #dbdbdb;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.reporting .listA {
+    margin-bottom: 20px;
+}
+
+.reporting .detailBtn {
+    float: right;
+    cursor: pointer;
+    color: #4356a4;
+    font-size: 14px;
+}
+
+.reporting .detailBtn:hover {
+    text-decoration: underline;
+}
+
+.reporting .language-select {
+    width: 150px;
+    height: 30px;
+    display: inline-block;
+    margin-bottom: 18px;
+}
+
+.reporting .language-select .switch {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.reporting .language-select .switch-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.reporting .language-select .switch-label {
+    position: relative;
+    display: block;
+    height: inherit;
+    background: #fff;
+    border: 1px solid #d9dada;
+    box-sizing: border-box;
+    border-radius: inherit;
+    transition: 0.3s ease-out;
+}
+
+.reporting .language-select .switch-handle {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 50%;
+    height: 30px;
+    background: #4356a4;
+    border: 1px solid #4356a4;
+    box-sizing: border-box;
+    transition: left 0.3s ease-out;
+}
+
+.reporting .language-select .switch-label:before {
+    content: attr(data-off);
+    right: 10%;
+}
+
+.reporting .language-select .switch-label:before,
+.reporting .language-select .switch-label:after {
+    color: #a7a9ac;
+}
+
+.reporting .language-select .switch-label:before,
+.reporting .language-select .switch-label:after {
+    position: absolute;
+    top: 50%;
+    margin-top: -0.5em;
+    line-height: 1;
+    transition: inherit;
+}
+
+.reporting .language-select .switch-label:after {
+    content: attr(data-on);
+    left: 9%;
+}
+
+.reporting .language-select .switch-handle:before,
+.reporting .language-select .switch-handle:after {
+    position: absolute;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    left: 0px;
+    line-height: 30px;
+    font-weight: bolder;
+}
+
+.reporting .language-select .switch-input:checked~.switch-handle:before {
+    content: attr(data-on);
+}
+
+.reporting .language-select .switch-input~.switch-handle:before {
+    content: attr(data-off);
+}
+
+.reporting .language-select .switch-input:checked~.switch-handle {
+    left: 50%;
+}
+
+.reporting .highcharts-container+div {
+    font-size: 13px;
+    color: #727272;
+}
+
+.reporting #chart-Data {
+    width: 1000px;
+    border: 1px solid #dbdbdb;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.reporting #sSaveBtn {
+    margin-right: 20px;
+}
+
+/* resource-books */
+/* reset */
+#container.books_videos,
+#container.books_videos div,
+#container.books_videos section,
+#container.books_videos article,
+#container.books_videos header,
+#container.books_videos footer,
+#container.books_videos nav,
+#container.books_videos ul,
+#container.books_videos li,
+#container.books_videos img,
+#container.books_videos a,
+#container.books_videos span,
+#container.books_videos table,
+#container.books_videos thead,
+#container.books_videos th,
+#container.books_videos tbody,
+#container.books_videos tr,
+#container.books_videos td,
+#container.books_videos tfoot {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#container.books_videos img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#container.books_videos .btn_filter img {
+    vertical-align: baseline;
+}
+
+#container.books_videos a:hover {
+    text-decoration: none;
+}
+
+/* 기존books */
+#container.books_videos div {
+    /* position: relative; */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#container.books_videos .tab-wrap {
+    padding: 10px;
+    margin-bottom: -5px;
+    width: 100%;
+    height: 55px;
+    /* background: #f1f2f2; */
+    position: relative;
+}
+
+#container.books_videos .tab-wrap ul li {
+    float: left;
+    width: 22.8%;
+    /* /984 */
+    margin-right: 0.50813008130081%;
+    /* 5/984 */
+}
+
+#container.books_videos .tab-wrap ul li a {
+    display: block;
+    font-size: 0.7778em;
+    /* 14/18 */
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 18px;
+    -moz-border-radius: 18px;
+    -webkit-border-radius: 18px;
+    background: #dcddde;
+    color: #939598;
+    font-size: 14px;
+}
+
+#container.books_videos .tab-wrap ul li a.hover,
+#container.books_videos .tab-wrap ul li a.tab-act {
+    background: #4356a4;
+    color: #fff;
+    font-weight: bold;
+}
+
+#container.books_videos .book-wrap {
+    font-size: 18px;
+}
+
+#container.books_videos .book-wrap.books .area-wrap {
+    padding: 0;
+    border-bottom: 1px solid #e6e7e8;
+}
+
+#container.books_videos .book-wrap.books .area-wrap ul.content-area {
+    width: 100%;
+    padding: 0 0 15px;
+    overflow: hidden;
+}
+
+#container.books_videos .book-wrap.books ul.content-area li {
+    float: left;
+    width: 9.34959349593496%;
+    /*92/984*/
+    margin-right: 0.71138211382114%;
+    /*7/984*/
+    margin-bottom: 0;
+}
+
+#container.books_videos .book-wrap.books ul.content-area li:last-child {
+    margin-right: 0;
+}
+
+#container.books_videos .books .area-wrap .content-area li a {
+    display: block;
+    position: relative;
+}
+
+#container.books_videos .books .content-area li a h1 {
+    font-size: 0.6112em;
+    /*11px*/
+    letter-spacing: -1px;
+}
+
+#container.books_videos .books .area-wrap .content-area li a span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#container.books_videos .books .area-wrap .content-area li a.act span {
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/study/books/books-act.png) left top no-repeat;
+    background-size: contain;
+}
+
+#container.books_videos .books .area-wrap .content-area li a.hover span {
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/study/books/books-hover.png) left top no-repeat;
+    background-size: contain;
+}
+
+#container.books_videos .books .area-wrap .content-area li a:active span {
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/study/books/books-act.png) left top no-repeat;
+}
+
+@media screen and (max-width: 960px) {
+    #container.books_videos .book-wrap.books ul.content-area li {
+        width: 15.85365853658537%;
+        /*156/984*/
+        margin-right: 5.08130081300813%;
+        /*50/984*/
+        margin-bottom: 1.1359em;
+    }
+
+    #container.books_videos .book-wrap.books .area-wrap ul.content-area {
+        padding: 0px 16.26016260162602% 15px;
+        /*160/984*/
+    }
+
+    #container.books_videos .books .area-wrap .content-area li:nth-child(5n+5) {
+        margin-right: 0;
+    }
+
+    #container.books_videos .books .area-wrap .content-area li:nth-child(n+5) {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #container.books_videos .books .content-area li a h1 {
+        height: inherit;
+    }
+}
+
+#container.books_videos .content-area li a h1 {
+    margin-top: 10px;
+    width: 100%;
+    font-size: 1em;
+    /* 18px */
+    letter-spacing: -0.025px;
+    font-weight: 400;
+    text-align: center;
+    color: #58595b;
+}
+
+#container.books_videos .content-area li a h2.fav {
+    width: 32.25806451612903%;
+    /* 60/186 */
+    margin: 11px auto 0;
+    float: none;
+}
+
+#container.books_videos .content-area li a div {
+    width: 30.6122%;
+    /* 60/196 */
+    height: 30px;
+    line-height: 27px;
+    margin: 8px auto 0;
+    border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border: 1px solid #248ab2;
+    text-align: center;
+    font-size: 1em;
+    color: #248ab2;
+}
+
+@media screen and (max-width: 768px) {
+    #container.books_videos .content-area li a div {
+        width: 40%;
+    }
+
+    #container.books_videos .content-area li a h1 {
+        height: 42px;
+    }
+}
+
+#container.books_videos .book-wrap ul {
+    zoom: 1;
+    padding-top: 25px;
+}
+
+.hide-book {
+    z-index: 3;
+}
+
+#container.books_videos .hide-book .hide-img {
+    border: none;
+    box-shadow: none;
+}
+
+.book-wrap.books .book .act-readers {
+    bottom: 10px;
+    left: 10px;
+    z-index: 2;
+}
+
+#container.books_videos .book .act-readers img {
+    vertical-align: middle;
+    box-sizing: border-box;
+    height: 49px;
+    max-width: 100%;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+/* book-list */
+#container.books_videos .book-list header .icn {
+    float: left;
+    width: 22px;
+    height: 21px;
+}
+
+#container.books_videos .book-list header h1 {
+    line-height: 1;
+    float: left;
+    font-size: 1.3333em;
+    /* 24/18 */
+    color: #414042;
+    font-weight: 400;
+}
+
+#container.books_videos .book-wrap {
+    padding-top: 20px;
+    clear: left;
+}
+
+#container.books_videos .sort_bar+.book-wrap {
+    padding-top: 2px;
+}
+
+#container.books_videos .content-area {
+    padding-top: 25px;
+}
+
+#container.books_videos .book-wrap ul {
+    zoom: 1;
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container.books_videos .book-wrap>ul:first-child {
+    padding-top: 0 !important;
+}
+
+#container.books_videos .recomm .book-wrap ul li,
+#container.books_videos .interests .book-wrap ul li,
+#container.books_videos .recently .book-wrap ul li {
+    margin-bottom: 0;
+}
+
+#container.books_videos .book-wrap ul li {
+    width: 18.69918699186992%;
+    /* 184/984 */
+    margin-right: 1.6260162601626%;
+    /* 16/984 */
+    margin-bottom: 25px;
+}
+
+#container.books_videos .book-wrap ul.content-area li {
+    width: 18.9%;
+    /* 186/982 */
+    margin-right: 1.375%;
+    /* 14/982 */
+    margin-bottom: 40px;
+}
+
+#container.books_videos .book-wrap ul.content-area li:nth-child(n+5) {
+    margin-bottom: 0;
+}
+
+#container.books_videos main section.interests article {
+    width: 60.9375%;
+    /* 624/1024 */
+    margin: 0;
+    float: left;
+}
+
+#container.books_videos main section.interests aside {
+    width: 38.96484375%;
+    /* 399/1024 */
+    float: left;
+}
+
+@media screen and (max-width: 1044px) {
+    #container.books_videos main section.interests article {
+        width: 59.38697318007663%;
+        /* 620/1044 */
+        margin: 0;
+        float: left;
+    }
+
+    #container.books_videos main section.interests aside {
+        width: 38.2183908045977%;
+        /* 399/1044 */
+        float: left;
+    }
+}
+
+#container.books_videos main section.interests article .book-wrap ul li {
+    width: 31.50684931506849%;
+    /* 184/584 */
+    margin-right: 2.73972602739726%;
+    /* 16/584 */
+}
+
+#container.books_videos #home .book-wrap ul li {
+    margin-bottom: 0;
+}
+
+#container.books_videos .book-wrap ul#type_image li:nth-child(5n+5),
+#container.books_videos .interests .book-wrap ul#type_image li:last-child {
+    margin-right: 0;
+}
+
+#container.books_videos .book-wrap ul li:hover .book>img {
+    border: 4px solid #fff;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 2px 1px 0px #fff, 3px 2px 0px #dfdfdf, 4px 3px 0px #fff, 5px 4px 0px #dfdfdf, 6px 5px 0px #fff, 7px 6px 0px #a7a9ac, 8px 7px 4px 2px rgba(102, 102, 102, 0.3);
+    -webkit-box-shadow: 2px 1px 0px #fff, 3px 2px 0px #dfdfdf, 4px 3px 0px #fff, 5px 4px 0px #dfdfdf, 6px 5px 0px #fff, 7px 6px 0px #a7a9ac, 8px 7px 4px 2px rgba(102, 102, 102, 0.3);
+    box-shadow: 2px 1px 0px #fff, 3px 2px 0px #dfdfdf, 4px 3px 0px #fff, 5px 4px 0px #dfdfdf, 6px 5px 0px #fff, 7px 6px 0px #a7a9ac, 8px 7px 4px 2px rgba(102, 102, 102, 0.3);
+}
+
+/* .book-wrap ul li:last-child {
+    margin-right: 0;
+} */
+#container.books_videos .book {
+    position: relative;
+    width: 100%;
+    /* 184 */
+}
+
+#container.books_videos .book>img {
+    width: 95.50561797752809%;
+    /* 174/184 */
+}
+
+#container.books_videos .book img,
+.book-wrap ul li.no-book:hover img {
+    border: 4px solid #fff;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    /* box-shadow 단독 사용시 ie에서 깨지는 bug 있음으로 border-radius 추가, 0은 넣으면 안됨*/
+    -moz-box-shadow: 2px 1px 0px #fff, 3px 2px 0px #dfdfdf, 4px 3px 0px #fff, 5px 4px 0px #dfdfdf, 6px 5px 0px #fff, 7px 6px 0px #a7a9ac;
+    -webkit-box-shadow: 2px 1px 0px #fff, 3px 2px 0px #dfdfdf, 4px 3px 0px #fff, 5px 4px 0px #dfdfdf, 6px 5px 0px #fff, 7px 6px 0px #a7a9ac;
+    box-shadow: 2px 1px 0px #fff, 3px 2px 0px #dfdfdf, 4px 3px 0px #fff, 5px 4px 0px #dfdfdf, 6px 5px 0px #fff, 7px 6px 0px #a7a9ac;
+}
+
+#container.books_videos .today-book {
+    width: 91.30434782608696%;
+    /* 168/184 */
+    height: -webkit-calc(100% - 8px);
+    height: -moz-calc(100% - 8px);
+    height: calc(100% - 8px);
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    z-index: 3;
+    overflow: hidden;
+    border: 4px solid #248ab2;
+}
+
+#container.books_videos span.tb-star {
+    float: right;
+    width: 50px;
+}
+
+#container.books_videos span.tb-star img {
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    border: 0 none;
+}
+
+#container.books_videos .today-book h2 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 31px;
+    font-size: 1.0555em;
+    /* 19/18 */
+    line-height: 31px;
+    text-align: center;
+    color: #fff;
+    background: #248ab2;
+    font-weight: 400;
+}
+
+#container.books_videos .book-line {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/study/books/book-line.png) no-repeat;
+}
+
+#container.books_videos .bl-btm_left {
+    bottom: -7px;
+    left: 2px;
+}
+
+#container.books_videos .bl-top_right {
+    top: 1px;
+    right: 1px;
+}
+
+#container.books_videos .book-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 95.65217391304348%;
+    /* 176/184 */
+    height: 100%;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #a7a9ac;
+    z-index: 2;
+}
+
+#container.books_videos .img-shadow {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    width: 20%;
+    height: -webkit-calc(100% - 8px);
+    height: -moz-calc(100% - 8px);
+    height: calc(100% - 8px);
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/study/books/book-shadow.png) 4px top repeat-y;
+    z-index: 2;
+}
+
+#container.books_videos li.no-book a:hover .book-shadow {
+    border: 1px solid #248ab2;
+}
+
+#container.books_videos li.no-book span.book-shadow {
+    background: none;
+}
+
+#container.books_videos li.no-book div.img-shadow {
+    display: none;
+}
+
+#container.books_videos div.book:hover div.hv-menu {
+    display: block;
+}
+
+#container.books_videos .hv-menu {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 4px;
+    margin: -14.34782608695652% auto 0;
+    /* 33/66 */
+    height: 66px;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 4;
+    width: 90.76086956521739%;
+    /* 167/184 */
+}
+
+#container.books_videos .hv-menu div {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: -14.34782608695652% auto 0;
+    /* 33/66 */
+    width: 88.62275449101796%;
+    /* 148/167 */
+    height: 66px;
+    overflow: hidden;
+}
+
+#container.books_videos .hv-menu a {
+    width: 46px;
+    /* 46/148 */
+    height: 46px;
+    /* 46/66 */
+    display: block;
+    float: left;
+    margin-left: 3.37837837837838%;
+    /* 5/148 */
+}
+
+#container.books_videos .hv-menu div a:first-child {
+    margin-left: 0;
+}
+
+#container.books_videos .hv-menu a:nth-child(2) {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+#container.books_videos .hv-menu div a:last-child {
+    float: right;
+    margin-left: 0;
+}
+
+#container.books_videos .hv-menu a span {
+    -webkit-transition: border-color 0.3s, background-color 0.3s;
+    -moz-transition: border-color 0.3s, background-color 0.3s;
+    -o-transition: border-color 0.3s, background-color 0.3s;
+    -ms-transition: border-color 0.3s, background-color 0.3s;
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+#container.books_videos .hv-menu a span.icn-read:hover {
+    border-color: #248ab2;
+    background-color: #248ab2;
+}
+
+#container.books_videos .hv-menu a span.icn-info:hover {
+    border-color: #fbbc05;
+    background-color: #fbbc05;
+}
+
+#container.books_videos .hv-menu a span.icn-animation:hover {
+    border-color: #fbbc05;
+    background-color: #fbbc05;
+}
+
+#container.books_videos .hv-menu a span.icn-animation.no:hover {
+    border-color: #a7a9ac;
+    background-color: #a7a9ac;
+}
+
+#container.books_videos .hv-menu a span.icn-mybook:hover {
+    border-color: #ef4245;
+    background-color: #ef4245;
+}
+
+#container.books_videos .hv-menu a span.icn-video-info:hover {
+    border-color: #f76293;
+    background-color: #f76293;
+}
+
+/* /책정보 레이어팝업 */
+/******* //Layout *******/
+/******* 모듈 *******/
+/* 공통 bg */
+#container.books_videos .cmm-bg {
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0.5px 0.866px 4px 0px rgba(2, 8, 2, 0.2);
+}
+
+/* icon */
+#container.books_videos div.title .icn {
+    /* 타이틀 아이콘 */
+    width: 21px;
+    height: 22px;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+}
+
+/* .icn-lv {
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/study/books/icn-lv.png) left center no-repeat;
+}
+
+.icn-month {
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/study/books/icn-month.png) center center no-repeat;
+}
+
+.icn-week {
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/icn/icn-week.png) center center no-repeat;
+}
+
+.icn-bullet {
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/study/books/icn-bullet.png) bottom left no-repeat;
+}
+ */
+#container.books_videos .hv-menu .icn {
+    /* 책 hover 했을 때 나오는 아이콘 */
+    width: 100%;
+    /* 50/192 */
+    height: 100%;
+    /* 50/256 */
+    display: block;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border: 3px solid #fff;
+}
+
+#container.books_videos .icn-read {
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/study/books/icn-read.png) center center no-repeat;
+    background-size: 99%;
+}
+
+#container.books_videos .icn-info {
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/study/books/icn-info.png) center center no-repeat;
+    background-size: 110%;
+}
+
+#container.books_videos .icn-video-info {
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/study/books/icn-info.png) center center no-repeat;
+    background-size: 110%;
+}
+
+#container.books_videos .icn-mybook {
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/study/books/icn-mybook.png) center center no-repeat;
+    background-size: 99%;
+}
+
+#container.books_videos .icn-mybook-min {
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/study/books/icn-mybook-min.png) center center no-repeat;
+    background-size: 99%;
+}
+
+#container.books_videos .icn-animation {
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/study/books/icn-video.png) center center no-repeat;
+}
+
+#container.books_videos div.layer-btn button span.icn {
+    /* 책정보 레이어 My Favorite 플러스 아이콘 */
+    width: 11px;
+    height: 11px;
+    margin-top: 16px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#container.books_videos .icn-btn_plus {
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/icn/icn-btn_plus.png) center center no-repeat;
+}
+
+#container.books_videos .icn-btn_min {
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/icn/icn-btn_min.png) center center no-repeat;
+}
+
+#container.books_videos .icn-book {
+    height: 18px;
+    display: block;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/icn/icn-table_read.png) center center no-repeat;
+}
+
+@media screen and (max-width: 1044px) {
+    #container.books_videos .hv-menu .icn {
+        border: 2px solid #fff;
+        background-size: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #container.books_videos div.layer-btn button span.icn {
+        margin-right: 5px;
+    }
+}
+
+/* MyFavorite 제거 아이콘 */
+#container.books_videos .hv-menu a span.icn-mybook-min:hover {
+    border-color: #a7a9ac;
+    background-color: #a7a9ac;
+}
+
+@media screen and (max-width: 1000px) {
+    #container.books_videos .hv-menu a {
+        width: 38px;
+        height: 38px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #container.books_videos span.tb-star {
+        width: 26.0416%;
+        /* 50/192 */
+    }
+
+    #container.books_videos .today-book {
+        border: 2px solid #248ab2;
+    }
+
+    #container.books_videos .today-book h2 {
+        height: 23px;
+        font-size: 0.9em;
+        line-height: 23px;
+    }
+
+    #container.books_videos .img-shadow {
+        padding-bottom: 118.26%;
+    }
+
+    #container.books_videos #book-layer .book>img {
+        height: 230px;
+        /* width: 100%; */
+    }
+
+    #container.books_videos .bl-top_right {
+        top: 1px;
+        right: -1px;
+    }
+
+    #container.books_videos .hv-menu {
+        width: 89.67391304347826%;
+        /* 168/184 */
+        margin: -18.347826% auto 0;
+    }
+
+    #container.books_videos .hv-menu a {
+        width: 32px;
+        /* 46/148 */
+        height: 32px;
+        /* 46/66 */
+    }
+}
+
+/* /book-list */
+/*  NEW 추가 */
+#container.books_videos .book-new {
+    position: absolute;
+    top: 4px;
+    left: 8px;
+    width: 25.54347826086957%;
+    /*47/184*/
+}
+
+#container.books_videos .book .book-new img,
+#container.books_videos .book .book-finish img {
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+/* finish 추가 */
+#container.books_videos .book-finish {
+    position: absolute;
+    bottom: 2px;
+    right: 11px;
+    width: 26.08695652173913%;
+    /*48/184*/
+}
+
+@media screen and (max-width: 960px) {
+
+    #container.books_videos .book-new,
+    #container.books_videos .book-finish {
+        right: 9px;
+    }
+}
+
+/* range-slider *//* 
+#container.books_videos #slider {
+    float: none;
+}
+
+#container.books_videos #slider a {
+    text-decoration: none;
+    outline: none;
+}
+
+#container.books_videos #min,
+#container.books_videos #max {
+    position: relative;
+    top: -32px !important;
+    padding: 10px 17px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/study/books/count.png) no-repeat 50% 37%;
+}
+
+#container.books_videos .tab-wrap div {
+    position: relative;
+    top: 0px;
+    right: 0px;
+    height: 10px;
+}
+
+#container.books_videos .tab-wrap.range-slider div {
+    float: left;
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 15px;
+}
+
+#container.books_videos .tab-wrap.range-slider ul li:first-child {
+    width: 74.87927642276422%;
+    margin-top: 4px;
+}
+
+#container.books_videos .tab-wrap.range-slider ul li:last-child {
+    margin-right: 0;
+}
+
+#container.books_videos .tab-wrap.range-slider ul .bar {
+    width: 1px;
+    height: 30px;
+    margin: 3px 1.01626016260163% 0 0.50813008130081%;
+    ;
+    background-color: #d1d3d4;
+}
+
+#container.books_videos .tab-wrap.range-slider .level {
+    float: left;
+    width: 29px;
+    height: 29px;
+    line-height: 29px;
+    border-radius: 29px;
+    font-size: 13px;
+    background-color: #fff;
+    border: 1px solid #d1d3d4;
+    text-align: center;
+}
+
+#container.books_videos .tab-wrap.range-slider .end {
+    float: right;
+}
+
+#container.books_videos .range-slider .ui-widget {
+    font-size: 1.1em;
+}
+
+#container.books_videos .range-slider .ui-widget .ui-widget {
+    font-size: 1em;
+}
+
+#container.books_videos .range-slider .ui-widget input,
+#container.books_videos .range-slider .ui-widget select,
+#container.books_videos .range-slider .ui-widget textarea,
+#container.books_videos .range-slider .ui-widget button {
+    font-family: Lucida Grande, Lucida Sans, Arial, sans-serif;
+    font-size: 1em;
+}
+
+#container.books_videos .range-slider .ui-widget-content {
+    border: 1px solid #dddddd;
+    background: #dcddde;
+    webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, .2);
+    -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, .2);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .2);
+}
+
+#container.books_videos .ui-widget-content a {
+    color: #362b36;
+}
+
+#container.books_videos .range-slider .ui-widget-header {
+    background: #f7cc1a !important;
+    color: #222222;
+    font-weight: bold;
+}
+
+#container.books_videos .range-slider .ui-widget-header a {
+    color: #222222;
+}
+
+#container.books_videos .range-slider .ui-state-default,
+#container.books_videos .range-slider .ui-widget-content .ui-state-default {
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/study/books/range-slider-btn.png) no-repeat;
+}
+
+#container.books_videos .range-slider .ui-state-active,
+#container.books_videos .range-slider .ui-widget-content .ui-state-active,
+#container.books_videos .range-slider .ui-widget-header .ui-state-active {
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/study/books/range-slider-btn.png) no-repeat;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: transparent !important;
+}
+
+#container.books_videos .ui-widget :active {
+    outline: none;
+}
+#container.books_videos .range-slider .ui-corner-all {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#container.books_videos .ui-slider {
+    position: relative;
+    text-align: left;
+}
+
+#container.books_videos .ui-slider .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    width: 21px;
+    height: 21px;
+    cursor: default;
+}
+
+#container.books_videos .ui-slider .ui-slider-range {
+    position: absolute;
+    z-index: 1;
+    font-size: .7em;
+    display: block;
+    border: 0;
+    background-position: 0 0;
+}
+
+#container.books_videos .ui-slider-horizontal {
+    height: .8em;
+}
+
+#container.books_videos .ui-slider-horizontal .ui-slider-handle {
+    top: -.2em;
+    margin-left: -.6em;
+}
+
+#container.books_videos .ui-slider-horizontal .ui-slider-range {
+    top: 0;
+    height: 100%;
+}
+
+#container.books_videos .ui-slider-horizontal .ui-slider-range-min {
+    left: 0;
+}
+
+#container.books_videos .ui-slider-horizontal .ui-slider-range-max {
+    right: 0;
+}
+
+#container.books_videos .ui-slider-vertical {
+    width: .8em;
+    height: 100px;
+}
+
+#container.books_videos .ui-slider-vertical .ui-slider-handle {
+    left: -.3em;
+    margin-left: 0;
+    margin-bottom: -.6em;
+}
+
+#container.books_videos .ui-slider-vertical .ui-slider-range {
+    left: 0;
+    width: 100%;
+}
+
+#container.books_videos .ui-slider-vertical .ui-slider-range-min {
+    bottom: 0;
+}
+
+#container.books_videos .ui-slider-vertical .ui-slider-range-max {
+    top: 0;
+}
+
+#container.books_videos h2.fav {
+    margin: 2px 0 -7px 10px;
+    float: left;
+    width: 55px;
+    height: 23px;
+    border: 1px solid #248ab2;
+    border-radius: 18px;
+    -moz-border-radius: 18px;
+    -webkit-border-radius: 18px;
+    line-height: 23px;
+    font-size: 13px;
+    text-align: center;
+    color: #248ab2;
+    cursor: default;
+    font-weight: bold;
+}
+ */
+/* 230629_ add-book position */
+#container.books_videos .add-book {
+    width: 100%;
+    height: 360px;
+    margin-top: 15px;
+    border: 1px solid #d1d3d4;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/study/books/addbook-bg.png) bottom right no-repeat;
+}
+
+#container.books_videos .add-book a {
+    display: block;
+    width: 215px;
+    height: 105px;
+    padding: 20px;
+    margin: 118px auto 0;
+}
+
+#contentLists {
+    position: relative;
+}
+
+#contentLists .add-book {
+    position: absolute;
+    top: 0;
+}
+
+/* 230629_ add-book show end */
+
+#container.books_videos .no-centent a,
+#container.books_videos .no-centent-letter a {
+    width: 496px;
+}
+
+#container.books_videos header.mypage {
+    height: 49px;
+}
+
+#container.books_videos li .hv-menu.two div {
+    width: 67%;
+}
+
+#container.books_videos li .hv-menu.two a:nth-child(2) {
+    position: inherit;
+    left: auto;
+    right: 0;
+}
+
+/* 190624 videos */
+#container.books_videos ul.video-wrap li {
+    float: left;
+    width: 23.8%;
+    /*238/1000*/
+    margin-right: 1.6%;
+    /* 16/1000 */
+    margin-bottom: 0;
+}
+
+#container.books_videos ul.video-wrap li .video {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#container.books_videos ul.video-wrap li div img {
+    width: 100%;
+    border: 1px solid #d1d3d4;
+}
+
+#container.books_videos ul.video-wrap li .video:hover div.hv-menu {
+    display: block;
+}
+
+#container.books_videos ul.video-wrap li:nth-child(4n+4) {
+    margin-right: 0;
+}
+
+#container.books_videos .video .hv-menu {
+    width: 100%;
+    left: 0;
+}
+
+#container.books_videos .video .hv-menu div {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: -10.1010101010101% auto 0;
+    /* 10/99 */
+    width: 67.52136752136752%;
+    /* 158/234 */
+    height: 66px;
+    overflow: hidden;
+}
+
+#container.books_videos .video .hv-menu.two div {
+    width: 50%;
+}
+
+#container.books_videos ul.video-wrap li p {
+    height: 30px;
+    font-size: 0.6567rem;
+    font-weight: bold;
+    letter-spacing: .5px;
+}
+
+#container.books_videos .video .book-new {
+    top: 0;
+    right: -1px;
+    width: auto;
+}
+
+#container.books_videos .video .book-finish {
+    bottom: -2px;
+    right: -1px;
+    width: auto;
+}
+
+#container.books_videos .video .book-new img,
+#container.books_videos .video .book-finish img {
+    border: none;
+}
+
+/* registration-student */
+.student .others {
+    color: #000000;
+}
+
+.student .selectedcolor {
+    color: #FF0000;
+}
+
+.student .acount-input,
+.student .demo-acount-input,
+acount-input,
+.classroom_material_image {
+    box-sizing: content-box;
+}
+
+/* support-contact us */
+/* 20181128 support  */
+.contact_us .service-box {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #eff8f9;
+    font-size: 14px;
+}
+
+.contact_us .service-box h3 {
+    display: inline-block;
+    float: left;
+    line-height: 40px;
+    font-size: 1.7143em;
+    /*24px*/
+    font-weight: bold;
+}
+
+.contact_us .service-box div {
+    float: left;
+}
+
+.contact_us .service-box img {
+    float: left;
+    margin-right: 10px;
+}
+
+.contact_us .service-box .bar {
+    margin: 3px 20px;
+    width: 1px;
+    height: 35px;
+    background: #d4e0e5;
+}
+
+.contact_us .service-box .call {
+    width: 25%;
+    padding-top: 3px;
+}
+
+.contact_us .service-box .e-mail {
+    padding-top: 3px;
+}
+
+.contact_us .service-box ul {
+    float: left;
+}
+
+.contact_us .service-box li span {
+    font-weight: bold;
+    color: #248ab2;
+}
+
+.contact_us div {
+    box-sizing: content-box;
+}
+
+/* Learning New Assignment */
+.assignment.step4 .choose_book {
+    box-sizing: content-box;
+}
+
+
+/* 230426 change class multiple page */
+
+.ccm_list_1 .dataTables_wrapper table select {
+    width: 80%;
+}
+
+.ccm_top_wrap {
+    display: flex;
+}
+
+.demo-acount-input.info {
+    width: 674px;
+}
+
+.sort_bar.ccm_sort_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sort_bar.ccm_sort_bar .ccm_search_wrap {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-left: auto;
+}
+
+.sort_bar.ccm_sort_bar .ccm_class_select {
+    width: 20%;
+}
+
+
+.change_classes {
+    display: block;
+    margin: 24px 0 0 auto;
+    padding: 6px 12px;
+    background-image: none;
+    background-color: #4356a4;
+    border-radius: 4px;
+}
+
+.change_classes span {
+    position: static;
+    display: block;
+    background-image: none;
+    padding: 0;
+}
+
+.change_classes.fixed_btn {
+    position: fixed;
+    bottom: 60px;
+    right: 160px;
+}
+
+/* 230426 resources > phonics page */
+#container.books_videos .phonics .hv-menu>div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: static;
+    float: inherit;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+#container.books_videos .phonics .hv-menu>div a {
+    position: static;
+    float: inherit;
+    margin: 0;
+}
+
+
+/* 230426 Learning >  New Assignment > Add Contents */
+.assignment .sort_bar .right input {
+    height: 34px;
+}
+
+.assignment .sort_bar .right button {
+    margin: 0;
+    border-radius: 4px;
+    overflow: hidden;
+    background: inherit;
+    background-color: #f0f0f0;
+    border: 1px solid #cecece;
+}
+
+.assignment .sort_bar .right button span {
+    background: inherit;
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 26px;
+    padding: 4px 6px;
+    line-height: 1;
+}
+
+/* 240328 new-assignment -add data wrap */
+.new-assignment .sort_bar .date_select {
+    margin-right: 10px;
+}
+
+.new-assignment .sort_bar .right .btnSearch {
+    display: inline-block;
+    width: 54px;
+    height: 28px;
+    margin-left: 6px;
+    border-radius: 4px;
+    line-height: 28px;
+    text-align: center;
+    background-color: #4356a4;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 0.025em;
+    float: right;
+}
