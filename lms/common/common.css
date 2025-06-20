@@ -14735,13 +14735,18 @@ svg.fa-check {
 .assignment.step3 #Step2_Lists_wrapper td {
     box-sizing: border-box;
 }
+.assignment.step3 #Step2_Lists_wrapper thead tr {
+    display: flex;
 
-.assignment.step3 #Step2_Lists_wrapper .dataTables_scrollBody.content_scroll table tbody tr td:last-child {
-    padding-right: 10px;
+}
+.assignment.step3 #Step2_Lists_wrapper th {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .assignment.step3 #target_search_list_class th[aria-label="No.: activate to sort column ascending"] {
-    width: 9% !important;
+    width: 10% !important;
 }
 
 .assignment.step3 #target_search_list_class th[aria-label="Class: activate to sort column ascending"],
