@@ -396,22 +396,6 @@ nav#top a img {
     display: none;
 }
 
-nav#top a span img {
-    display: none;
-}
-
-nav#top a span#btn-land-reduce {
-    background-image: url(/public_html/images/cmm/icn-shrink-on.svg);
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-nav#top a span#btn-land-extand {
-    background-image: url(/public_html/images/cmm/icn-expand-on.svg);
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
 nav#top a.back {
     background-image: url(/public_html/images/cmm/icn-arrow-left.svg);
     background-repeat: no-repeat;
@@ -502,6 +486,18 @@ nav#bt ul.clearFix li a {
     background-position: center;
 }
 
+nav#bt ul.clearFix li a span {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 2em;
+    background-position: center;
+}
+
+nav#bt ul.clearFix li a span img {
+    display: none;
+}
+
 nav#bt ul.clearFix li a.first {
     background-image: url(/public_html/images/cmm/icn-first.svg);
 }
@@ -542,12 +538,20 @@ nav#bt ul.clearFix li a.script.act {
     background-image: url(/public_html/images/cmm/icn-sub-on.svg);
 }
 
-nav#bt ul.clearFix li a.expand {
-    background-image: url(/public_html/images/cmm/icn-expand-on.svg);
+nav#bt ul.clearFix li a.speed.flex {
+    background-image: none;
 }
 
-nav#bt ul.clearFix li a.shrink {
+nav#bt ul.clearFix #btn-land-reduce {
     background-image: url(/public_html/images/cmm/icn-shrink-on.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+nav#bt ul.clearFix #btn-land-extand {
+    background-image: url(/public_html/images/cmm/icn-expand-on.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 nav#bt .inner .volume-range {
@@ -1005,6 +1009,10 @@ nav#bt .inner .volume-range .vertical-slider::-moz-range-thumb {
         background-size: 2.5em;
     }
 
+    nav#bt ul.clearFix li a span {
+        background-size: 2.5em;
+    }
+
     nav#top a {
         height: 100%;
         aspect-ratio: 1/1;
@@ -1090,6 +1098,10 @@ nav#bt .inner .volume-range .vertical-slider::-moz-range-thumb {
     }
 
     nav#bt ul.clearFix li a {
+        background-size: 3em;
+    }
+
+    nav#bt ul.clearFix li a span {
         background-size: 3em;
     }
 
