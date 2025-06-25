@@ -2213,6 +2213,10 @@ table.listB td {
     border: 1px solid #c5bdbd;
 }
 
+#coupon_state table.inputA {
+    border-right: none;
+}
+
 table.inputA {
     width: 100%;
     margin-bottom: 10px;
@@ -13074,16 +13078,23 @@ input[type='date']:valid::before {
     outline: none;
 }
 
-#min,
-#max {
-    position: relative;
-    top: -32px !important;
-    padding: 10px 17px 20px;
-    text-align: center;
-    text-decoration: none;
+#min,#max {
+    position: absolute;
+    transform: translate(50%, 50%);
+    left: 0;
+    top: -22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 20px;
+    padding: 0;
+    background-color: #303030;
+    border: none;
+    border-radius: 8px 8px 8px 2px;
     color: #fff;
-    font-size: 12px;
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/study/books/count.png) no-repeat 50% 37%;
+    font-size: 10px;
+    text-align: center;
 }
 
 .tab-wrap {
@@ -14735,10 +14746,12 @@ svg.fa-check {
 .assignment.step3 #Step2_Lists_wrapper td {
     box-sizing: border-box;
 }
+
 .assignment.step3 #Step2_Lists_wrapper thead tr {
     display: flex;
 
 }
+
 .assignment.step3 #Step2_Lists_wrapper th {
     display: flex;
     justify-content: center;
@@ -15455,26 +15468,6 @@ div.layer-btn button span.icn {
     cursor: pointer;
     outline-color: transparent;
     z-index: 2;
-}
-
-.new-filter .range .ui-slider-handle .min,
-.range .ui-slider-handle .max {
-    position: absolute;
-    transform: translate(50%, 50%);
-    left: 0;
-    top: -28px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 30px;
-    height: 20px;
-    padding: 0;
-    background-color: #303030;
-    border: none;
-    border-radius: 8px 8px 8px 2px;
-    color: #fff;
-    font-size: 10px;
-    text-align: center;
 }
 
 .new-filter table tbody td .tabs {

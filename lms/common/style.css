@@ -1388,7 +1388,8 @@
     }
 }
 
-/* range-slider *//* 
+/* range-slider */
+/* 
 #container.books_videos #slider {
     float: none;
 }
@@ -1587,7 +1588,8 @@
 #container.books_videos .ui-slider-vertical .ui-slider-range-max {
     top: 0;
 }
-
+ */
+/* 230629_ add-book position */
 #container.books_videos h2.fav {
     margin: 2px 0 -7px 10px;
     float: left;
@@ -1604,8 +1606,7 @@
     cursor: default;
     font-weight: bold;
 }
- */
-/* 230629_ add-book position */
+
 #container.books_videos .add-book {
     width: 100%;
     height: 360px;
