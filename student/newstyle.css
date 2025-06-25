@@ -1625,6 +1625,7 @@ h2+div.tab {
 .myprofile .myPage-wrap .calendar-wrap .calendar {
     position: relative;
     width: 100%;
+    height: 313px;
     background-color: #ffffff;
     border-radius: 20px;
     padding: 16px;
@@ -2469,7 +2470,7 @@ s.avatar li a span {
 
 .myprofile .box .table-wrap table th,
 .myprofile .box .table-wrap table td {
-    padding: 10px;
+    padding: 10px 5px;
 }
 
 .myprofile .box .table-wrap table tr th.purple {
@@ -3457,7 +3458,7 @@ div.level-layer h2 {
     line-height: 140%;
 }
 
-div.level-layer h5{
+div.level-layer h5 {
     padding-top: 0px !important;
     margin-bottom: 24px;
     font-size: 18px;
