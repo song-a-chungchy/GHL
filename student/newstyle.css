@@ -1925,6 +1925,11 @@ h2+div.tab {
     cursor: pointer;
 }
 
+.myprofile .cancel-btn:hover {
+    transform: translateY(-4px);
+    box-shadow: none;
+}
+
 .myprofile .save-btn:hover {
     transform: translateY(-4px);
     box-shadow: none;
