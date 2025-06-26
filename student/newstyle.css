@@ -1898,10 +1898,23 @@ h2+div.tab {
     display: block;
 }
 
-.myprofile .save-btn {
+.myprofile .parent_setting .btn-wrap {
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+    gap: 10px;
+}
+
+.myprofile .cancel-btn {
+    width: 240px;
+    margin-top: 16px;
+    padding: 14px 38px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.myprofile .save-btn {
     width: 240px;
     margin-top: 16px;
     padding: 14px 38px;
@@ -1909,7 +1922,6 @@ h2+div.tab {
     background-color: var(--color-main);
     border: none;
     transition: all 0.5s;
-    margin-left: auto;
     cursor: pointer;
 }
 
@@ -2644,7 +2656,7 @@ s.avatar li a span {
     padding: 24px;
     overflow: hidden;
     display: flex;
-    justify-content:flex-start;
+    justify-content: flex-start;
     align-items: center;
 }
 
