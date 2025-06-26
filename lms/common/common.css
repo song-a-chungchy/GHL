@@ -14690,7 +14690,7 @@ svg.fa-check {
 }
 
 .assignment.step1 dd input::placeholder {
-    color: #afe2fb;
+    color: #D1D3D4;
 }
 
 .assignment.step4 dl {
@@ -15002,7 +15002,7 @@ svg.fa-check {
 .track1,
 .track2 {
     width: 10px;
-    background: #afe2fb;
+    background: #D1D3D4;
     margin-right: 2px;
     border-radius: 10px;
 }
