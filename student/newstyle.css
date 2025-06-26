@@ -539,7 +539,6 @@
 .assigned .info dl {
     width: 100%;
     display: flex;
-    gap: 12px;
 }
 
 .assigned .info dl:not(:last-child) {
@@ -2146,12 +2145,28 @@ h2+div.tab {
     padding: 6px 0px;
 }
 
+.myprofile .parent_setting .parent_report.disabled .toggle-button>li {
+    cursor: default;
+}
+
 .myprofile .parent_setting .parent_report.disabled input {
     cursor: default;
 }
 
 .myprofile .parent_setting .parent_report.disabled button {
     cursor: default;
+}
+
+.myprofile .parent_setting .parent_report .toggle-button>li {
+    cursor: pointer;
+}
+
+.myprofile .parent_setting .parent_report input {
+    cursor: text;
+}
+
+.myprofile .parent_setting .parent_report button {
+    cursor: pointer;
 }
 
 .myprofile .myPage-wrap .parent_setting table td button {
