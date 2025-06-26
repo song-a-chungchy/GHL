@@ -1,24 +1,24 @@
 @font-face {
     font-family: 'Montserrat';
-    src: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/fonts/Montserrat-Regular.woff2) format('woff2'),
-        url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/fonts/Montserrat-Regular.woff) format('woff'),
-        url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/fonts/Montserrat-Regular.ttf) format('truetype');
+    src: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/fonts/Montserrat-Regular.woff2) format('woff2'),
+        url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/fonts/Montserrat-Regular.woff) format('woff'),
+        url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/fonts/Montserrat-Regular.ttf) format('truetype');
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'Montserrat';
-    src: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/fonts/Montserrat-SemiBold.woff2) format('woff2'),
-        url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/fonts/Montserrat-SemiBold.woff) format('woff'),
-        url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/fonts/Montserrat-SemiBold.ttf) format('truetype');
+    src: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/fonts/Montserrat-SemiBold.woff2) format('woff2'),
+        url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/fonts/Montserrat-SemiBold.woff) format('woff'),
+        url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/fonts/Montserrat-SemiBold.ttf) format('truetype');
     font-weight: 600;
 }
 
 @font-face {
     font-family: 'Montserrat';
-    src: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/fonts/Montserrat-Bold.woff2) format('woff2'),
-        url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/fonts/Montserrat-Bold.woff) format('woff'),
-        url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/fonts/Montserrat-Bold.ttf) format('truetype');
+    src: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/fonts/Montserrat-Bold.woff2) format('woff2'),
+        url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/fonts/Montserrat-Bold.woff) format('woff'),
+        url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/fonts/Montserrat-Bold.ttf) format('truetype');
     font-weight: 800;
 }
 
@@ -46,7 +46,7 @@ body {
     min-width: 1224px;
     font-family: 'Montserrat';
     color: var(--color-font);
-    /*    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/new/bg_blue.png);
+    /*    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/bg_blue.png);
     background-repeat: repeat;
     background-attachment: fixed;  */
 }
@@ -164,7 +164,7 @@ body.act,
 #header>nav>ul>li span {
     position: relative;
     display: block;
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/new/icn_nav_Home.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/icn_nav_Home.svg);
     background-position: left center;
     transition: 0.3s;
 }
@@ -186,7 +186,7 @@ body.act,
     right: 0px;
     width: 26px;
     height: 26px;
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/new/icn_new.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/icn_new.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -194,35 +194,35 @@ body.act,
 
 #header>nav>ul>li.act span,
 #header>nav>ul>li:hover span {
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/new/icn_nav_Home+h.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/icn_nav_Home+h.svg);
 }
 
 #header>nav>ul>li.library span {
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/new/icn_nav_Library.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/icn_nav_Library.svg);
 }
 
 #header>nav>ul>li.library.act span,
 #header>nav>ul>li.library:hover span {
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/new/icn_nav_Library+h.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/icn_nav_Library+h.svg);
 }
 
 
 #header>nav>ul>li.mypage span {
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/new/icn_nav_MyProfile.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/icn_nav_MyProfile.svg);
 }
 
 #header>nav>ul>li.mypage.act span,
 #header>nav>ul>li.mypage:hover span {
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/new/icn_nav_MyProfile+h.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/icn_nav_MyProfile+h.svg);
 }
 
 #header>nav>ul>li.reward span {
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/new/icn_nav_Reward.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/icn_nav_Reward.svg);
 }
 
 #header>nav>ul>li.reward.act span,
 #header>nav>ul>li.reward:hover span {
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/new/icn_nav_Reward+h.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/icn_nav_Reward+h.svg);
 }
 
 #header>nav>ul>li>.nav_2depth {
@@ -268,7 +268,7 @@ body.act,
     display: block;
     width: 26px;
     height: 26px;
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/new/icn_new.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/icn_new.svg);
     background-position: center;
     background-size: 100%;
 }
@@ -527,7 +527,7 @@ button {
 .video .book_info.act-readers {
     bottom: 10px;
     left: 10px;
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/new/icn_book+readers.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/icn_book+readers.svg);
     box-shadow: 0px 0px 8px #89E0A2;
 }
 
@@ -535,7 +535,7 @@ button {
 .video .book-finish {
     bottom: 10px;
     right: 10px;
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/new/icn_book+finish.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/icn_book+finish.svg);
     box-shadow: 0px 0px 8px #FFDD64;
 }
 
@@ -543,7 +543,7 @@ button {
 .video .book_info.book-new {
     top: 10px;
     right: 10px;
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/new/icn_book+featured.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/icn_book+featured.svg);
     box-shadow: 0px 0px 8px #7D2EFF;
 }
 
@@ -551,7 +551,7 @@ button {
 .video .book_info.book-extensive {
     top: 10px;
     right: 10px;
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/new/icn_book+extensive.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/icn_book+extensive.svg);
     box-shadow: 0px 0px 8px #1A6FAD;
 }
 
@@ -559,7 +559,7 @@ button {
 .video .book_info.new {
     top: 10px;
     left: 10px;
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/new/icn_book+new.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/icn_book+new.svg);
     box-shadow: 0px 0px 8px #FF5948;
 }
 
@@ -621,7 +621,7 @@ button {
     width: 100%;
     height: 100%;
     border-radius: 100%;
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/new/icn_hv+mybook.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/icn_hv+mybook.svg);
     background-size: 42px;
     background-position: center;
     background-repeat: no-repeat;
@@ -631,7 +631,7 @@ button {
 
 .hv-menu ul li.mybook span.min {
     background-color: #FF5948;
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/new/icn_hv+mybook_min.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/icn_hv+mybook_min.svg);
 }
 
 /* book end */
@@ -686,7 +686,7 @@ textarea {
     height: 50px;
     background-color: var(--color-main);
     border-radius: 100%;
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/new/icn_search.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/icn_search.svg);
     background-position: center;
     background-size: 25px;
     cursor: pointer;
@@ -704,7 +704,7 @@ textarea {
     display: block;
     width: 24px;
     height: 24px;
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/new/icn_inputArrows.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/icn_inputArrows.svg);
     z-index: 1;
 }
 
@@ -925,7 +925,7 @@ textarea {
     height: 36px;
     border-radius: 100%;
     background-color: var(--color-main);
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/new/tab_check.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/tab_check.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 24px;
@@ -1282,7 +1282,7 @@ table img {
 }
 
 .dots.previous {
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/new/icn_page_prev.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/icn_page_prev.svg);
     border: none;
     background-repeat: no-repeat;
     background-position: center;
@@ -1290,7 +1290,7 @@ table img {
 }
 
 .dots.next {
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/new/icn_page_next.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/icn_page_next.svg);
     border: none;
     background-repeat: no-repeat;
     background-position: center;
@@ -1352,7 +1352,7 @@ table img {
 }
 
 .dataTables_paginate .paginate_button.previous {
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/new/icn_page_prev.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/icn_page_prev.svg);
     border: none;
     background-repeat: no-repeat;
     background-position: center;
@@ -1360,7 +1360,7 @@ table img {
 }
 
 .dataTables_paginate .paginate_button.next {
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/new/icn_page_next.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/icn_page_next.svg);
     border: none;
     background-repeat: no-repeat;
     background-position: center;
@@ -1391,6 +1391,11 @@ table img {
 }
 
 .dataTables_paginate a.paginate_button_disabled {
+    display: none;
+}
+
+.dataTables_paginate a.paginate_button.first, 
+.dataTables_paginate a.paginate_button.last{
     display: none;
 }
 
@@ -1440,7 +1445,7 @@ table img {
     display: block;
     width: 100%;
     height: 100%;
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/new/icn-top.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/icn-top.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 32px;
@@ -1515,7 +1520,7 @@ footer .info {
     height: 64px;
     cursor: pointer;
     background-color: var(--color-main);
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/new/icn_close.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/icn_close.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 48px;
@@ -1581,7 +1586,7 @@ footer .info {
     left: 20px;
     width: 24px;
     height: 24px;
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/new/icn_videoFavorite.png);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/icn_videoFavorite.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 24px;
@@ -1594,7 +1599,7 @@ footer .info {
 }
 
 .bModal .layer-info .popUp_book .book .btn_favorite.act::before {
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/new/icn_videoFavorite_act.png);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/icn_videoFavorite_act.png);
 }
 
 .bModal .layer-info .popUp_book .book .btn_favorite:hover {
@@ -1958,7 +1963,7 @@ footer .info {
     display: block;
     width: 48px;
     height: 48px;
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/new/popup_todaysBook_decoRight.png);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/popup_todaysBook_decoRight.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -2360,7 +2365,7 @@ button.btn-gray:hover {
 
 .bModal .today-book-layer .today-book-wrap .deco.deco_left,
 .bModal .marketing-layer .marketing-wrap .deco.deco_left {
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/new/popup_todaysBook_decoLeft.png);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/popup_todaysBook_decoLeft.png);
     top: 35%;
     left: 20%;
     width: 84px;
@@ -2369,7 +2374,7 @@ button.btn-gray:hover {
 
 .bModal .today-book-layer .today-book-wrap .deco.deco_right,
 .bModal .marketing-layer .marketing-wrap .deco.deco_right {
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/new/popup_todaysBook_decoRight.png);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/popup_todaysBook_decoRight.png);
     top: 65%;
     left: 80%;
     width: 66px;
