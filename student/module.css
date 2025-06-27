@@ -46,9 +46,9 @@ body {
     min-width: 1224px;
     font-family: 'Montserrat';
     color: var(--color-font);
-    /*    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/bg_blue.png);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/bg_blue.png);
     background-repeat: repeat;
-    background-attachment: fixed;  */
+    background-attachment: fixed;  
 }
 
 ul,

@@ -1708,7 +1708,7 @@ h2+div.tab {
 
 .myprofile .myPage-wrap .profile-wrap {
     flex-shrink: 0;
-    max-width: 360px;
+    max-width: 400px;
     width: 100%;
     padding: 24px;
     border-radius: 40px;
@@ -1723,6 +1723,8 @@ h2+div.tab {
 
 .myprofile .myPage-wrap .profile-wrap .text-wrap p {
     padding: 4px 12px;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .myprofile .myPage-wrap .profile-wrap .user {
@@ -1852,12 +1854,17 @@ h2+div.tab {
     height: auto;
 }
 
+.myprofile .myPage-wrap .portrait-wrap .my-info .level-table tr:nth-child(2) td {
+    font-weight: 600;
+}
+
 .myprofile .myPage-wrap .portrait-wrap .my-info .level-table th {
     border: none;
     background-color: #ffffff;
     text-align: left;
     font-size: 18px;
-    padding-left: 12px;
+    padding: 0px 0px 12px 12px;
+    min-height: 50px;
 }
 
 .myprofile .myPage-wrap .portrait-wrap .my-info .level-table td {
@@ -1866,14 +1873,17 @@ h2+div.tab {
     align-items: flex-start;
     text-align: left;
     gap: 10px;
-    padding: 3px 0px;
+    padding: 0px;
     line-height: 75px;
 }
 
 .myprofile .myPage-wrap .portrait-wrap .my-info .level-table td p {
     width: 100%;
     text-align: left;
-    line-height: 60px;
+    line-height: 50px;
+    font-size: 18px;
+    border-radius: 50px;
+    padding-left:16px;
 }
 
 .myprofile .myPage-wrap .portrait-wrap .my-info .level-table td input {
@@ -1898,8 +1908,9 @@ h2+div.tab {
     display: block;
 }
 
-.myprofile .parent_setting .btn-wrap {
+.myprofile .btn-wrap {
     width: 100%;
+    margin-top: 16px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -1907,17 +1918,13 @@ h2+div.tab {
 }
 
 .myprofile .cancel-btn {
-    width: 240px;
-    margin-top: 16px;
-    padding: 14px 38px;
+    width: 120px;
     transition: all 0.5s;
     cursor: pointer;
 }
 
 .myprofile .save-btn {
-    width: 240px;
-    margin-top: 16px;
-    padding: 14px 38px;
+    width: 120px;
     color: #ffffff;
     background-color: var(--color-main);
     border: none;
@@ -1925,7 +1932,7 @@ h2+div.tab {
     cursor: pointer;
 }
 
-.myprofile .cac-btn:hover {
+.myprofile .cancel-btn:hover {
     transform: translateY(-4px);
     box-shadow: none;
 }
@@ -2115,10 +2122,6 @@ h2+div.tab {
 .myprofile .box .avatar {
     border: none;
     border-radius: 0;
-}
-
-.myprofile .parent_setting {
-    margin-bottom: 24px;
 }
 
 .myprofile .parent_setting .parent_report table th {
@@ -2537,6 +2540,10 @@ s.avatar li a span {
     display: block;
     width: 100%;
     height: 100%;
+}
+
+.myprofile .box .table-wrap table tr td a.bookreport {
+    text-decoration: underline;
 }
 
 .myprofile .box .table-wrap table tr td a.icn-book {
