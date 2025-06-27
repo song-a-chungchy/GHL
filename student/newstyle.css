@@ -388,9 +388,9 @@
 .todaysBook>div {
     margin-left: 20px;
     position: relative;
-    border-top: 1px solid #e0e0e0;
-    border-bottom: 1px solid #e0e0e0;
-    border-right: 1px solid #e0e0e0;
+    border-top: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+    border-right: 1px solid #dadada;
     border-radius: 0px 20px 20px 0px;
 }
 
@@ -415,7 +415,7 @@
 
 @-webkit-keyframes shadow-pop-tr {
     0% {
-        box-shadow: 0 0 #acacac, 0 0 #989898, 0 0 #acacac, 0 0 #acacac, 0 0 #acacac, 0 0 #acacac, 0 0 #acacac, 0 0 #acacac;
+        box-shadow: 0 0 #9b9b9b, 0 0 #9b9b9b, 0 0 #9b9b9b, 0 0 #9b9b9b, 0 0 #9b9b9b, 0 0 #9b9b9b, 0 0 #9b9b9b, 0 0 #9b9b9b;
         transform: translateX(0) translateY(0)
     }
 
@@ -423,7 +423,7 @@
         -webkit-border-radius: 0px 20px 20px 0px;
         -moz-border-radius: 0px 20px 20px 0px;
         border-radius: 0px 20px 20px 0px;
-        box-shadow: 1px -1px #fbfeff, 2px -2px #e0e0e0, 3px -3px #fbfeff, 4px -4px #e0e0e0, 5px -5px #fbfeff, 6px -6px #e0e0e0, 7px -7px #fbfeff, 8px -8px #e0e0e0, 9px -9px #fbfeff;
+        box-shadow: 1px -1px #f1f4f5, 2px -2px #dadada, 3px -3px #f1f4f5, 4px -4px #dadada, 5px -5px #f1f4f5, 6px -6px #dadada, 7px -7px #f1f4f5, 8px -8px #dadada, 9px -9px #f1f4f5;
         transform: translateX(-8px) translateY(8px)
     }
 }
