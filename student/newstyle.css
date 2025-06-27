@@ -2549,7 +2549,7 @@ s.avatar li a span {
     height: 100%;
 }
 
-.myprofile .box .table-wrap table tr td a.bookreport {
+.myprofile .box .table-wrap table tr td a:hover {
     text-decoration: underline;
 }
 
