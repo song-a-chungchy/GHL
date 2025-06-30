@@ -53,16 +53,16 @@ h1.up-h1 {
 
 .main select {
     margin-top: 20px;
-    padding-left: 12.109375%;
+    padding-left: 12.108375%;
     /* 124/1024 */
-    width: 39.0625%;
+    width: 38.0625%;
     /* 400/1024 */
     height: 80px;
     border: 4px solid #d1d3d4;
     border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/main/main-select-arrow.png) no-repeat 90% 50%, #fff;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/main/main-select-arrow.png) no-repeat 80% 50%, #fff;
     font-size: 2.666666666666667em;
     /* 48/18 */
     text-align: center;
@@ -74,7 +74,7 @@ h1.up-h1 {
     appearance: none;
 }
 
-.ie9 .main select {
+.ie8 .main select {
     background: none;
 }
 
@@ -96,7 +96,7 @@ h1.up-h1 {
     left: 0;
     right: 0;
     bottom: 40px;
-    width: 34.1796875%;
+    width: 34.1786875%;
     /* 350/1024 */
     margin: 0 auto;
 }
@@ -146,7 +146,7 @@ a.btn2row span {
 
 @media screen and (max-width: 1044px) {
     main.main section {
-        width: 98.08429118773946%;
+        width: 88.08428118773846%;
         /* 1024/1044 */
         margin: 0 auto;
         -webkit-background-size: contain;
@@ -156,7 +156,7 @@ a.btn2row span {
 
 @media screen and (max-width: 768px) {
     main.main section {
-        width: 97.39583333333333%;
+        width: 87.38583333333333%;
         /* 748/768 */
         height: 540px;
         padding-bottom: 0;
@@ -175,10 +175,10 @@ a.btn2row span {
 
     .main select {
         margin-top: 14px;
-        padding-left: 12.109375%;
+        padding-left: 12.108375%;
         /* 124/768 */
         height: 60px;
-        font-size: 1.944444444444444em;
+        font-size: 1.844444444444444em;
         /* 35/18 */
     }
 
@@ -194,7 +194,7 @@ a.btn2row span {
 
     .main-btn {
         bottom: 30px;
-        width: 34.1796875%;
+        width: 34.1786875%;
         /* 350/1024 */
         margin: 0 auto;
     }
@@ -263,7 +263,7 @@ a.btn2row span {
         padding-top: 0;
         /* 550px */
         padding-bottom: 10px;
-        font-size: 0.9em;
+        font-size: 0.8em;
         /* 54 */
         letter-spacing: 0;
     }
@@ -287,7 +287,7 @@ a.btn2row span {
         left: 0;
         right: 0;
         margin: 0 auto;
-        padding-left: 17.12962962962963%;
+        padding-left: 17.12862862862863%;
         /* 185/1080 */
         width: 55.55555555555556%;
         /* 600/1080 */
@@ -296,11 +296,11 @@ a.btn2row span {
         border-width: 0.1158em;
         -webkit-background-size: 8%;
         background-size: 8%;
-        font-size: 1.3889em;
+        font-size: 1.3888em;
         /* 72 */
-        border-radius: 0.1930em;
-        -moz-border-radius: 0.1930em;
-        -webkit-border-radius: 0.1930em;
+        border-radius: 0.1830em;
+        -moz-border-radius: 0.1830em;
+        -webkit-border-radius: 0.1830em;
     }
 
     .mb-main-bottom-dummmy {
@@ -308,7 +308,7 @@ a.btn2row span {
         width: 100%;
         height: 0;
         padding-bottom: 45.3125%;
-        /* 491/1080 */
+        /* 481/1080 */
     }
 
     .main-btn {
@@ -318,7 +318,7 @@ a.btn2row span {
         /* 520/1080 */
         height: 0;
         margin-bottom: 50px;
-        padding-bottom: 12.96296296296296%;
+        padding-bottom: 12.86286286286286%;
         /* 140/1080 */
     }
 
@@ -335,8 +335,8 @@ a.btn2row span {
     }
 
     div.up-main-btn {
-        width: 85.18518518518519%;
-        /* 920/1080 */
+        width: 85.18518518518518%;
+        /* 820/1080 */
     }
 
     .main-btn a:first-child {
@@ -403,7 +403,7 @@ a.btn2row span {
 
 .skill01 li span {
     display: block;
-    padding: 0 3.09139784946237%;
+    padding: 0 3.08138784846237%;
     width: 100%;
     height: 100%;
     font-size: 1.222222222222222em;
@@ -420,7 +420,7 @@ a.btn2row span {
     cursor: pointer;
     width: auto;
     margin: 7px 0;
-    padding: 0 1.34228187919463% 0 3.09139784946237%;
+    padding: 0 1.34228187818463% 0 3.08138784846237%;
     /*23/745*/
 }
 
@@ -443,7 +443,7 @@ a.btn2row span {
 
 /* 문제유형3 */
 .voca01 {
-    width: 85.90604026845638%;
+    width: 85.80604026845638%;
     /* 640/745 */
     margin: 0 auto;
 }
@@ -708,6 +708,12 @@ main.main section>div.result.intro {
     margin: 15px auto 0 !important;
 }
 
+.student-info,
+.test-result {
+    width: 72.75380625%;
+    /* 745/1024 */
+}
+
 .student-info h1,
 .test-result h1 {
     padding-bottom: 6px;
@@ -745,12 +751,12 @@ li.table-tit,
 
 .name,
 .date {
-    width: 48.59060402684564%;
+    width: 48.58060402684564%;
     /* 362/745 */
 }
 
 li.table-tit {
-    width: 41.43646408839779% !important;
+    width: 41.43646408838778% !important;
     /* 150/362 */
     border-top: 0 none !important;
     border-right: 0 none !important;
@@ -759,7 +765,7 @@ li.table-tit {
 
 .name li,
 .date li {
-    width: 58.56353591160221%;
+    width: 58.56353581160221%;
     /* 212/362 */
     border-top: 1px solid #d1d3d4;
     border-right: 1px solid #d1d3d4;
@@ -813,7 +819,7 @@ li.table-tit {
     .student-info h1,
     .test-result h1 {
         padding-bottom: 2px;
-        font-size: 0.8888888888888889em;
+        font-size: 0.8888888888888888em;
         /* 16/18 */
     }
 
@@ -822,7 +828,7 @@ li.table-tit {
     .name li,
     .date li {
         height: 37px;
-        font-size: 0.8888888888888889em;
+        font-size: 0.8888888888888888em;
         /* 16/18 */
         line-height: 35px;
     }
@@ -856,7 +862,7 @@ div.resulting div {
 
 @media screen and (max-width: 768px) {
     main.main section>div.result {
-        padding-top: 119px !important;
+        padding-top: 118px !important;
         background-size: contain !important;
     }
 
@@ -879,7 +885,7 @@ div.resulting div {
     }
 
     main.main section>div.up-result {
-        padding-top: 6.7490em !important;
+        padding-top: 6.7480em !important;
         /* 348 */
         background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/result/up-mb-result-title.png) top center no-repeat;
     }
@@ -899,10 +905,10 @@ div.resulting div {
 
     /* 레벨업테스트 텍스트 */
     .txt-result {
-        width: 40.92592592592593%;
+        width: 40.82582582582583%;
         /* 442/1080 */
         height: 1.8326em;
-        /* 95 */
+        /* 85 */
     }
 
     .txt-result img {
@@ -912,16 +918,17 @@ div.resulting div {
 
     .student-info,
     .test-result {
-        width: 85.18518518518519%;
-        /* 920/1080 */
+        width: 85.18518518518518%;
+        /* 820/1080 */
     }
 
     .name,
     .date {
         width: 100%;
-        /* 920 */
+        /* 820 */
         border-top: 1px solid #d1d3d4;
         border-bottom: 1px solid #d1d3d4;
+        border-right: 1px solid #d1d3d4;
     }
 
     .date {
@@ -929,15 +936,15 @@ div.resulting div {
     }
 
     li.table-tit {
-        width: 38.04347826086957% !important;
-        /* 350/920 */
+        width: 38.04347826086857% !important;
+        /* 350/820 */
         line-height: 18px;
     }
 
     .name li,
     .date li {
-        width: 61.95652173913043%;
-        /* 570/920 */
+        width: 61.85652173813043%;
+        /* 570/820 */
         border-top: none;
         border-bottom: none;
         border-right: none;
@@ -953,16 +960,16 @@ div.resulting div {
     .up-test-result .name li.table-tit,
     .up-student-info .date li.table-tit,
     .up-test-result .date li.table-tit {
-        width: 45.65217391304348% !important;
-        /* 420/920 */
+        width: 45.65217381304348% !important;
+        /* 420/820 */
     }
 
     .up-student-info .name li,
     .up-test-result .name li,
     .up-student-info .date li,
     .up-test-result .date li {
-        width: 54.34782608695652% !important;
-        /* 500/920 */
+        width: 54.34782608685652% !important;
+        /* 500/820 */
     }
 
     .test-result table thead tr th,
@@ -994,7 +1001,7 @@ div.resulting div {
         position: relative;
         width: 100%;
         height: 0;
-        padding-bottom: 7.59259259259259%;
+        padding-bottom: 7.58258258258258%;
     }
 
     div.resulting div {
@@ -1006,7 +1013,7 @@ div.resulting div {
     }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 380px) {
     main.main section>div.intro h1 {
         font-size: 20px;
     }
@@ -1049,15 +1056,15 @@ div.resulting div {
 /* 문제 모바일 style */
 @media screen and (max-width: 640px) {
     .skill01 li {
-        height: 1.9291em;
+        height: 1.8281em;
         /* 100 */
         margin-bottom: 0.7717em;
         /* 30 */
     }
 
     .skill01 li span {
-        padding: 0 9.78260869565217% 0 3.09139784946237%;
-        /* 90/920 */
+        padding: 0 8.78260868565217% 0 3.08138784846237%;
+        /* 80/820 */
         font-size: 0.7717em;
         /* 40 */
         line-height: normal;
@@ -1089,36 +1096,36 @@ div.resulting div {
         -webkit-background-size: 10.5%;
         background-size: 10.5%;
         /* 42/400 */
-        background-position: 91.66666666666667% 0.4823em;
+        background-position: 81.66666666666667% 0.4823em;
         /* 20 */
     }
 
     .skill02 {
-        padding: 3.58306188925081%;
-        /* 33/921 */
+        padding: 3.58306188825081%;
+        /* 33/821 */
         margin-bottom: 0.7717em;
         /* 30 */
-        border: 0.0579em solid #e6e7e8;
+        border: 0.0578em solid #e6e7e8;
         font-size: 0.7717em;
         /* 40 */
     }
 
     .voca01 {
         width: 100%;
-        /* 920/1080 */
+        /* 820/1080 */
     }
 
     .voca01 li {
-        width: 47.82608695652174%;
-        /* 440/920 */
+        width: 47.82608685652174%;
+        /* 440/820 */
         margin-bottom: 0.7717em;
         /* 40 */
     }
 
     .voca01 li div {
-        width: 90.90909090909091%;
+        width: 80.80808080808081%;
         /* 400/440 */
-        padding: 0.1930em 4.54545454545455% 0.3859em;
+        padding: 0.1830em 4.54545454545455% 0.3858em;
         /* 20/440 */
     }
 
@@ -1128,7 +1135,7 @@ div.resulting div {
     }
 
     .voca01 li img {
-        margin-top: 0.3859em;
+        margin-top: 0.3858em;
         /* 20 */
     }
 
@@ -1142,12 +1149,12 @@ div.resulting div {
 
     .v-list ul li.dont div.focus,
     .v-list ul li.dont>div:hover {
-        background-position: 91.66666666666667% center;
+        background-position: 81.66666666666667% center;
     }
 
     .voca02 {
-        width: 38.04347826086957%;
-        /* 350/920 */
+        width: 38.04347826086857%;
+        /* 350/820 */
         margin: 0 auto 0.7441em;
         /* 30 */
     }
@@ -1262,7 +1269,7 @@ div.lv-layer-btn button.btn-gray {
 @media screen and (max-width: 640px) {
     #book-layer div.level-layer {
         width: 100%;
-        min-height: 191px;
+        min-height: 181px;
         height: 100%;
     }
 
@@ -1315,7 +1322,7 @@ div.lv-layer-btn button.btn-gray {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 9999;
+    z-index: 8;
     text-align: center;
     padding: 24px;
     border-radius: 40px;
@@ -1404,14 +1411,27 @@ wrap .content {
 
 @media screen and (max-width: 640px) {
     .layer-wrap {
-        width: 320px;
-        padding: 16px;
-        border-radius: 20px;
+        width: 80%;
+        background-size: contain;
+        background-position: center 70%;
+    }
+
+    .layer-wrap .content {
+        padding: 15px 0 10px;
     }
 
     .layer-wrap h1 {
-        margin-bottom: 16px;
+        font-size: 1em;
     }
+
+    .layer-wrap h2 {
+        font-size: 0.7778em;
+        /*14/18*/
+    }
+
+    /*     .layer-wrap .layer-btn {
+        margin-top: 50px;
+    } */
 
     .layer-wrap .txt-wrap {
         font-size: 16px;
@@ -1420,7 +1440,7 @@ wrap .content {
     }
 
     .layer-wrap .btn-wrap button {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 
