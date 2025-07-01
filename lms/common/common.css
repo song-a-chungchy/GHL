@@ -14803,12 +14803,12 @@ svg.fa-check {
 }
 
 .assignment.step3 #target_search_list_class th[aria-label="No.: activate to sort column ascending"] {
-    width: 10% !important;
+    width: 99.91px !important;
 }
 
 .assignment.step3 #target_search_list_class th[aria-label="Class: activate to sort column ascending"],
 .assignment.step3 #target_search_list_class th[aria-label="Teacher: activate to sort column ascending"] {
-    width: 40% !important;
+    width: 397px !important;
 }
 
 .assignment.step3 #target_search_list_class th[aria-label="All"] {
@@ -14816,24 +14816,24 @@ svg.fa-check {
 }
 
 .assignment.step3 #target_search_list_student th[aria-label="No.: activate to sort column ascending"] {
-    width: 9% !important;
+    width: 90.5px !important;
 }
 
 .assignment.step3 #target_search_list_student th[aria-label="Class: activate to sort column ascending"] {
-    width: 30% !important;
+    width:300px !important;
 }
 
 .assignment.step3 #target_search_list_student th[aria-label="Name: activate to sort column ascending"],
 .assignment.step3 #target_search_list_student th[aria-label="ID: activate to sort column ascending"] {
-    width: 20% !important;
+    width: 200px !important;
 }
 
 .assignment.step3 #target_search_list_student th[aria-label="Level: activate to sort column ascending"] {
-    width: 10% !important;
+    width: 100px !important;
 }
 
 .assignment.step3 #target_search_list_student th[aria-label="All"] {
-    width: 11% !important;
+    width:108.5px !important;
 }
 
 /* step4 */

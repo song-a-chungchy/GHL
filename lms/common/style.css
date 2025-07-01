@@ -61,6 +61,10 @@
     float: right;
 }
 
+.dashboard-popup.current .bar_wrap a {
+    display: none;
+}
+
 .dashboard-popup .bar_wrap h2,
 .dashboard-popup .bar_wrap .sort_bar {
     float: left;
