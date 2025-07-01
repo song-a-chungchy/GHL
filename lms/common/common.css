@@ -12598,13 +12598,16 @@ div.layer-info-wrap h1 {
     cursor: pointer;
     transition: all 0.5s ease;
     position: relative;
+    border-bottom: 5px solid #c5c5c5;
 }
 
 .assign-tap ul li a {
     text-decoration: none;
+    color: #c5c5c5;
     display: block;
     width: 100%;
     height: 100%;
+    transition: color 0.5s ease-out;
 }
 
 .assign-tap ul li.act {
@@ -12612,7 +12615,16 @@ div.layer-info-wrap h1 {
     color: #4356a4;
 }
 
+.assign-tap ul li.act:hover {
+    border-bottom: 5px solid #4356a4;
+    color: #4356a4;
+}
+
 .assign-tap ul li.act a {
+    color: #4356a4;
+}
+
+.assign-tap ul li.act a:hover {
     color: #4356a4;
 }
 
@@ -12632,8 +12644,12 @@ div.layer-info-wrap h1 {
     letter-spacing: 0;
 }
 
+.assign-tap ul li:hover {
+    border-bottom: 5px solid #414042;
+}
+
 .assign-tap ul li:hover a {
-    color: #4356a4;
+    color: #414042;
     text-decoration: none;
 }
 
@@ -14787,12 +14803,12 @@ svg.fa-check {
 }
 
 .assignment.step3 #target_search_list_class th[aria-label="No.: activate to sort column ascending"] {
-    width: 10% !important;
+    width: 99.91px !important;
 }
 
 .assignment.step3 #target_search_list_class th[aria-label="Class: activate to sort column ascending"],
 .assignment.step3 #target_search_list_class th[aria-label="Teacher: activate to sort column ascending"] {
-    width: 40% !important;
+    width: 397px !important;
 }
 
 .assignment.step3 #target_search_list_class th[aria-label="All"] {
@@ -14800,24 +14816,24 @@ svg.fa-check {
 }
 
 .assignment.step3 #target_search_list_student th[aria-label="No.: activate to sort column ascending"] {
-    width: 9% !important;
+    width: 90.5px !important;
 }
 
 .assignment.step3 #target_search_list_student th[aria-label="Class: activate to sort column ascending"] {
-    width: 30% !important;
+    width:300px !important;
 }
 
 .assignment.step3 #target_search_list_student th[aria-label="Name: activate to sort column ascending"],
 .assignment.step3 #target_search_list_student th[aria-label="ID: activate to sort column ascending"] {
-    width: 20% !important;
+    width: 200px !important;
 }
 
 .assignment.step3 #target_search_list_student th[aria-label="Level: activate to sort column ascending"] {
-    width: 10% !important;
+    width: 100px !important;
 }
 
 .assignment.step3 #target_search_list_student th[aria-label="All"] {
-    width: 11% !important;
+    width:108.5px !important;
 }
 
 /* step4 */
