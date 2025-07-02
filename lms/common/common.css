@@ -2,46 +2,46 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Thin.eot');
-    src: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Thin.eot?#iefix') format('embedded-opentype'),
-        url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Thin.ttf') format('truetype'),
-        url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Thin.woff') format('woff');
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Thin.eot');
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Thin.eot?#iefix') format('embedded-opentype'),
+        url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Thin.ttf') format('truetype'),
+        url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Thin.woff') format('woff');
     font-weight: 100;
 }
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Light.eot');
-    src: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Light.eot?#iefix') format('embedded-opentype'),
-        url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Light.ttf') format('truetype'),
-        url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Light.woff') format('woff');
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Light.eot');
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Light.eot?#iefix') format('embedded-opentype'),
+        url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Light.ttf') format('truetype'),
+        url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Light.woff') format('woff');
     font-weight: 300;
 }
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Regular.eot');
-    src: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
-        url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Regular.ttf') format('truetype'),
-        url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Regular.woff') format('woff');
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Regular.eot');
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Regular.ttf') format('truetype'),
+        url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Regular.woff') format('woff');
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Bold.eot');
-    src: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
-        url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Bold.ttf') format('truetype'),
-        url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Bold.woff') format('woff');
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Bold.eot');
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Bold.ttf') format('truetype'),
+        url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Bold.woff') format('woff');
     font-weight: 700;
 }
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Black.eot');
-    src: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Black.eot?#iefix') format('embedded-opentype'),
-        url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Black.ttf') format('truetype'),
-        url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Black.woff') format('woff');
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Black.eot');
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Black.eot?#iefix') format('embedded-opentype'),
+        url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Black.ttf') format('truetype'),
+        url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Black.woff') format('woff');
     font-weight: 900;
 }
 
@@ -394,7 +394,7 @@ table td{word-break:break-all;}
     height: 19px;
     display: inline-block;
     zoom: 1;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/msg_bg.png') left top no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/msg_bg.png') left top no-repeat;
     text-align: center;
     font-size: 12px;
     font-weight: bold;
@@ -418,7 +418,7 @@ table td{word-break:break-all;}
     top: 30px;
     height: 27px;
     padding: 0 0 0 20px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_bars.png') no-repeat 0 100%;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_bars.png') no-repeat 0 100%;
     font-size: 12px;
     line-height: 24px;
     color: #666;
@@ -432,7 +432,7 @@ table td{word-break:break-all;}
     width: 10px;
     height: 7px;
     margin: 0 0 0 -5px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_bars.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_bars.png') no-repeat;
 }
 
 .detail_bar .right {
@@ -441,7 +441,7 @@ table td{word-break:break-all;}
     top: 0;
     width: 20px;
     height: 100%;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_bars.png') no-repeat 100% 100%;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_bars.png') no-repeat 100% 100%;
 }
 
 #detail_bar1 {
@@ -504,13 +504,13 @@ table td{word-break:break-all;}
 }
 
 .lnb li.on a {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/lnb_active.png') center bottom no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/lnb_active.png') center bottom no-repeat;
 }
 
 .lnb_s {
     height: 28px;
     padding-left: 8px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/lnb_sub_bg.png') left top no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/lnb_sub_bg.png') left top no-repeat;
     position: absolute;
     left: 0;
     top: 73px;
@@ -536,14 +536,14 @@ table td{word-break:break-all;}
 .lnb li ul {
     height: 28px;
     padding-right: 8px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/lnb_sub_bg_last.png') right top no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/lnb_sub_bg_last.png') right top no-repeat;
     overflow: hidden;
 }
 
 .lnb li ul li {
     font-size: 13px;
     font-weight: bold;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/lnb_part.png') left 8px no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/lnb_part.png') left 8px no-repeat;
 }
 
 .lnb li ul li:first-child {
@@ -634,7 +634,7 @@ table td{word-break:break-all;}
     float: left;
     font-size: 13px;
     font-weight: bold;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/f_part.png') left 5px no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/f_part.png') left 5px no-repeat;
 }
 
 #footer .fnb_copyright ul li:first-child {
@@ -661,7 +661,7 @@ table td{word-break:break-all;}
 
 .location a {
     padding-right: 12px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/sub/location_part.png') right 4px no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/sub/location_part.png') right 4px no-repeat;
     color: #727272;
     text-decoration: none;
 }
@@ -700,7 +700,7 @@ table td{word-break:break-all;}
 }
 
 .icn-bullet {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/icn-bullet.png) bottom left no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/icn-bullet.png) bottom left no-repeat;
 }
 
 .page_msg {
@@ -870,7 +870,7 @@ table td{word-break:break-all;}
     color: #fff;
     border: 0;
     vertical-align: middle;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn/btn_blue.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn/btn_blue.png') no-repeat;
 }
 
 .btn_blue span {
@@ -884,7 +884,7 @@ table td{word-break:break-all;}
     line-height: 45px;
     text-align: center;
     white-space: nowrap;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn/btn_blue_side.png') right top no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn/btn_blue_side.png') right top no-repeat;
 }
 
 a.btn_blue {
@@ -964,7 +964,7 @@ a.btn_blue {
     color: #fff;
     border: 0;
     vertical-align: middle;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn/btn_blue3.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn/btn_blue3.png') no-repeat;
 }
 
 .btn_blue2 span {
@@ -979,7 +979,7 @@ a.btn_blue {
     line-height: 26px;
     text-align: center;
     white-space: nowrap;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn/btn_blue_side3.png') right top no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn/btn_blue_side3.png') right top no-repeat;
 }
 
 .btn_blue2 span img {
@@ -1052,7 +1052,7 @@ a.btn_blue2 {
     color: #fff;
     border: 0;
     vertical-align: middle;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn/btn_blue3.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn/btn_blue3.png') no-repeat;
 }
 
 .btn_blue3 span {
@@ -1067,7 +1067,7 @@ a.btn_blue2 {
     line-height: 26px;
     text-align: center;
     white-space: nowrap;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn/btn_blue_side3.png') right top no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn/btn_blue_side3.png') right top no-repeat;
 }
 
 .btn_blue3 span img {
@@ -1164,14 +1164,14 @@ a.btn_gray {
 }
 
 .btn_gray.ver1 {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn/btn_gray_ver1.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn/btn_gray_ver1.png') no-repeat;
 }
 
 .btn_gray.ver1 span {
     position: relative;
     right: -3px;
     padding: 0 29px 0 26px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn/btn_gray_ver1_side.png') right top no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn/btn_gray_ver1_side.png') right top no-repeat;
 }
 
 .btn_gray.ver1 span.size1 {
@@ -1179,25 +1179,25 @@ a.btn_gray {
 }
 
 .btn_gray.ver2 {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn/btn_gray_ver1.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn/btn_gray_ver1.png') no-repeat;
 }
 
 .btn_gray.ver2 span {
     position: relative;
     right: -3px;
     padding: 0 8px 0 5px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn/btn_gray_ver1_side.png') right top no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn/btn_gray_ver1_side.png') right top no-repeat;
 }
 
 .btn_gray.ver2_2 {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn/btn_gray_ver1_2.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn/btn_gray_ver1_2.png') no-repeat;
 }
 
 .btn_gray.ver2_2 span {
     position: relative;
     right: -3px;
     padding: 0 8px 0 5px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn/btn_gray_ver1_2_side.png') right top no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn/btn_gray_ver1_2_side.png') right top no-repeat;
 }
 
 .btn_gray.ver2[disabled="disabled"] span {
@@ -1206,30 +1206,30 @@ a.btn_gray {
 
 .btn_gray.ver2.step_next span {
     padding: 0 19px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn/btn_gray_ver1_side.png') right top no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn/btn_gray_ver1_side.png') right top no-repeat;
 }
 
 .btn_gray.ver3 {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn/btn_gray_ver3.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn/btn_gray_ver3.png') no-repeat;
 }
 
 .btn_gray.ver3 span {
     position: relative;
     right: -3px;
     padding: 0 8px 0 5px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn/btn_gray_ver3_side.png') right top no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn/btn_gray_ver3_side.png') right top no-repeat;
     color: #fff;
 }
 
 .btn_gray.ver3_2 {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn/btn_gray_ver3_2.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn/btn_gray_ver3_2.png') no-repeat;
 }
 
 .btn_gray.ver3_2 span {
     position: relative;
     right: -3px;
     padding: 0 8px 0 5px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn/btn_gray_ver3_2_side.png') right top no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn/btn_gray_ver3_2_side.png') right top no-repeat;
     color: #fff;
 }
 
@@ -1238,14 +1238,14 @@ a.btn_gray.ver3 span {
 }
 
 .btn_gray.ver4 {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn/btn_gray_ver4.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn/btn_gray_ver4.png') no-repeat;
 }
 
 .btn_gray.ver4 span {
     position: relative;
     right: -3px;
     padding: 0 8px 0 5px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn/btn_gray_ver4_side.png') right top no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn/btn_gray_ver4_side.png') right top no-repeat;
     color: #fff;
 }
 
@@ -1254,14 +1254,14 @@ a.btn_gray.ver4 span {
 }
 
 .btn_gray.ver5 {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn/btn_gray_ver5.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn/btn_gray_ver5.png') no-repeat;
 }
 
 .btn_gray.ver5 span {
     position: relative;
     right: -3px;
     padding: 0 8px 0 5px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn/btn_gray_ver5_side.png') right top no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn/btn_gray_ver5_side.png') right top no-repeat;
     color: #767676;
 }
 
@@ -1270,14 +1270,14 @@ a.btn_gray.ver5 span {
 }
 
 .btn_gray.ver6 {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn/btn_gray_ver6.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn/btn_gray_ver6.png') no-repeat;
 }
 
 .btn_gray.ver6 span {
     position: relative;
     right: -3px;
     padding: 0 8px 0 5px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn/btn_gray_ver6_side.png') right top no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn/btn_gray_ver6_side.png') right top no-repeat;
     color: #fff;
 }
 
@@ -1286,14 +1286,14 @@ a.btn_gray.ver6 span {
 }
 
 .btn_gray.ver7 {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn/btn_gray_ver7.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn/btn_gray_ver7.png') no-repeat;
 }
 
 .btn_gray.ver7 span {
     position: relative;
     right: -3px;
     padding: 0 8px 0 5px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn/btn_gray_ver7_side.png') right top no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn/btn_gray_ver7_side.png') right top no-repeat;
     color: #fff;
 }
 
@@ -1334,7 +1334,7 @@ a.btn_gray.ver7 span {
 }
 
 .tabA li.active {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/sub/tabA_active.png') center bottom no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/sub/tabA_active.png') center bottom no-repeat;
 }
 
 .tabA li.active a {
@@ -1538,7 +1538,7 @@ a.btn_gray.ver7 span {
     display: inline-block;
     zoom: 1;
     *display: inline;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/paging_select.png') left top no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/paging_select.png') left top no-repeat;
     color: #fff;
     text-align: center;
     line-height: 24px;
@@ -1588,7 +1588,7 @@ a.btn_gray.ver7 span {
     display: inline-block;
     zoom: 1;
     *display: inline;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/paging_select.png') left top no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/paging_select.png') left top no-repeat;
     color: #fff;
     text-align: center;
     line-height: 24px;
@@ -1626,7 +1626,7 @@ button.sort_bbs {
     width: 7px;
     height: 14px;
     margin-left: 7px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/ico_sort.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/ico_sort.png') no-repeat;
     text-indent: -99999px;
     vertical-align: middle;
 }
@@ -1635,7 +1635,7 @@ button.sort_bbs02 {
     width: 5px;
     height: 11px;
     margin-left: 3px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/ico_sort02.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/ico_sort02.png') no-repeat;
     text-indent: -99999px;
     vertical-align: middle;
 }
@@ -1734,7 +1734,7 @@ button.sort_bbs02 {
 .sortA button {
     width: 7px;
     height: 7px;
-    background-image: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/ico_sort.png');
+    background-image: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/ico_sort.png');
     background-repeat: no-repeat;
     text-indent: -9999px;
 }
@@ -1759,7 +1759,7 @@ button.sort_bbs02 {
 .sortB button {
     width: 7px;
     height: 7px;
-    background-image: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/ico_sort02.png');
+    background-image: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/ico_sort02.png');
     background-repeat: no-repeat;
     text-indent: -9999px;
 }
@@ -1824,7 +1824,7 @@ textarea {
     display: inline-block;
     zoom: 1;
     *display: inline;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/checkbox.png') 0 0 no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/checkbox.png') 0 0 no-repeat;
     text-indent: -9999px;
 }
 
@@ -1862,7 +1862,7 @@ textarea {
     display: inline-block;
     zoom: 1;
     *display: inline;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/radio.png') 0 0 no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/radio.png') 0 0 no-repeat;
     font-size: 12px;
     line-height: 17px;
     color: #727272;
@@ -2164,7 +2164,7 @@ table.listB td {
     width: 9px;
     height: 4px;
     margin: 0 0 0 -5px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/ico_cap_re.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/ico_cap_re.png') no-repeat;
 }
 
 .photo_table {
@@ -2424,7 +2424,7 @@ div.listB .row .cell.th:nth-child(2) {
 
 #mainPop {
     padding: 2px 0 0;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/line_pop.png') repeat-x;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/line_pop.png') repeat-x;
 }
 
 #mPop {
@@ -2479,7 +2479,7 @@ div.listB .row .cell.th:nth-child(2) {
     display: block;
     width: 15px;
     height: 14px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn_circle.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn_circle.png') no-repeat;
     text-indent: -9999px;
 }
 
@@ -2549,7 +2549,7 @@ div.listB .row .cell.th:nth-child(2) {
     position: relative;
     width: 292px;
     height: 234px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_mydesk.png') no-repeat 37px 26px;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_mydesk.png') no-repeat 37px 26px;
 }
 
 #myDesk .wrap ul {
@@ -2627,7 +2627,7 @@ div.listB .row .cell.th:nth-child(2) {
 }
 
 #myDesk .option_mydesk .option label {
-    background-image: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/checkbox_mydesk.png');
+    background-image: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/checkbox_mydesk.png');
 }
 
 #myDesk .option_mydesk .close {
@@ -2664,7 +2664,7 @@ div.listB .row .cell.th:nth-child(2) {
     position: relative;
     z-index: 2;
     width: 73px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/line_exper.png') no-repeat 100% 50%;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/line_exper.png') no-repeat 100% 50%;
     font-weight: bold;
     font-size: 14px;
 }
@@ -2693,7 +2693,7 @@ div.listB .row .cell.th:nth-child(2) {
 
 #monthlyReport .exper_wrap .more ul {
     border-left: 1px solid #f26963;
-    background: #f26963 url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/ico_menu.png') no-repeat 90% 13px;
+    background: #f26963 url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/ico_menu.png') no-repeat 90% 13px;
 }
 
 #monthlyReport .exper_wrap .more li {
@@ -2709,7 +2709,7 @@ div.listB .row .cell.th:nth-child(2) {
     overflow: hidden;
     height: 192px;
     margin: 0 -1px 0 0;
-    background: url("https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_mp.png");
+    background: url("https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_mp.png");
 }
 
 #monthlyReport .exper_wrap .foot li {
@@ -2741,7 +2741,7 @@ div.listB .row .cell.th:nth-child(2) {
 
 #monthlyReport .exper_wrap .foot li a:hover,
 #monthlyReport .exper_wrap .foot li a:focus {
-    background: url("https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_opa_monthly.png");
+    background: url("https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_opa_monthly.png");
 }
 
 #monthlyReport .exper_wrap.on .more {
@@ -2953,7 +2953,7 @@ div.listB .row .cell.th:nth-child(2) {
 }
 
 .step_title01 {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/sub/step01_bg.png') left top no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/sub/step01_bg.png') left top no-repeat;
 }
 
 .step_title01 span {
@@ -2963,7 +2963,7 @@ div.listB .row .cell.th:nth-child(2) {
     position: absolute;
     right: 0;
     top: 0;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/sub/step01_bg_side.png') right top no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/sub/step01_bg_side.png') right top no-repeat;
 }
 
 .step_title01 a {
@@ -2972,7 +2972,7 @@ div.listB .row .cell.th:nth-child(2) {
 }
 
 .step_title02 {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/sub/step02_bg.png') left top no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/sub/step02_bg.png') left top no-repeat;
 }
 
 .step_title02 span {
@@ -2982,7 +2982,7 @@ div.listB .row .cell.th:nth-child(2) {
     position: absolute;
     right: 0;
     top: 0;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/sub/step02_bg_side.png') right top no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/sub/step02_bg_side.png') right top no-repeat;
 }
 
 .step_title02 a {
@@ -2991,7 +2991,7 @@ div.listB .row .cell.th:nth-child(2) {
 }
 
 .step_title03 {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/sub/step03_bg.png') left top no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/sub/step03_bg.png') left top no-repeat;
 }
 
 .step_title03 span {
@@ -3001,7 +3001,7 @@ div.listB .row .cell.th:nth-child(2) {
     position: absolute;
     right: 0;
     top: 0;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/sub/step03_bg_side.png') right top no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/sub/step03_bg_side.png') right top no-repeat;
 }
 
 .step_title03 a {
@@ -3010,7 +3010,7 @@ div.listB .row .cell.th:nth-child(2) {
 }
 
 .step_title04 {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/sub/step04_bg.png') left top no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/sub/step04_bg.png') left top no-repeat;
 }
 
 .step_title04 span {
@@ -3020,7 +3020,7 @@ div.listB .row .cell.th:nth-child(2) {
     position: absolute;
     right: 0;
     top: 0;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/sub/step04_bg_side.png') right top no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/sub/step04_bg_side.png') right top no-repeat;
 }
 
 .step_title04 a {
@@ -3029,7 +3029,7 @@ div.listB .row .cell.th:nth-child(2) {
 }
 
 .step_title05 {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/sub/step05_bg.png') left top no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/sub/step05_bg.png') left top no-repeat;
 }
 
 .step_title05 span {
@@ -3039,7 +3039,7 @@ div.listB .row .cell.th:nth-child(2) {
     position: absolute;
     right: 0;
     top: 0;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/sub/step05_bg_side.png') right top no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/sub/step05_bg_side.png') right top no-repeat;
 }
 
 .step_title05 a {
@@ -3057,7 +3057,7 @@ div.listB .row .cell.th:nth-child(2) {
 .step_process li .inner .bottom {
     width: 100%;
     height: 10px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/sub/step_bottom_bg.png') left top no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/sub/step_bottom_bg.png') left top no-repeat;
     font-size: 0;
     line-height: 0;
     position: absolute;
@@ -3069,7 +3069,7 @@ div.listB .row .cell.th:nth-child(2) {
     width: 100%;
     height: 10px;
     display: block;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/sub/step_bottom_bg_side.png') right bottom no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/sub/step_bottom_bg_side.png') right bottom no-repeat;
 }
 
 .step_process li .inner .cover {
@@ -3218,7 +3218,7 @@ div.listB .row .cell.th:nth-child(2) {
     height: 24px;
     margin-bottom: 8px;
     display: block;
-    background-image: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/ico_arrow.png');
+    background-image: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/ico_arrow.png');
     background-repeat: no-repeat;
     text-indent: -9999px;
 }
@@ -3304,7 +3304,7 @@ div.listB .row .cell.th:nth-child(2) {
     top: auto;
     bottom: 0;
     right: 0;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn_css.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn_css.png') no-repeat;
 }
 
 #calendar_wrap .conRight h4 .ico_type .dim .cap {
@@ -3318,7 +3318,7 @@ div.listB .row .cell.th:nth-child(2) {
 #calendar_wrap .conRight h4 .ico_type.on .dim .cap,
 #calendar_wrap .conRight h4 a.ico_type:hover .dim .cap,
 #calendar_wrap .conRight h4 a.ico_type:focus .dim .cap {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn_css.png') no-repeat 0 -338px;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn_css.png') no-repeat 0 -338px;
 }
 
 #calendar_wrap .conRight h4 .ico_type.t2 .rcap {
@@ -3529,7 +3529,7 @@ div.listB .row .cell.th:nth-child(2) {
     top: auto;
     bottom: 0;
     right: 0;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn_css.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn_css.png') no-repeat;
 }
 
 .article_wrap .list_rainbow li .ico_type .dim .cap {
@@ -3543,7 +3543,7 @@ div.listB .row .cell.th:nth-child(2) {
 .article_wrap .list_rainbow li .ico_type.on .dim .cap,
 .article_wrap .list_rainbow li a.ico_type:hover .dim .cap,
 .article_wrap .list_rainbow li a.ico_type:focus .dim .cap {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn_css.png') no-repeat 0 -338px;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn_css.png') no-repeat 0 -338px;
 }
 
 .article_wrap .list_rainbow li .ico_type.t2 .rcap {
@@ -3614,7 +3614,7 @@ div.listB .row .cell.th:nth-child(2) {
     display: inline-block;
     position: relative;
     height: 26px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn_css.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn_css.png') no-repeat;
     font-size: 12px;
     line-height: 26px;
     text-align: center;
@@ -3640,7 +3640,7 @@ div.listB .row .cell.th:nth-child(2) {
     top: 0;
     width: 4px;
     height: 100%;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn_css.png') no-repeat 100% 0;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn_css.png') no-repeat 100% 0;
 }
 
 .ico_type .dim {
@@ -3659,21 +3659,21 @@ div.listB .row .cell.th:nth-child(2) {
 .ico_type.on .dim,
 a.ico_type:hover .dim,
 a.ico_type:focus .dim {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn_css.png') no-repeat 0 -338px;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn_css.png') no-repeat 0 -338px;
 }
 
 .ico_type.on .dim .cap,
 a.ico_type:hover .dim .cap,
 a.ico_type:focus .dim .cap {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn_css.png') no-repeat 100% -338px;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn_css.png') no-repeat 100% -338px;
 }
 
 .ico_type.active .dim {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn_css.png') no-repeat 0 -312px;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn_css.png') no-repeat 0 -312px;
 }
 
 .ico_type.active .dim .cap {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn_css.png') no-repeat 100% -312px;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn_css.png') no-repeat 100% -312px;
 }
 
 .ico_type.non-active {
@@ -3681,7 +3681,7 @@ a.ico_type:focus .dim .cap {
 }
 
 .ico_type.non-active .dim {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn_css.png') no-repeat 0 -312px;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn_css.png') no-repeat 0 -312px;
 }
 
 .ico_type.t2 {
@@ -3826,7 +3826,7 @@ a.ico_type:focus .dim .cap {
     height: 26px;
     padding: 0 0 0 1px;
     line-height: 26px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_date.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_date.png') no-repeat;
 }
 
 .date_wrap input[type="text"] {
@@ -3835,7 +3835,7 @@ a.ico_type:focus .dim .cap {
     padding: 0 33px 0 5px;
     line-height: 26px;
     border: 0;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_date.png') no-repeat 100% 0;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_date.png') no-repeat 100% 0;
 }
 
 .calendar_outer {
@@ -3872,7 +3872,7 @@ table.calendar tbody td.on {
 }
 
 table.calendar tbody td.today {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_today.png');
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_today.png');
 }
 
 table.calendar tbody td .day {
@@ -3966,7 +3966,7 @@ table.calendar tbody td .list_rainbow li.on {
     top: 0;
     width: 21px;
     height: 21px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_mask.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_mask.png') no-repeat;
 }
 
 table.calendar tbody td .option_menu {
@@ -3999,7 +3999,7 @@ table.calendar tbody td .option_menu .cap {
     top: -4px;
     width: 7px;
     height: 4px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_cap.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_cap.png') no-repeat;
 }
 
 table.calendar tbody td .cont {
@@ -4096,7 +4096,7 @@ table.calendar tbody td .cont button>span {
 }
 
 .pop_wrapper .list_rainbow.type_m .bg_mask {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_mask_purple.png');
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_mask_purple.png');
 }
 
 .hgroup {
@@ -4149,7 +4149,7 @@ table .date {
 #notifi_wrap td {
     height: 283px;
     border: 3px solid #e5e6ea;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_notifi.png');
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_notifi.png');
     text-align: center;
 }
 
@@ -4175,7 +4175,7 @@ table .date {
     position: relative;
     width: 81px;
     height: 22px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_onoff.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_onoff.png') no-repeat;
     vertical-align: middle;
 }
 
@@ -4193,11 +4193,11 @@ table .date {
 }
 
 .onoff a.on.active {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn_on.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn_on.png') no-repeat;
 }
 
 .onoff a.off.active {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn_off.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn_off.png') no-repeat;
 }
 
 .onoff a.on {
@@ -4249,11 +4249,11 @@ table .date {
 }
 
 .onoff span.on .active {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn_on.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn_on.png') no-repeat;
 }
 
 .onoff span.off .active {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn_off.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn_off.png') no-repeat;
 }
 
 #notifi_wrap li.on .wrap {
@@ -4279,7 +4279,7 @@ table .date {
 
 .btn_gray .set {
     padding: 0 0 0 15px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/ico_set.png') no-repeat 0 50%;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/ico_set.png') no-repeat 0 50%;
 }
 
 .float_wrap {
@@ -4341,7 +4341,7 @@ table.inputA .summary_wrap .summary {
     bottom: -11px;
     width: 21px;
     height: 11px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/ico_cap2.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/ico_cap2.png') no-repeat;
 }
 
 .bubble_wrap textarea {
@@ -4357,7 +4357,7 @@ table.inputA .summary_wrap .summary {
 .bubble_wrap.type2 .bubble .cap {
     right: auto;
     left: 30px;
-    background-image: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/ico_cap1.png');
+    background-image: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/ico_cap1.png');
 }
 
 .list_bubble .bubble_wrap {
@@ -4366,13 +4366,13 @@ table.inputA .summary_wrap .summary {
 
 .ico_error {
     padding: 0 0 0 20px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/ico_error.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/ico_error.png') no-repeat;
 }
 
 .box_point {
     width: 77px;
     height: 77px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_point.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_point.png') no-repeat;
     text-align: center;
     font-size: 15px;
     color: #fff;
@@ -4727,7 +4727,7 @@ h4.h4+.stxt {
     position: relative;
     height: 26px;
     padding: 0 0 0 5px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_select.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_select.png') no-repeat;
     vertical-align: middle;
 }
 
@@ -4750,7 +4750,7 @@ h4.h4+.stxt {
     display: inline-block;
     width: 100%;
     height: 26px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_select.png') no-repeat 100% 0;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_select.png') no-repeat 100% 0;
     white-space: nowrap;
 }
 
@@ -4929,7 +4929,7 @@ h4.h4+.stxt {
     width: 31px;
     height: 37px;
     padding: 0 0 0 5px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/ico_ribbon.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/ico_ribbon.png') no-repeat;
     font-weight: bold;
     font-size: 19px;
     line-height: 24px;
@@ -5086,7 +5086,7 @@ h4.h4+.stxt {
 
 .list_reply li li .reply {
     padding-left: 45px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/ico_reply.png') no-repeat 25px 30px;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/ico_reply.png') no-repeat 25px 30px;
 }
 
 .reply_write {
@@ -5215,7 +5215,7 @@ h4.h4+.stxt {
     padding: 0 0 0 10px;
     font-size: 12px;
     line-height: 21px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_round.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_round.png') no-repeat;
     color: #fff;
     vertical-align: middle;
     text-align: center;
@@ -5233,7 +5233,7 @@ h4.h4+.stxt {
     top: 0;
     width: 10px;
     height: 100%;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_round.png') no-repeat 100% 0;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_round.png') no-repeat 100% 0;
 }
 
 .css_round.gray {
@@ -5269,7 +5269,7 @@ h4.h4+.stxt {
     padding: 0 0 0 20px;
     font-size: 13px;
     line-height: 34px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_round_l.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_round_l.png') no-repeat;
     color: #fff;
     vertical-align: middle;
     text-align: center;
@@ -5282,7 +5282,7 @@ h4.h4+.stxt {
     top: 0;
     width: 20px;
     height: 100%;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_round_l.png') no-repeat 100% 0;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_round_l.png') no-repeat 100% 0;
 }
 
 .css_round_l.gray {
@@ -5320,7 +5320,7 @@ h4.h4+.stxt {
     top: 3px;
     width: 15px;
     height: 15px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/ico_num.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/ico_num.png') no-repeat;
     font-size: 0;
     vertical-align: middle;
 }
@@ -5728,7 +5728,7 @@ h4.h4+.stxt {
 .pop_report .report_inner {
     position: relative;
     padding: 40px 20px 30px;
-    background: #fff url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_report.png') repeat-x;
+    background: #fff url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_report.png') repeat-x;
     /*box-shadow:0 0 10px rgba(80,103,190,.98);*/
 }
 
@@ -5757,7 +5757,7 @@ h4.h4+.stxt {
     position: relative;
     margin: 0 0 20px;
     padding: 0 0 20px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_mosaic.png') repeat-x 0 100%;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_mosaic.png') repeat-x 0 100%;
     text-align: center;
     zoom: 1;
 }
@@ -5880,7 +5880,7 @@ h4.h4+.stxt {
 
 .pop_report .top_area h2 {
     padding: 3px 15px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_mosaic.png');
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_mosaic.png');
     font-weight: bold;
     color: #999;
 }
@@ -5974,7 +5974,7 @@ h4.h4+.stxt {
     overflow: hidden;
     width: 11px;
     height: 11px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn_gallery.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn_gallery.png') no-repeat;
     text-indent: -9999px;
 }
 
@@ -6090,7 +6090,7 @@ h4.h4+.stxt {
 #mCC .head h2 {
     margin: 0 0 10px;
     padding: 0 0 10px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_mosaic_s.png') repeat-x 0 100%;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_mosaic_s.png') repeat-x 0 100%;
     font-size: 18px;
     line-height: 20px;
     color: #4356a4;
@@ -6144,7 +6144,7 @@ h4.h4+.stxt {
     overflow: hidden;
     width: 11px;
     height: 11px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn_gallery.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn_gallery.png') no-repeat;
     text-indent: -9999px;
 }
 
@@ -6329,7 +6329,7 @@ body .list_rainbow.type_m .bg_mask {
     top: 0;
     width: 21px;
     height: 21px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_mask.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_mask.png') no-repeat;
 }
 
 body .list_rainbow.type_s li {
@@ -6355,7 +6355,7 @@ body .list_rainbow.type_s .ico_type {
 
 body .list_rainbow.type_s .bg_mask {
     height: 15px;
-    background-image: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_mask_s.png');
+    background-image: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_mask_s.png');
 }
 
 .list_hw {
@@ -6773,11 +6773,11 @@ table.inputA.step td td {
 }
 
 .list_contents .detail .ver1 {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/levelCircle.png') top;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/levelCircle.png') top;
 }
 
 .list_contents .detail .ver2 {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/levelCircle.png') bottom;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/levelCircle.png') bottom;
 }
 
 .list_contents .detail .btm_btn {
@@ -6956,7 +6956,7 @@ table.inputA.step td td {
 }
 
 #divGraph .float_wrap {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_graph.png') repeat-y;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_graph.png') repeat-y;
 }
 
 .box_basic table.listB th,
@@ -7015,7 +7015,7 @@ table.listB tbody .week_sun {
     display: inline-block;
     width: 194px;
     height: 15px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/img_graph.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/img_graph.png') no-repeat;
     line-height: 15px;
     color: #fff;
     text-align: left;
@@ -7025,7 +7025,7 @@ table.listB tbody .week_sun {
     display: inline-block;
     position: relative;
     height: 100%;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/img_graph.png') no-repeat 0 100%;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/img_graph.png') no-repeat 0 100%;
 }
 
 .graph_wrap .graph em {
@@ -7063,7 +7063,7 @@ table.listB tbody .week_sun {
     display: inline-block;
     min-width: 60px;
     padding: 0 0 0 10px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_ribbon.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_ribbon.png') no-repeat;
     color: #fff;
 }
 
@@ -7074,7 +7074,7 @@ table.listB tbody .week_sun {
     height: 19px;
     line-height: 19px;
     padding: 0 15px 0 0;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_ribbon.png') no-repeat 100% 0;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_ribbon.png') no-repeat 100% 0;
 }
 
 .bg_level.bg2 {
@@ -7103,7 +7103,7 @@ table.listB tbody .week_sun {
 
 /* TEST ZONE */
 #test_wrap {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_testzone.png');
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_testzone.png');
     color: #6c5407;
 }
 
@@ -7157,7 +7157,7 @@ table.listB tbody .week_sun {
 }
 
 #test_header .tabA li.active {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/sub/tabA_active_test.png') no-repeat 50% 100%;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/sub/tabA_active_test.png') no-repeat 50% 100%;
 }
 
 #test_header .tabA li.active a {
@@ -7188,7 +7188,7 @@ table.listB tbody .week_sun {
 }
 
 #testBody .paging .selected {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/paging_select_test.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/paging_select_test.png') no-repeat;
 }
 
 #test_wrap #container {
@@ -7230,17 +7230,17 @@ table.listB tbody .week_sun {
 
 .list_testzone li.ico1 span {
     padding-left: 45px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/ico_ptest1.png') no-repeat 0 50%;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/ico_ptest1.png') no-repeat 0 50%;
 }
 
 .list_testzone li.ico2 span {
     padding-left: 45px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/ico_ptest2.png') no-repeat 0 50%;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/ico_ptest2.png') no-repeat 0 50%;
 }
 
 .list_testzone li.ico3 span {
     padding-left: 45px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/ico_ptest3.png') no-repeat 0 50%;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/ico_ptest3.png') no-repeat 0 50%;
 }
 
 .list_testzone.length3 li {
@@ -7252,7 +7252,7 @@ table.listB tbody .week_sun {
 }
 
 #test_wrap.exam {
-    background-image: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_testzone_exam.png');
+    background-image: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_testzone_exam.png');
     color: #444;
 }
 
@@ -7268,7 +7268,7 @@ table.listB tbody .week_sun {
 
 /* POWER CURRICULUM */
 #power_wrap {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_power_c.png');
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_power_c.png');
     color: #dae2ff;
 }
 
@@ -7396,7 +7396,7 @@ table.listB tbody .week_sun {
     display: inline-block;
     margin: 0 0 0 8px;
     padding: 0 0 0 13px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/sub/location_part.png') no-repeat 0 50%;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/sub/location_part.png') no-repeat 0 50%;
 }
 
 .conView_wrap .location span:first-child {
@@ -7650,7 +7650,7 @@ body.after #quick {
 }
 
 .multiBody .tabA li.active {
-    background-image: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/sub/tabA_active_wt.png');
+    background-image: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/sub/tabA_active_wt.png');
 }
 
 .multiBody .tabA li a {
@@ -7668,14 +7668,14 @@ body.after #quick {
 .multiBody .select_wrap {
     width: 140px;
     height: 47px;
-    background-image: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_select_wt.png');
+    background-image: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_select_wt.png');
     font-size: 13px;
     text-align: left;
 }
 
 .multiBody .select_wrap .head {
     height: 47px;
-    background-image: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_select_wt.png');
+    background-image: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_select_wt.png');
 }
 
 .multiBody .select_wrap .head a {
@@ -7721,7 +7721,7 @@ body.after #quick {
 
 /* I LOVE CURRI */
 #iLoveCurri {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_ilove_curri.png');
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_ilove_curri.png');
 }
 
 #divCurri {
@@ -7803,7 +7803,7 @@ body.after #quick {
 #divCurri .over {
     margin: -5px;
     border: 5px solid #fff;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_ilove_curri.png');
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_ilove_curri.png');
 }
 
 #divCurri .over .head {
@@ -7835,7 +7835,7 @@ body.after #quick {
 
 /* ELT BOOK STORE */
 #eltBookStore {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_book_store.png');
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_book_store.png');
 }
 
 #eltBookStore .book_store_wrap {
@@ -7971,11 +7971,11 @@ body .ui-datepicker .ui-widget-header .ui-icon-circle-triangle-e {
 }
 
 body .ui-datepicker .ui-widget-header .ui-icon-circle-triangle-w {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn_prev_sche.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn_prev_sche.png') no-repeat;
 }
 
 body .ui-datepicker .ui-widget-header .ui-icon-circle-triangle-e {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn_next_sche.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn_next_sche.png') no-repeat;
 }
 
 body .ui-datepicker .ui-state-default,
@@ -8178,11 +8178,11 @@ body .ui-datepicker .ui-datepicker-prev {
 }
 
 .pop_wrapper .multiBody .select_wrap {
-    background-image: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_select_pp.png');
+    background-image: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_select_pp.png');
 }
 
 .pop_wrapper .multiBody .select_wrap .head {
-    background-image: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_select_pp.png');
+    background-image: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_select_pp.png');
 }
 
 .pop_wrapper .multiBody .select_wrap .head a {
@@ -8362,7 +8362,7 @@ ul.lang li {
     color: #fff;
     border: 0;
     vertical-align: middle;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn/btn_blue2.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn/btn_blue2.png') no-repeat;
 }
 
 .btn_step span {
@@ -8377,7 +8377,7 @@ ul.lang li {
     line-height: 15px;
     text-align: center;
     white-space: nowrap;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn/btn_blue_side2.png') right top no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn/btn_blue_side2.png') right top no-repeat;
 }
 
 a.btn_step {
@@ -8503,7 +8503,7 @@ a.btn_step {
 .loginInputWrap table td input {
     *padding: 1px 5px 1px 5px;
     border: none;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/sub/inputBg.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/sub/inputBg.png') no-repeat;
     width: 201px;
     height: 32px;
 }
@@ -8520,7 +8520,7 @@ a.btn_step {
     color: #fff;
     border: 0;
     vertical-align: middle;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn/btn_login.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn/btn_login.png') no-repeat;
 }
 
 .btn_login span {
@@ -8534,7 +8534,7 @@ a.btn_step {
     line-height: 45px;
     text-align: center;
     white-space: nowrap;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn/btn_login_side.png') right top no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn/btn_login_side.png') right top no-repeat;
 }
 
 a.btn_login {
@@ -8594,14 +8594,14 @@ a.btn_white {
 }
 
 .btn_white.ver1 {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn/btn_white_ver1.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn/btn_white_ver1.png') no-repeat;
 }
 
 .btn_white.ver1 span {
     position: relative;
     right: -3px;
     padding: 0 19px 0 16px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/btn/btn_white_ver1_side.png') right top no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/btn/btn_white_ver1_side.png') right top no-repeat;
 }
 
 .slideWrap {
@@ -8613,7 +8613,7 @@ a.btn_white {
 .slideWrap .slide {
     width: 594px;
     height: 387px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/sub/slide_1.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/sub/slide_1.png') no-repeat;
     margin: 0 auto;
     position: relative;
 }
@@ -8695,7 +8695,7 @@ p.styleTxt {
 }
 
 .graphWrap {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/graphBg.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/graphBg.png') no-repeat;
     background-position: 69px 40px;
     padding-bottom: 30px;
     margin-bottom: 30px;
@@ -8809,7 +8809,7 @@ table.listTable th {
 }
 
 .goldWrap .gold {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/goldBg.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/goldBg.png') no-repeat;
     width: 210px;
     height: 189px;
 }
@@ -8826,7 +8826,7 @@ table.listTable th {
     font-weight: bold;
     color: #ffffff;
     margin-top: 70px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/point.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/point.png') no-repeat;
     background-position: 80% 20%;
 }
 
@@ -8836,7 +8836,7 @@ table.listTable th {
 }
 
 .silverWrap .silver {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/silverBg.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/silverBg.png') no-repeat;
     width: 210px;
     height: 189px;
 }
@@ -8853,7 +8853,7 @@ table.listTable th {
     font-weight: bold;
     color: #ffffff;
     margin-top: 70px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/point.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/point.png') no-repeat;
     background-position: 80% 20%;
 }
 
@@ -8863,7 +8863,7 @@ table.listTable th {
 }
 
 .bronzeWrap .bronze {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/bronzeBg.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/bronzeBg.png') no-repeat;
     width: 210px;
     height: 189px;
 }
@@ -8880,7 +8880,7 @@ table.listTable th {
     font-weight: bold;
     color: #ffffff;
     margin-top: 70px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/point.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/point.png') no-repeat;
     background-position: 80% 20%;
 }
 
@@ -9105,13 +9105,13 @@ h2.titleRecommend {
 }
 
 .manualWrap ul.movie {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/main/movieIcon.gif) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/main/movieIcon.gif) no-repeat;
     padding-left: 65px;
     height: 44px;
 }
 
 .manualWrap ul.pdf {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/main/pdfIcon.gif) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/main/pdfIcon.gif) no-repeat;
     padding-left: 65px;
     height: 44px;
 }
@@ -9120,7 +9120,7 @@ h2.titleRecommend {
 #layerWrap {
     width: 100%;
     height: 1500px;
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/sub/dummy.png) repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/sub/dummy.png) repeat;
     position: absolute;
     z-index: 100;
 }
@@ -9208,7 +9208,7 @@ h2.titleRecommend {
 .listA th.sorting .sortA {
     width: 7px;
     height: 13px;
-    background-image: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/ico_sort.png');
+    background-image: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/ico_sort.png');
     background-repeat: no-repeat;
 }
 
@@ -9216,7 +9216,7 @@ h2.titleRecommend {
     width: 7px;
     height: 7px;
     background-position: 0 0;
-    background-image: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/ico_sort.png');
+    background-image: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/ico_sort.png');
     background-repeat: no-repeat;
 }
 
@@ -9224,7 +9224,7 @@ h2.titleRecommend {
     width: 7px;
     height: 7px;
     background-position: 0 -7px;
-    background-image: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/ico_sort.png');
+    background-image: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/ico_sort.png');
     background-repeat: no-repeat;
 }
 
@@ -9247,7 +9247,7 @@ h2.titleRecommend {
 .listB th.sorting .sortB {
     width: 7px;
     height: 13px;
-    background-image: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/ico_sort02.png');
+    background-image: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/ico_sort02.png');
     background-repeat: no-repeat;
 }
 
@@ -9255,7 +9255,7 @@ h2.titleRecommend {
     width: 7px;
     height: 7px;
     background-position: 0 0;
-    background-image: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/ico_sort02.png');
+    background-image: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/ico_sort02.png');
     background-repeat: no-repeat;
 }
 
@@ -9263,7 +9263,7 @@ h2.titleRecommend {
     width: 7px;
     height: 7px;
     background-position: 0 -7px;
-    background-image: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/ico_sort02.png');
+    background-image: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/ico_sort02.png');
     background-repeat: no-repeat;
 }
 
@@ -9313,7 +9313,7 @@ h2.titleRecommend {
     display: inline-block;
     zoom: 1;
     *display: inline;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/paging_select.png') left top no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/paging_select.png') left top no-repeat;
     color: #fff;
     text-align: center;
     line-height: 24px;
@@ -9487,7 +9487,7 @@ td.borderL {
     top: -4px;
     width: 7px;
     height: 4px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/bg_cap.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/bg_cap.png') no-repeat;
 }
 
 /* 20141117 필린더블랭크 김영훈 추가 */
@@ -9690,24 +9690,24 @@ a[name=file_play] span {
     display: inline-block;
     height: 17px;
     width: 13px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/ico_play.png');
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/ico_play.png');
     background-repeat: no-repeat;
     cursor: pointer;
 }
 
 a[name=file_play] span:hover,
 a[name=file_play] span.play:hover {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/ico_play_on.png');
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/ico_play_on.png');
     background-repeat: no-repeat;
 }
 
 a[name=file_play] span.play {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/ico_play.png');
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/ico_play.png');
     background-repeat: no-repeat;
 }
 
 a[name=file_play] span.pause {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/ico_pause.png');
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/ico_pause.png');
     background-repeat: no-repeat;
 }
 
@@ -9715,14 +9715,14 @@ a[name=file_download] span {
     display: inline-block;
     height: 20px;
     width: 16px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/ico_down.png');
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/ico_down.png');
     background-repeat: no-repeat;
     cursor: pointer;
 }
 
 a[name=file_download] span:hover,
 a[name=file_download] span:active {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/ico_down_on.png');
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/ico_down_on.png');
 }
 
 /* 2017-04-21 top section added by violet */
@@ -9780,7 +9780,7 @@ a[name=file_download] span:active {
     display: inline-block;
     width: 18px;
     height: 18px;
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/icn/icn_logout.png) center no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/icn/icn_logout.png) center no-repeat;
     position: relative;
     top: 5px;
 }
@@ -9791,7 +9791,7 @@ a[name=file_download] span:active {
 }
 
 #header .meta .personal a:hover span {
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/icn/icn_logout_hover.png);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/icn/icn_logout_hover.png);
 }
 
 #header>div.r-wrap {
@@ -10095,14 +10095,14 @@ a[name=file_download] span:active {
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border: 1px solid #d1d3d4;
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/support-top-arr.png);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/support-top-arr.png);
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 a.circle-arrow:hover,
 #faq_wrap .on a.circle-arrow {
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/support-btm-arr.png);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/support-btm-arr.png);
 }
 
 #faq_wrap .a {
@@ -10582,7 +10582,7 @@ select:invalid {
 .myPageWrap {
     width: 100%;
     height: 262px;
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/mypage/history-bg.png) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/mypage/history-bg.png) no-repeat;
     -webkit-background-size: cover;
     background-size: contain;
 }
@@ -10667,7 +10667,7 @@ select:invalid {
 .portraitStateWrap table th {
     text-align: left;
     padding: 0 0 0 15px;
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/mypage/dotted.png) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/mypage/dotted.png) no-repeat;
     background-position: 8px 18px;
     font-size: 16px;
 }
@@ -10691,7 +10691,7 @@ select:invalid {
 }
 
 .portraitStateWrap table td.mileage {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/mypage/mileageBg.png) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/mypage/mileageBg.png) no-repeat;
     background-position: 10px 10px;
     color: #ff6a5f
 }
@@ -10701,7 +10701,7 @@ select:invalid {
 }
 
 .portraitStateWrap table td.month {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/mypage/monthBg.png) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/mypage/monthBg.png) no-repeat;
     background-position: 10px 1px;
     color: #109626
 }
@@ -10711,7 +10711,7 @@ select:invalid {
 }
 
 .portraitStateWrap table td.total {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/mypage/totalBg.png) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/mypage/totalBg.png) no-repeat;
     background-position: 10px 10px;
     color: #4e80d8
 }
@@ -10905,7 +10905,7 @@ portraitStateWrap table td button:hover {
     padding: 0px 0px 24px 0px;
     width: 500px;
     height: 100%;
-    background: #fff url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/sub/lv-layer-bg.png) no-repeat;
+    background: #fff url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/sub/lv-layer-bg.png) no-repeat;
     border-radius: 15px 15px 5px 5px;
     -moz-border-radius: 15px 15px 5px 5px;
     -webkit-border-radius: 15px 15px 5px 5px;
@@ -11427,7 +11427,7 @@ div.level-layer h2 {
     padding: 0;
     width: 500px;
     height: 300px;
-    background: #fff url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/mypage/lv-layer-bg.png) no-repeat;
+    background: #fff url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/mypage/lv-layer-bg.png) no-repeat;
     border-radius: 15px 15px 5px 5px;
     -moz-border-radius: 15px 15px 5px 5px;
     -webkit-border-radius: 15px 15px 5px 5px;
@@ -11497,7 +11497,7 @@ div.level-layer h2 {
 
 /* global.css */
 .table-lv {
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/sub/table-lv-bg.png);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/sub/table-lv-bg.png);
     background-repeat: no-repeat;
     -ms-background-position-x: center;
     background-position-x: center;
@@ -11536,7 +11536,7 @@ div.level-layer h2 {
 
 .table-lv2 {
     /* 2017-08-16 추가 */
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/sub/table-lv-bg2.png);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/sub/table-lv-bg2.png);
     background-repeat: no-repeat;
     -ms-background-position-x: center;
     background-position-x: center;
@@ -11551,7 +11551,7 @@ div.level-layer h2 {
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/icn-table_read.png) center center no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/icn-table_read.png) center center no-repeat;
 }
 
 /* 20180717 Dashboard */
@@ -11896,7 +11896,7 @@ div.level-layer h2 {
     width: 94.3396%;
     /* 900/954 */
     float: left;
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/mypage/lexile-bg.png) repeat-x;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/mypage/lexile-bg.png) repeat-x;
     background-position: left 56px;
     overflow: hidden;
 }
@@ -12056,7 +12056,7 @@ td.settings-off {
     position: absolute;
     width: 9px;
     height: 9px;
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/sub/book-line.png) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/sub/book-line.png) no-repeat;
 }
 
 .assignment .bl-top_right {
@@ -12092,7 +12092,7 @@ td.settings-off {
     height: -webkit-calc(100% - 8px);
     height: -moz-calc(100% - 8px);
     height: calc(100% - 8px);
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/sub/book-shadow.png) 4px top repeat-y;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/sub/book-shadow.png) 4px top repeat-y;
     z-index: 2;
 }
 
@@ -12106,11 +12106,11 @@ td.settings-off {
 }
 
 .assignment .icn-btn_plus {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/icn-btn_plus.png) center center no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/icn-btn_plus.png) center center no-repeat;
 }
 
 .assignment .icn-btn_min {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/icn-btn_min.png) center center no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/icn-btn_min.png) center center no-repeat;
 }
 
 .assignment .book-popUp .book>img {
@@ -12326,7 +12326,7 @@ div.layer-info-wrap h1 {
 
 .layer-book-info ul li h2,
 .prevWrap h2 {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/dotted.png) 10px center no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/dotted.png) 10px center no-repeat;
     padding-left: 20px;
     width: 65%;
     /* 130/200 */
@@ -12393,7 +12393,7 @@ div.layer-info-wrap h1 {
 }
 
 .prevWrap .preContents {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/sub/previewBg.png) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/sub/previewBg.png) no-repeat;
     padding: 10px 5px;
     width: 100%;
     height: 182px;
@@ -12433,23 +12433,23 @@ div.layer-info-wrap h1 {
 
 .level-up span {
     padding-left: 14px;
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/icn-up.gif) right 4px no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/icn-up.gif) right 4px no-repeat;
 }
 
 .level-down span {
     padding-left: 14px;
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common//icon/icn-down.gif) right 4px no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common//icon/icn-down.gif) right 4px no-repeat;
 }
 
 .level-same span {
     padding-left: 14px;
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/icn-same.gif) 6px no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/icn-same.gif) 6px no-repeat;
 }
 
 /* 레이어팝업 */
 .layer-wrap {
     width: 500px;
-    background: #fff url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/sub/lv-layer-bg.png) no-repeat center 89%;
+    background: #fff url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/sub/lv-layer-bg.png) no-repeat center 89%;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -13242,13 +13242,13 @@ input[type='date']:valid::before {
 /* Interaction states */
 .range-slider .ui-state-default,
 .range-slider .ui-widget-content .ui-state-default {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/study/books/range-slider-btn.png) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/study/books/range-slider-btn.png) no-repeat;
 }
 
 .range-slider .ui-state-active,
 .range-slider .ui-widget-content .ui-state-active,
 .range-slider .ui-widget-header .ui-state-active {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/study/books/range-slider-btn.png) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/study/books/range-slider-btn.png) no-repeat;
     font-weight: bold;
     color: #ffffff;
     background-color: transparent !important;
@@ -13954,15 +13954,15 @@ td.pass {
 }
 
 .password_card>ul>li li:first-child {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/icn/icn-id.png') left center no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/icn/icn-id.png') left center no-repeat;
 }
 
 .password_card>ul>li li:nth-child(2) {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/icn/icn-pw.png') left center no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/icn/icn-pw.png') left center no-repeat;
 }
 
 .password_card>ul>li li:last-child {
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/icn/icn-date.png') left center no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/icn/icn-date.png') left center no-repeat;
 }
 
 .password_card>ul>li>div div div.qrcode {
@@ -14833,7 +14833,7 @@ svg.fa-check {
 }
 
 .assignment.step3 #target_search_list_student th[aria-label="All"] {
-    width:108.5px !important;
+    width:10px !important;
 }
 
 /* step4 */
@@ -14956,7 +14956,7 @@ svg.fa-check {
     width: 22px;
     height: 22px;
     vertical-align: -5px;
-    background: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/study/icn_sprite_assignment.png') no-repeat;
+    background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/study/icn_sprite_assignment.png') no-repeat;
     background-position-y: bottom;
     margin-right: 10px;
 }
@@ -15197,11 +15197,11 @@ svg.fa-check {
 }
 
 .classroom_material_image .hover a .icn-download {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/icn/icn-download_all.png) no-repeat center;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/icn/icn-download_all.png) no-repeat center;
 }
 
 .classroom_material_image .hover a .icn-view {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/icn/icn-view.png) no-repeat center;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/icn/icn-view.png) no-repeat center;
 }
 
 .classroom_materials h1 {
@@ -15237,7 +15237,7 @@ svg.fa-check {
     display: block;
     width: 35px;
     height: 34px;
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/icn/icn-puzzle.png) no-repeat center;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/icn/icn-puzzle.png) no-repeat center;
     margin: 0 auto;
 }
 
@@ -15310,11 +15310,11 @@ div.layer-btn button span.icn {
 }
 
 .icn-btn_plus {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/icn-btn_plus.png) center center no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/icn-btn_plus.png) center center no-repeat;
 }
 
 .icn-btn_min {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/icn-btn_min.png) center center no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/icn-btn_min.png) center center no-repeat;
 }
 
 .none_pc {
