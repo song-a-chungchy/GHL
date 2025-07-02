@@ -930,6 +930,10 @@ nav#top a.bookmark {
     right: 6.25em;
 }
 
+nav .set.a-cmm {
+    display: flex;
+    height: 100%;
+}
 
 nav a {
     height: 100%;
@@ -1465,7 +1469,7 @@ nav#bt .volume-range .slider-wrapper {
     display: none;
 }
 
-nav#bt .volume-range:hover .slider-wrapper {
+nav#bt .volume-range:has(.volume.act):hover .slider-wrapper{
     display: block;
     display: flex;
     align-items: center;
@@ -1729,7 +1733,7 @@ nav#bt.phonics .range {
 
 nav#bt.books .range {
     width: calc(100% - 25em - 200px);
-        max-width: 500px;
+    max-width: 500px;
 }
 
 nav#bt.magazines .range {
