@@ -587,8 +587,15 @@
     margin-bottom: 20px;
 }
 
-.reporting #sSaveBtn {
-    margin-right: 20px;
+.reporting .btn-wrap {
+    width: 100%;
+    float: none !important;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+
+.reporting .btn-wrap .btn-wrap .btn img {
+    float: none !important;
 }
 
 /* resource-books */
@@ -1629,6 +1636,10 @@
 
 #contentLists {
     position: relative;
+}
+#contentLists:has(ul) .add-book {
+    position: absolute;
+    bottom: 0;
 }
 
 #contentLists .add-book {
