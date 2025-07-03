@@ -11373,19 +11373,9 @@ div.level-layer h2 {
     cursor: pointer;
 }
 
-.dataTables_scrollHeadInner thead tr th {
-    display: flex;
-    align-items: center;
-}
-
 .dataTables_scrollHeadInner thead tr th strong {
     width: 100%;
     text-align: center;
-}
-
-.dataTables_scrollHeadInner thead button {
-    float: right;
-    margin-right: 6px;
 }
 
 #type_image,
@@ -14102,6 +14092,7 @@ td.pass {
     position: fixed;
     top: 271px;
     z-index: 9998;
+    transform: rotate(0.1deg);
 }
 
 .left_filter.selected_classes {
@@ -14785,6 +14776,7 @@ svg.fa-check {
     width: 160px;
 }
 
+.assignment.step3 #Step2_Lists_wrapper table
 .assignment.step3 #Step2_Lists_wrapper table,
 .assignment.step3 #Step2_Lists_wrapper tr,
 .assignment.step3 #Step2_Lists_wrapper th,
@@ -14792,24 +14784,17 @@ svg.fa-check {
     box-sizing: border-box;
 }
 
-.assignment.step3 #Step2_Lists_wrapper thead tr {
-    display: flex;
-
-}
-
-.assignment.step3 #Step2_Lists_wrapper th {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.assignment.step3 #Step2_Lists_wrapper .dataTables_scrollBody.content_scroll table tbody tr td:last-child {
+    padding-right: 10px;
 }
 
 .assignment.step3 #target_search_list_class th[aria-label="No.: activate to sort column ascending"] {
-    width: 99.91px !important;
+    width: 9% !important;
 }
 
 .assignment.step3 #target_search_list_class th[aria-label="Class: activate to sort column ascending"],
 .assignment.step3 #target_search_list_class th[aria-label="Teacher: activate to sort column ascending"] {
-    width: 397px !important;
+    width: 40% !important;
 }
 
 .assignment.step3 #target_search_list_class th[aria-label="All"] {
@@ -14817,25 +14802,27 @@ svg.fa-check {
 }
 
 .assignment.step3 #target_search_list_student th[aria-label="No.: activate to sort column ascending"] {
-    width: 90.5px !important;
+    width: 9% !important;
 }
 
 .assignment.step3 #target_search_list_student th[aria-label="Class: activate to sort column ascending"] {
-    width: 300px !important;
+    width: 30% !important;
 }
 
 .assignment.step3 #target_search_list_student th[aria-label="Name: activate to sort column ascending"],
 .assignment.step3 #target_search_list_student th[aria-label="ID: activate to sort column ascending"] {
-    width: 200px !important;
+    width: 20% !important;
 }
 
 .assignment.step3 #target_search_list_student th[aria-label="Level: activate to sort column ascending"] {
-    width: 100px !important;
+    width: 10% !important;
 }
 
 .assignment.step3 #target_search_list_student th[aria-label="All"] {
-    width: 10px !important;
+    width: 11% !important;
+    
 }
+
 
 /* step4 */
 .add_activity {
