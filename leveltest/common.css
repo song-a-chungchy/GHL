@@ -17,7 +17,7 @@
 }
 
 #bg {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/common/bg.png) top left;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/leveltest/common/bg.png) top left;
     background-attachment: fixed;
     display: table;
     width: 100%;
@@ -92,19 +92,19 @@ div.test-wrap div.time h1 {
     letter-spacing: -0.05em;
     font-weight: 700;
     color: #248ab2;
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/common/icn-time.png) center left no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/leveltest/common/icn-time.png) center left no-repeat;
     float: left;
 }
 
 div.test-wrap div.time div.qt h1 {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/common/icn-qt.png) center left no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/leveltest/common/icn-qt.png) center left no-repeat;
 }
 
 div.test-wrap div.qt-wrap>div.title_line {
     margin: 15px 19px 0;
     width: 2px;
     height: 20px;
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/common/title-line.png) center left no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/leveltest/common/title-line.png) center left no-repeat;
 }
 
 div.test-wrap div.time h2,
@@ -148,12 +148,12 @@ div.test-wrap .test-close a {
     height: 50px;
     margin-right: 2.44140625%;
     /*25/1024*/
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/common/icn-close.png) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/leveltest/common/icn-close.png) no-repeat;
     background-size: contain;
 }
 
 div.test-wrap .test-close a:hover {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/common/icn-close-on.png);
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/leveltest/common/icn-close-on.png);
 }
 
 div.test-wrap .test-close img {
@@ -192,7 +192,7 @@ div.test-wrap>h2 {
     left: 10px;
     width: 98.046875%;
     /* 1004/1024 */
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/common/test-t-bg.png) top left repeat-x;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/leveltest/common/test-t-bg.png) top left repeat-x;
 }
 
 .test-tr {
@@ -209,7 +209,7 @@ main.test section {
     height: 100%;
     padding: 170px 0 30px 0;
     background-color: #fff;
-    /* background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/common/line-bg.png);
+    /* background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/leveltest/common/line-bg.png);
     background-position: top left;
     background-repeat: repeat; */
     box-shadow: 0.5px 0.866px 4px 0px rgba(2, 8, 2, 0.2);
@@ -315,7 +315,7 @@ main.test section>div {
     }
 
     div.test-wrap .test-close a:hover {
-        background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/common/icn-close.png) no-repeat;
+        background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/leveltest/common/icn-close.png) no-repeat;
         background-size: contain;
     }
 
@@ -474,7 +474,7 @@ main.test section>div {
 
 .skill01 li>span:hover,
 .v-list ul li>div:hover {
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/common/check-hov.png);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/leveltest/common/check-hov.png);
     /* 697/744 */
     background-color: #e1f4fd;
 }
@@ -494,7 +494,7 @@ main.test section>div {
 
 .skill01 li span.focus,
 .v-list ul li div.focus {
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/common/check-act.png);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/leveltest/common/check-act.png);
     /* 697/744 */
     background-color: #248ab2;
 }
@@ -811,7 +811,7 @@ main.test section>div {
     /* 네이티브 외형 감추기 */
     -moz-appearance: none;
     appearance: none;
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/common/select-arrow.png) no-repeat 95% 50%, #fff;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/leveltest/common/select-arrow.png) no-repeat 95% 50%, #fff;
     /* 화살표 모양의 이미지 */
 
 }
@@ -878,7 +878,7 @@ select::-ms-expand {
     height: 32px;
     text-indent: -1000em;
     overflow: hidden;
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/leveltest/common/btn_pag.png) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/leveltest/common/btn_pag.png) no-repeat;
     border: 0 none;
     border-radius: 0;
 }
@@ -942,7 +942,7 @@ td.table-title {
 }
 
 .table-lv {
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/library/table-lv-bg.png);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/library/table-lv-bg.png);
     background-repeat: no-repeat;
     -ms-background-position-x: center;
     background-position-x: center;
