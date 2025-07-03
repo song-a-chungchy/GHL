@@ -8946,7 +8946,7 @@ h2.titleRecommend {
     width: 100%;
     position: relative;
     background: #eee;
-    z-index: 9998;
+    z-index: 999;
 }
 
 .footer {
@@ -11307,6 +11307,7 @@ div.level-layer h2 {
 
 .btn-wrap {
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -14820,7 +14821,7 @@ svg.fa-check {
 }
 
 .assignment.step3 #target_search_list_student th[aria-label="Class: activate to sort column ascending"] {
-    width:300px !important;
+    width: 300px !important;
 }
 
 .assignment.step3 #target_search_list_student th[aria-label="Name: activate to sort column ascending"],
@@ -14833,7 +14834,7 @@ svg.fa-check {
 }
 
 .assignment.step3 #target_search_list_student th[aria-label="All"] {
-    width:10px !important;
+    width: 10px !important;
 }
 
 /* step4 */
@@ -14965,7 +14966,7 @@ svg.fa-check {
     color: #fff;
 }
 
-.choose_activity button.act span {
+qhffb .choose_activity button.act span {
     background-position-y: top;
 }
 
