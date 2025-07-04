@@ -592,6 +592,7 @@
     float: none !important;
     flex-direction: row-reverse;
     gap: 10px;
+    justify-content: flex-end;
 }
 
 .reporting .btn-wrap .btn-wrap .btn img {
