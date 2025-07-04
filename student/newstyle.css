@@ -1221,7 +1221,7 @@ h2+div.tab {
     height: 38px;
     padding: 0;
     background-color: #fff;
-    background-image: url(../images/new/icn_slideArrow.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/icn_slideArrow.svg);
     background-size: 26px;
     background-position: center;
 }
@@ -1336,12 +1336,12 @@ h2+div.tab {
 
 .switch_wrap input.icn_list {
     width: 55px;
-    background-image: url(../images/new/icn_list.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/icn_list.svg);
 }
 
 .switch_wrap input.icn_category {
     width: 55px;
-    background-image: url(../images/new/icn_category.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/icn_category.svg);
 }
 
 .switch_wrap input:checked {
@@ -1350,11 +1350,11 @@ h2+div.tab {
 }
 
 .switch_wrap input:checked.icn_list {
-    background-image: url(../images/new/icn_list+act.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/icn_list+act.svg);
 }
 
 .switch_wrap input:checked.icn_category {
-    background-image: url(../images/new/icn_category+act.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/icn_category+act.svg);
 }
 
 /* 240412 video page end */
@@ -2558,7 +2558,7 @@ s.avatar li a span {
     width: 100%;
     height: 100%;
     background-position: center;
-    background-image: url(../images/icn/icn-table_read.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/icn/icn-table_read.svg);
     background-repeat: no-repeat;
     background-size: 28px;
 }
@@ -2568,7 +2568,7 @@ s.avatar li a span {
     width: 100%;
     height: 100%;
     background-position: center;
-    background-image: url(../images/icn/icn-table_video.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/icn/icn-table_video.svg);
     background-repeat: no-repeat;
     background-size: 28px;
 }
@@ -2954,7 +2954,7 @@ s.avatar li a span {
     transform: rotate(180deg);
     width: 32px;
     height: 32px;
-    background-image: url(../images/mypage/support-arrow.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/mypage/support-arrow.svg);
     opacity: 1.0;
     cursor: pointer;
 }
