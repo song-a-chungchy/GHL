@@ -397,10 +397,11 @@
 .todaysBook>div::after {
     content: "";
     position: absolute;
-    background: rgb(20, 175, 246);
-    background: linear-gradient(90deg, rgba(20, 175, 246, 1) 0%, rgba(20, 138, 246, 1) 100%);
-    border-top: 1px solid #14AFF6;
-    border-bottom: 1px solid #14AFF6;
+    background: #F44336;
+      background: linear-gradient(90deg, #ff786e 0%, #F44336 100%);
+    border-top: 1px solid #F44336; 
+    border-top: 1px solid #F44336;  
+    border-bottom: 1px solid #F44336;
     width: 20px;
     height: 100%;
     top: 0;
@@ -435,7 +436,7 @@
     left: 50%;
     display: block;
     padding: 5px 36px;
-    background-color: #14AFF6;
+    background-color: #ff4b39;
     color: #fff;
     font-size: 20px;
     border-radius: 20px 20px 0px 0px;
