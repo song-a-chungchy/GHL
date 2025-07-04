@@ -1921,6 +1921,15 @@ acount-input,
     line-height: 1;
 }
 
+.assignment .sort_bar .myFavorite.ver1 {
+    background-color: #F0F0F0;
+    color: #5F6262;
+}
+
+.assignment .sort_bar .myFavorite.ver3 {
+    background-color: #4356a4;
+}
+
 /* 240328 new-assignment -add data wrap */
 .new-assignment .sort_bar .date_select {
     margin-right: 10px;
