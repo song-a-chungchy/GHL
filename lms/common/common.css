@@ -10907,7 +10907,7 @@ portraitStateWrap table td button:hover {
     left: 0;
     right: 0;
     margin: 0 auto 0;
-    padding: 0px ;
+    padding: 0px;
     width: 500px;
     height: 100%;
     background: #fff url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/sub/lv-layer-bg.png) no-repeat;
@@ -12160,13 +12160,13 @@ td.settings-off {
 .layer_info div .title-wrap .my-fav {
     width: 32px;
     height: 32px;
-    background-image: url(/public_html/resource/images/heart.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/heart.svg);
 }
 
 .layer_info div .title-wrap .my-fav.act {
     width: 32px;
     height: 32px;
-    background-image: url(/public_html/resource/images/heart-fill.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/heart-fill.svg);
 }
 
 .layer_info div .title-wrap h1 {
