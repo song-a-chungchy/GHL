@@ -2235,6 +2235,11 @@ table.inputA td {
     width: 20%;
 }
 
+.new-assignment table.inputA span:has(input[type="date"]) {
+    display: flex;
+    align-items: center;
+}
+
 table.inputA th {
     padding: 10px 0;
     text-align: center;
@@ -13718,6 +13723,11 @@ td.pass {
     margin-bottom: 16px;
 }
 
+#book-layer.settings-layer {
+    position: fixe d;
+    top: calc(100% / 3);
+}
+
 #book-layer.settings-layer div.level-layer.alert {
     height: auto;
 }
@@ -14136,7 +14146,7 @@ td.pass {
     width: 90px;
     height: 61px;
     display: block;
-    background: #435397;
+    background: #1f3aaf;
     color: #fff;
     transform: rotate(90deg);
     text-align: center;
@@ -14312,7 +14322,7 @@ td.pass {
 .left_filter.row2 button.btn_filter {
     top: 150px;
     right: -30px;
-    background: #248ab2;
+    background: #08aded;
     width: 160px;
 }
 
@@ -14776,8 +14786,7 @@ svg.fa-check {
     width: 160px;
 }
 
-.assignment.step3 #Step2_Lists_wrapper table
-.assignment.step3 #Step2_Lists_wrapper table,
+.assignment.step3 #Step2_Lists_wrapper table .assignment.step3 #Step2_Lists_wrapper table,
 .assignment.step3 #Step2_Lists_wrapper tr,
 .assignment.step3 #Step2_Lists_wrapper th,
 .assignment.step3 #Step2_Lists_wrapper td {
@@ -14820,7 +14829,7 @@ svg.fa-check {
 
 .assignment.step3 #target_search_list_student th[aria-label="All"] {
     width: 11% !important;
-    
+
 }
 
 
