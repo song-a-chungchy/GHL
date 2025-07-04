@@ -1926,8 +1926,9 @@ acount-input,
     color: #5F6262;
 }
 
-.assignment .sort_bar .myFavorite.ver3 {
+.assignment .sort_bar .btn_blue.ver3.myFavorite span {
     background-color: #4356a4;
+    color: #ffffff;
 }
 
 /* 240328 new-assignment -add data wrap */

@@ -2360,10 +2360,14 @@ div.listB .row .cell.th strong {
     right: 0;
 }
 
-.new-assignment div.inputA textarea[name="edit-foldername"],
-.new-assignment div.inputA textarea[name="edit_description"] {
+.new-assignment div.inputA .row .cell textarea {
     width: 100%;
     height: 100%;
+
+}
+
+.new-assignment div.inputA .row .cell textarea::-webkit-scrollbar {
+    display: none;
 }
 
 div.listB .row {
@@ -11378,10 +11382,6 @@ div.level-layer h2 {
     cursor: pointer;
 }
 
-.dataTables_scrollHeadInner thead tr th strong {
-    width: 100%;
-    text-align: center;
-}
 
 #type_image,
 #type_list {
@@ -12718,6 +12718,13 @@ div.layer-info-wrap h1 {
 .new-assignment .list_contents .detail .sSubject {
     line-height: 16px;
     word-break: break-all;
+}
+
+.new-assignment .dataTables_scrollHeadInner thead tr th .btn-white{
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(-10%, -50%);
 }
 
 .button-wrap {
