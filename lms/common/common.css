@@ -10907,10 +10907,10 @@ portraitStateWrap table td button:hover {
     left: 0;
     right: 0;
     margin: 0 auto 0;
-    padding: 0px;
+    padding: 0;
     width: 500px;
     height: 100%;
-    background: #fff url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/sub/lv-layer-bg.png) no-repeat;
+    background: #fff url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/sub/lv-layer-bg.png) no-repeat;
     border-radius: 15px 15px 5px 5px;
     -moz-border-radius: 15px 15px 5px 5px;
     -webkit-border-radius: 15px 15px 5px 5px;
@@ -10932,6 +10932,7 @@ div.level-layer h1 {
 }
 
 div.level-layer h2 {
+    padding-top: 35px;
     font-size: 1.1111em;
     /* 20/18 */
     text-align: center;
@@ -13722,6 +13723,10 @@ td.pass {
     margin-bottom: 16px;
 }
 
+#book-layer.settings-layer div.level-layer h2 {
+    padding-top: 0px;
+}
+
 #book-layer.settings-layer {
     position: fixe d;
     top: calc(100% / 3);
@@ -14955,6 +14960,20 @@ svg.fa-check {
     background: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/study/icn_sprite_assignment.png') no-repeat;
     background-position-y: bottom;
     margin-right: 10px;
+}
+
+.choose_activity button.act span {
+    background-position-y: top;
+}
+
+.choose_activity button.read,
+.choose_activity button.quiz,
+.choose_activity button.video,
+.choose_activity button.bookreport,
+.choose_activity button.speaking,
+.choose_activity button.listening,
+.choose_activity button.thinking {
+    margin-bottom: 20px;
 }
 
 .choose_activity button.act {
