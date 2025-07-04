@@ -110,8 +110,7 @@ body {
     z-index: 100;
     width: 100%;
     height: 100%;
-    z-index: 999;
-    background: rgba(0, 0, 0, 0.70);
+    z-index: 99999;
 }
 
 .modal_black .prog {
@@ -134,7 +133,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 999;
+    z-index: 99999;
     background: rgba(0, 0, 0, 0.70);
 }
 
@@ -728,10 +727,6 @@ div.level-layer h2 {
     width: 80vw;
     max-width: 828px;
     min-width: auto;
-}
-
-.projectNotice.slider a {
-    display: none;
 }
 
 .projectNotice.slider .next {
@@ -1469,7 +1464,7 @@ nav#bt .volume-range .slider-wrapper {
     display: none;
 }
 
-nav#bt .volume-range:has(.volume.act):hover .slider-wrapper{
+nav#bt .volume-range:has(.volume.act):hover .slider-wrapper {
     display: block;
     display: flex;
     align-items: center;
