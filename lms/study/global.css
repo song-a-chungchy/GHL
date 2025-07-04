@@ -229,46 +229,46 @@ a:hover {
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Thin.eot');
-    src: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Thin.eot?#iefix') format('embedded-opentype'),
-        url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Thin.ttf') format('truetype'),
-        url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Thin.woff') format('woff');
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Thin.eot');
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Thin.eot?#iefix') format('embedded-opentype'),
+        url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Thin.ttf') format('truetype'),
+        url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Thin.woff') format('woff');
     font-weight: 100;
 }
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Light.eot');
-    src: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Light.eot?#iefix') format('embedded-opentype'),
-        url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Light.ttf') format('truetype'),
-        url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Light.woff') format('woff');
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Light.eot');
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Light.eot?#iefix') format('embedded-opentype'),
+        url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Light.ttf') format('truetype'),
+        url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Light.woff') format('woff');
     font-weight: 300;
 }
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Regular.eot');
-    src: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
-        url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Regular.ttf') format('truetype'),
-        url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Regular.woff') format('woff');
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Regular.eot');
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Regular.ttf') format('truetype'),
+        url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Regular.woff') format('woff');
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Bold.eot');
-    src: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
-        url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Bold.ttf') format('truetype'),
-        url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Bold.woff') format('woff');
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Bold.eot');
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Bold.ttf') format('truetype'),
+        url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Bold.woff') format('woff');
     font-weight: 700;
 }
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Black.eot');
-    src: url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Black.eot?#iefix') format('embedded-opentype'),
-        url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Black.ttf') format('truetype'),
-        url('https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/fonts/Montserrat-Black.woff') format('woff');
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Black.eot');
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Black.eot?#iefix') format('embedded-opentype'),
+        url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Black.ttf') format('truetype'),
+        url('https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/fonts/Montserrat-Black.woff') format('woff');
     font-weight: 900;
 }
 
@@ -372,7 +372,7 @@ main.mypage section.history-read .my-history {
     /* 네이티브 외형 감추기 */
     -moz-appearance: none;
     appearance: none;
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/select-arrow.png) no-repeat 95% 50%, #fff;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/select-arrow.png) no-repeat 95% 50%, #fff;
     /* 화살표 모양의 이미지 */
 
 }
@@ -440,7 +440,7 @@ select::-ms-expand {
     height: 32px;
     text-indent: -1000em;
     overflow: hidden;
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/btn_pag.png) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/btn_pag.png) no-repeat;
     border: 0 none;
     border-radius: 0;
 }
@@ -824,7 +824,7 @@ h1 {
     -webkit-border-radius: 32px;
     display: block;
     background-color: #4356a4;
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/icn-history-arrow.png);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/icn-history-arrow.png);
     background-position: center left;
     background-repeat: no-repeat;
 }
@@ -1412,7 +1412,7 @@ article.my-history.disabled .my-info>div {
 .portraitStateWrap table th {
     text-align: left;
     padding: 0 0px 0 15px;
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/study/studyhistory/dotted.png) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/study/studyhistory/dotted.png) no-repeat;
     background-position: 8px 18px;
     font-size: 0.8888888888888889em;
 }
@@ -1467,7 +1467,7 @@ portraitStateWrap table td button:hover {
 }
 
 .portraitStateWrap table td.mileage {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/study/studyhistory/mileageBg.png) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/study/studyhistory/mileageBg.png) no-repeat;
     background-position: 10px 10px;
     color: #ff6a5f
 }
@@ -1477,7 +1477,7 @@ portraitStateWrap table td button:hover {
 }
 
 .portraitStateWrap table td.month {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/library/myPage/monthBg.png) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/library/myPage/monthBg.png) no-repeat;
     background-position: 10px 1px;
     color: #109626
 }
@@ -1487,7 +1487,7 @@ portraitStateWrap table td button:hover {
 }
 
 .portraitStateWrap table td.total {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/library/myPage/totalBg.png) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/library/myPage/totalBg.png) no-repeat;
     background-position: 10px 10px;
     color: #4e80d8
 }
@@ -1511,7 +1511,7 @@ div.title .icn {
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/icn-table_read.png) center center no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/icn-table_read.png) center center no-repeat;
 }
 
 .icn-table_video {
@@ -1520,7 +1520,7 @@ div.title .icn {
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/common/icon/icn-table_video.png) center center no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/common/icon/icn-table_video.png) center center no-repeat;
 }
 
 table.level-table tbody td,
@@ -1674,7 +1674,7 @@ div {
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/icon/icn-table_mike.png) center center no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/icon/icn-table_mike.png) center center no-repeat;
 }
 
 .history-tab-content td img.comment {
@@ -1786,7 +1786,7 @@ div {
     text-indent: -9999px;
     white-space: nowrap;
     overflow: hidden;
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/icn/icn-pass.png) center center no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/icn/icn-pass.png) center center no-repeat;
 }
 
 .icn-non-pass {
@@ -1795,7 +1795,7 @@ div {
     text-indent: -9999px;
     white-space: nowrap;
     overflow: hidden;
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/lms/public_html/resource/images/icn/icn-non-pass.png) center center no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/icn/icn-non-pass.png) center center no-repeat;
 }
 
 .d-month,
