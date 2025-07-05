@@ -1007,6 +1007,7 @@ nav .zoom_range {
     justify-content: center;
     align-items: center;
     border-top: 1px solid #d1d3d4;
+    z-index: 1000;
 }
 
 nav .zoom:hover .zoom_range {
@@ -1113,21 +1114,13 @@ nav .zoom:hover .zoom_range {
     -webkit-appearance: none;
 }
 
-nav#bt.phonics .range {
-    width: calc(100% - 21.875em - 200px);
-}
 
-nav#bt.books .range {
-    width: calc(100% - 25em - 200px);
-}
-
-nav#bt.magazines .range {
-    width: calc(100% - 9.375em);
-    max-width: 500px;
-}
-
-nav#bt.videos .range {
-    width: calc(100% - 18.75em - 100px);
+nav#bt .range {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 12.5em);
+    max-width: 300px;
 }
 
 nav#bt .range .flex {
