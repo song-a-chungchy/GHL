@@ -1922,13 +1922,13 @@ acount-input,
 }
 
 .assignment .sort_bar .myFavorite.ver1 {
-    background-color: #F0F0F0;
-    color: #5F6262;
+     background-color: #4356a4;
+    color: #ffffff;
 }
 
 .assignment .sort_bar .btn_blue.ver3.myFavorite span {
-    background-color: #4356a4;
-    color: #ffffff;
+    background-color: #F0F0F0;
+    color: #5F6262;
 }
 
 /* 240328 new-assignment -add data wrap */
