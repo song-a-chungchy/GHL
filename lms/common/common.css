@@ -14157,7 +14157,7 @@ td.pass {
     width: 90px;
     height: 61px;
     display: block;
-    background: #1f3aaf;
+    background: #435397;
     color: #fff;
     transform: rotate(90deg);
     text-align: center;
@@ -14333,7 +14333,7 @@ td.pass {
 .left_filter.row2 button.btn_filter {
     top: 150px;
     right: -30px;
-    background: #08aded;
+    background: #00c2b1;
     width: 160px;
 }
 
