@@ -206,14 +206,14 @@ nav#top a.back {
 }
 
 nav#top a.back {
-    background-image: url(/public_html/images/cmm/icn-arrow-left.svg);
+    background-image: url(../images/cmm/icn-arrow-left.svg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 50%;
 }
 
 .page_div .icn_bookmark {
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/viewer-global-pc-lite/image/icn_bookmark.png);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library../viewer-global-pc-lite/image/icn_bookmark.png);
     background-repeat: no-repeat;
     background-size: contain;
     width: 6.25vw;
@@ -285,43 +285,43 @@ nav#bt .book .inner ul li a {
 }
 
 nav#bt .book .inner ul li a.first {
-    background-image: url(/public_html/images/cmm/icn-first.svg);
+    background-image: url(../images/cmm/icn-first.svg);
 }
 
 nav#bt .book .inner ul li a.first:active {
-    background-image: url(/public_html/images/cmm/icn-first-active.svg);
+    background-image: url(../images/cmm/icn-first-active.svg);
 }
 
 nav#bt .book .inner ul li a.prev {
-    background-image: url(/public_html/images/cmm/icn-prev.svg);
+    background-image: url(../images/cmm/icn-prev.svg);
 }
 
 nav#bt .book .inner ul li a.prev:active {
-    background-image: url(/public_html/images/cmm/icn-prev-active.svg);
+    background-image: url(../images/cmm/icn-prev-active.svg);
 }
 
 nav#bt .book .inner ul li a.play {
-    background-image: url(/public_html/images/cmm/icn-play.svg);
+    background-image: url(../images/cmm/icn-play.svg);
 }
 
 nav#bt .book .inner ul li a.stop {
-    background-image: url(/public_html/images/cmm/icn-pause-active.svg);
+    background-image: url(../images/cmm/icn-pause-active.svg);
 }
 
 nav#bt .book .inner ul li a.next {
-    background-image: url(/public_html/images/cmm/icn-next.svg);
+    background-image: url(../images/cmm/icn-next.svg);
 }
 
 nav#bt .book .inner ul li a.next:active {
-    background-image: url(/public_html/images/cmm/icn-next-active.svg);
+    background-image: url(../images/cmm/icn-next-active.svg);
 }
 
 nav#bt .book .inner ul li a.repeat {
-    background-image: url(/public_html/images/cmm/icn-repeat.svg);
+    background-image: url(../images/cmm/icn-repeat.svg);
 }
 
 nav#bt .book .inner ul li a.repeat:active {
-    background-image: url(/public_html/images/cmm/icn-repeat-active.svg);
+    background-image: url(../images/cmm/icn-repeat-active.svg);
 }
 
 /* autoplay-switch */
@@ -621,6 +621,88 @@ div.level-layer h2 {
 
 .lv-layer-btn button.btn-gray:hover {
     background-color: #eeeeee;
+}
+
+/* 200325 layer dictionary */
+.dictionary {
+    width: 320px;
+    height: 350px;
+    background: #fff;
+}
+
+.dictionary.definition {
+    height: 213px;
+}
+
+.dictionary img {
+    min-width: initial;
+}
+
+.layer {
+    position: relative;
+    padding: 5px 0;
+    border: 1px solid #248ab2;
+    border-top: 7px solid #248ab2;
+}
+
+.layer.dictionary .close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.layer.dictionary h3 {
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 0 15px;
+    background-color: #e8f9ff;
+}
+
+.layer.dictionary h3 img {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.layer.dictionary .img-con {
+    padding: 5px 0 5px;
+    text-align: center;
+}
+
+.layer.dictionary .img-con img {
+    width: 150px;
+}
+
+.layer.dictionary .img-con p {
+    font-size: 36px;
+    color: #248ab2;
+}
+
+.layer.dictionary .con {
+    height: 112px;
+    overflow-y: auto;
+    margin: 2px 20px 20px;
+}
+
+.layer.dictionary .con .headword {
+    padding-bottom: 10px;
+    font-size: 30px;
+    color: #248ab2;
+}
+
+.layer.dictionary .con .headword span {
+    font-size: 14px;
+    color: #000;
+}
+
+.layer.dictionary .text2 {
+    padding-top: 3px;
+    color: #4f4f4f;
+    font-size: 14px;
 }
 
 @media screen and (min-width:640px) {
