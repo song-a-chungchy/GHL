@@ -1313,18 +1313,25 @@ div.lv-layer-btn button.btn-gray {
     max-width: 128px;
 }
 
+#pop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+}
+
 .layer-wrap {
     width: 400px;
     border: 1px solid #cecece;
     background-color: #ffffff;
     border-radius: 40px;
-    position: absolute;
-    top: 50%;
+    /*     position: absolute; */
+    /*     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
     z-index: 8;
     text-align: center;
-    padding: 24px;
+    padding: 24px 16px;
     border-radius: 40px;
     border: 1px solid #cecece;
     background-color: #ffffff;
@@ -1390,6 +1397,7 @@ wrap .content {
 }
 
 .layer-wrap .layer-btn {
+    display: flex;
     padding: 30px 0 15px;
     text-align: center;
 }
@@ -1411,7 +1419,7 @@ wrap .content {
 
 @media screen and (max-width: 640px) {
     .layer-wrap {
-        width: 80%;
+        width: 90%;
         background-size: contain;
         background-position: center 70%;
     }
