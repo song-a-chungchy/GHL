@@ -597,6 +597,7 @@ main.test section>div {
     }
 
     .next-btn a {
+        text-align: center;
         position: fixed;
         right: 3.7037037037037%; /* 40 */
         bottom: 2.1220em; /* 110 */
