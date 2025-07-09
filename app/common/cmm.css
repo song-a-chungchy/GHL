@@ -468,7 +468,7 @@
      position: absolute;
      width: 7px;
      height: 7px;
-     background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/common/book-line.png) no-repeat;
+     background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/common/book-line.png) no-repeat;
  }
  
  .bl-btm_left {
@@ -503,7 +503,7 @@
      height: -webkit-calc(100% - 8px);
      height: -moz-calc(100% - 8px);
      height: calc(100% - 8px);
-     background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/common/book-shadow.png) 4px top repeat-y;
+     background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/common/book-shadow.png) 4px top repeat-y;
      z-index: 2;
  }
  
@@ -983,72 +983,72 @@
  /* level */
  
  .lv-pink {
-     background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/propolis/pink.png) center center no-repeat;
+     background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/propolis/pink.png) center center no-repeat;
      background-size: contain;
  }
  
  .lv-pink:active {
-     background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/propolis/pink-act.png) center center no-repeat;
+     background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/propolis/pink-act.png) center center no-repeat;
      background-size: contain;
  }
  
  .lv-orange {
-     background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/propolis/orange.png) center center no-repeat;
+     background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/propolis/orange.png) center center no-repeat;
      background-size: contain;
  }
  
  .lv-orange:active {
-     background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/propolis/orange-act.png) center center no-repeat;
+     background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/propolis/orange-act.png) center center no-repeat;
      background-size: contain;
  }
  
  .lv-yellow {
-     background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/propolis/yellow.png) center center no-repeat;
+     background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/propolis/yellow.png) center center no-repeat;
      background-size: contain;
  }
  
  .lv-yellow:active {
-     background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/propolis/yellow-act.png) center center no-repeat;
+     background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/propolis/yellow-act.png) center center no-repeat;
      background-size: contain;
  }
  
  .lv-green {
-     background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/propolis/green.png) center center no-repeat;
+     background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/propolis/green.png) center center no-repeat;
      background-size: contain;
  }
  
  .lv-green:active {
-     background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/propolis/green-act.png) center center no-repeat;
+     background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/propolis/green-act.png) center center no-repeat;
      background-size: contain;
  }
  
  .lv-blue {
-     background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/propolis/blue.png) center center no-repeat;
+     background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/propolis/blue.png) center center no-repeat;
      background-size: contain;
  }
  
  .lv-blue:active {
-     background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/propolis/blue-act.png) center center no-repeat;
+     background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/propolis/blue-act.png) center center no-repeat;
      background-size: contain;
  }
  
  .lv-purple {
-     background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/propolis/violet.png) center center no-repeat;
+     background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/propolis/violet.png) center center no-repeat;
      background-size: contain;
  }
  
  .lv-purple:active {
-     background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/propolis/violet-act.png) center center no-repeat;
+     background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/propolis/violet-act.png) center center no-repeat;
      background-size: contain;
  }
  
  .lv-gray {
-     background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/propolis/gray.png) center center no-repeat;
+     background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/propolis/gray.png) center center no-repeat;
      background-size: contain;
  }
  
  .lv-gray:active {
-     background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/propolis/gray-act.png) center center no-repeat;
+     background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/propolis/gray-act.png) center center no-repeat;
      background-size: contain;
  }
  
@@ -1908,7 +1908,7 @@
      position: absolute;
      width: 16px;
      height: 17px;
-     background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/icn/icn-new.png) no-repeat;
+     background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/icn/icn-new.png) no-repeat;
      background-size: contain;
  }
  

@@ -98,7 +98,7 @@
 }
 
 .icn-bullet {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/cmm/icn-bullet.png) bottom left no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/cmm/icn-bullet.png) bottom left no-repeat;
 }
 
 .setting-wrap.on {
@@ -232,7 +232,7 @@
 .setting-wrap .box.tab div a.btn_reders span {
     width: 3.33333333333333vw;
     height: 4.62962962962963vw;
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/cmm/icn-readersPlusOnly.png) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/cmm/icn-readersPlusOnly.png) no-repeat;
     background-size: cover;
 }
 
@@ -241,7 +241,7 @@
 }
 
 .setting-wrap .box.tab div a.btn_reders.act span {
-    background: #9ccb3b url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/cmm/icn-readersPlusOnly_act.png) no-repeat;
+    background: #9ccb3b url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/cmm/icn-readersPlusOnly_act.png) no-repeat;
     background-size: cover;
 }
 
@@ -298,13 +298,13 @@
 }
 
 .book-area-wrap .content-area li a.act span {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/books/books-act.png) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/books/books-act.png) no-repeat;
     background-size: contain;
     background-position-x: center;
 }
 
 .book-area-wrap .content-area li a.hover span {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/books/books-hover.png) left top no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/books/books-hover.png) left top no-repeat;
     background-size: contain;
 }
 
@@ -544,6 +544,9 @@
 .list .title span.next {
     width: 1.9286rem;
     line-height: 6.9643rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* edit Profile */
@@ -948,7 +951,7 @@ h3.fav.act {
 }
 
 .avatar li a.act span {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/books/books-act.png) center center no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/books/books-act.png) center center no-repeat;
     background-size: contain;
 }
 
@@ -1030,15 +1033,15 @@ article.quick_stats ul li p {
 }
 
 article.quick_stats ul .first_li p {
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/cmm/dash_icn_read.png);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/cmm/dash_icn_read.png);
 }
 
 article.quick_stats ul .second_li p {
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/cmm/dash_icn_min2.png);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/cmm/dash_icn_min2.png);
 }
 
 article.quick_stats ul .third_li p {
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/mypage/dash_icn_act.png);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/mypage/dash_icn_act.png);
 }
 
 article.quick_stats .btn_info {
@@ -1745,7 +1748,7 @@ nav.header.assignment-folder .date {
 
 .my-interests .content-area li a.act span {
     display: block;
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/books/books-act.png) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/books/books-act.png) no-repeat;
     background-size: contain;
     background-position-x: center;
 }
@@ -1805,7 +1808,7 @@ nav.header.assignment-folder .date {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/cmm/select-arrow.png) no-repeat 95% 50%, #fff;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/cmm/select-arrow.png) no-repeat 95% 50%, #fff;
     background-size: 3.09278350515464%;
 }
 
@@ -1854,37 +1857,37 @@ nav.header.assignment-folder .date {
 }
 
 .book-area-wrap ul.propolisWrap li p.pink {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/level/level_01.png) center center no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/level/level_01.png) center center no-repeat;
     background-size: 90%;
 }
 
 .book-area-wrap ul.propolisWrap li p.purple {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/level/level_06.png) center center no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/level/level_06.png) center center no-repeat;
     background-size: 90%;
 }
 
 .book-area-wrap ul.propolisWrap li p.orange {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/level/level_02.png) center center no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/level/level_02.png) center center no-repeat;
     background-size: 90%;
 }
 
 .book-area-wrap ul.propolisWrap li p.green {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/level/level_04.png) center center no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/level/level_04.png) center center no-repeat;
     background-size: 90%;
 }
 
 .book-area-wrap ul.propolisWrap li p.blue {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/level/level_05.png) center center no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/level/level_05.png) center center no-repeat;
     background-size: 90%;
 }
 
 .book-area-wrap ul.propolisWrap li p.yellow {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/level/level_03.png) center center no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/level/level_03.png) center center no-repeat;
     background-size: 90%;
 }
 
 .book-area-wrap ul.propolisWrap li p.gray {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/level/level_07.png) center center no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/level/level_07.png) center center no-repeat;
     background-size: 90%;
 }
 
@@ -1899,12 +1902,12 @@ nav.header.assignment-folder .date {
 }
 
 .book-area-wrap ul.propolisWrap li span.now {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/level/my_level.png) center center no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/level/my_level.png) center center no-repeat;
     background-size: 90%;
 }
 
 .book-area-wrap ul.propolisWrap li span.selected {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/level/selected.png) center center no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/level/selected.png) center center no-repeat;
     background-size: 90%;
 }
 
@@ -2068,7 +2071,7 @@ nav.header.assignment-folder .date {
     position: fixed;
     width: 100%;
     height: 39.6191rem;
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/reward/reward-bg.png) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/reward/reward-bg.png) no-repeat;
     background-size: cover;
     background-position: center bottom;
     z-index: 99999;
@@ -2257,83 +2260,83 @@ nav.header.assignment-folder .date {
 }
 
 .reward .content .num div.zero {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/reward/0.svg) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/reward/0.svg) no-repeat;
 }
 
 .reward .content .num div.one {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/reward/1.svg) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/reward/1.svg) no-repeat;
 }
 
 .reward .content .num div.two {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/reward/2.svg) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/reward/2.svg) no-repeat;
 }
 
 .reward .content .num div.three {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/reward/3.svg) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/reward/3.svg) no-repeat;
 }
 
 .reward .content .num div.four {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/reward/4.svg) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/reward/4.svg) no-repeat;
 }
 
 .reward .content .num div.five {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/reward/5.svg) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/reward/5.svg) no-repeat;
 }
 
 .reward .content .num div.six {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/reward/6.svg) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/reward/6.svg) no-repeat;
 }
 
 .reward .content .num div.seven {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/reward/7.svg) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/reward/7.svg) no-repeat;
 }
 
 .reward .content .num div.eight {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/reward/8.svg) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/reward/8.svg) no-repeat;
 }
 
 .reward .content .num div.nine {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/reward/9.svg) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/reward/9.svg) no-repeat;
 }
 
 .reward .content .num div.zero.off {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/reward/0-off.svg) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/reward/0-off.svg) no-repeat;
 }
 
 .reward .content .num div.one.off {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/reward/1-off.svg) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/reward/1-off.svg) no-repeat;
 }
 
 .reward .content .num div.two.off {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/reward/2-off.svg) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/reward/2-off.svg) no-repeat;
 }
 
 .reward .content .num div.three.off {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/reward/3-off.svg) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/reward/3-off.svg) no-repeat;
 }
 
 .reward .content .num div.four.off {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/reward/4-off.svg) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/reward/4-off.svg) no-repeat;
 }
 
 .reward .content .num div.five.off {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/reward/5-off.svg) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/reward/5-off.svg) no-repeat;
 }
 
 .reward .content .num div.six.off {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/reward/6-off.svg) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/reward/6-off.svg) no-repeat;
 }
 
 .reward .content .num div.seven.off {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/reward/7-off.svg) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/reward/7-off.svg) no-repeat;
 }
 
 .reward .content .num div.eight.off {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/reward/8-off.svg) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/reward/8-off.svg) no-repeat;
 }
 
 .reward .content .num div.nine.off {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/reward/9-off.svg) no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/reward/9-off.svg) no-repeat;
 }
 
 .reward .content .step1.on .top-l.on,
@@ -2400,7 +2403,7 @@ nav.header.assignment-folder .date {
 
 .certi .swiper-button-prev,
 .swiper-container-rtl .swiper-button-next {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/reward/certificate/certi-prev.png)no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/reward/certificate/certi-prev.png)no-repeat;
     background-size: contain;
     left: 0;
     background-position-x: right;
@@ -2408,7 +2411,7 @@ nav.header.assignment-folder .date {
 
 .certi .swiper-button-next,
 .swiper-container-rtl .swiper-button-prev {
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/reward/certificate/certi-next.png)no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/reward/certificate/certi-next.png)no-repeat;
     background-size: contain;
     right: 0;
 }
@@ -2627,7 +2630,7 @@ nav.header.assignment-folder .date {
     padding: 10px 10px 15px;
     border-top: 7px solid #248ab2;
     background-color: #fff;
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/badgeLayer/app_reward-layer_bg.png) center center / cover no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/badgeLayer/app_reward-layer_bg.png) center center / cover no-repeat;
 }
 
 .badge-layer .close {
@@ -2714,13 +2717,13 @@ nav.header.assignment-folder .date {
 
 .icn-non-pass {
     text-indent: -9999px;
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/sub/icn-non-pass.png) center center no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/sub/icn-non-pass.png) center center no-repeat;
     background-size: 37%;
 }
 
 .icn-pass {
     text-indent: -9999px;
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/sub/icn-pass.png) center center no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/sub/icn-pass.png) center center no-repeat;
     background-size: 37%;
 }
 
@@ -2730,7 +2733,7 @@ nav.header.assignment-folder .date {
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
-    background: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/app/cmm/icn-video.png) center center no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/cmm/icn-video.png) center center no-repeat;
     background-size: contain;
 }
 
@@ -2873,22 +2876,17 @@ nav.header.assignment-folder .date {
     display: block;
 }
 
-.calendar-wrap.act .date-wrap a:first-child {
+.calendar-wrap.act .date-wrap a {
     width: 1em;
     height: 1em;
-    background-image: url(/public_html/images/cmm/icn-calendar-arrow.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/icn-calendar-arrow.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 
-.calendar-wrap.act .date-wrap a {
-    width: 1em;
-    height: 1em;
-    background-image: url(/public_html/images/cmm/icn-calendar-arrow-right.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+.calendar-wrap.act .date-wrap a.next{
+    transform: scale(-1, 1);
 }
 
 .calendar-wrap.act .date-wrap a.disabled {
@@ -4835,7 +4833,7 @@ div p.pwAlert {
     height: 100%;
     border-radius: 6px;
     background-color: rgba(0, 0, 0, 0.6);
-    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/resource/images/new/phonics_next_img.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/phonics_next_img.svg);
     background-size: 16.25vw;
     background-repeat: no-repeat;
     background-position: center;
