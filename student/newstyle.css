@@ -1429,6 +1429,12 @@ h2+div.tab {
     color: #fff;
 }
 
+.myprofile .con button.disabled  {
+    cursor: default;
+    background-color: #FAFAFA;
+    color: #989898;
+}
+
 .myprofile .con button.unscribe.act {
     background: #9f60c9;
     border-color: #9f60c9;
@@ -2191,12 +2197,6 @@ h2+div.tab {
 
 .myprofile .parent_setting .parent_report.disabled .edit-btn {
     background-color: #FFFFFF;
-}
-
-.myprofile .parent_setting .parent_report.disabled button {
-    cursor: default;
-    background-color: #FAFAFA;
-    color: #989898;
 }
 
 .myprofile .parent_setting .parent_report .toggle-button>li {
