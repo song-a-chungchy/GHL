@@ -179,7 +179,7 @@ div.level-layer h2 {
   left: 12px;
   width: 12px;
   height: 12px;
-  background-image: url(/public_html/viewer-global-app-plus/image/icn-dots.png);
+  background-image: url(../image/cmm/icn-dots.png);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -262,28 +262,28 @@ nav#top a {
 }
 
 nav#top a.back {
-  background-image: url(/public_html/images/cmm/icn-arrow-left.svg);
+  background-image: url(../image/cmm/icn-arrow-left.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 50%;
 }
 
 nav#top a.rotate {
-  background-image: url(/public_html/images/cmm/icn-rotate-active.svg);
+  background-image: url(../image/cmm/icn-rotate-active.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 60%;
 }
 
 nav#top a.screen.reduce {
-  background-image: url(/public_html/images/cmm/icn-shrink-active.svg);
+  background-image: url(../image/cmm/icn-shrink-active.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 60%;
 }
 
 nav#top a.screen.expand {
-  background-image: url(/public_html/images/cmm/icn-expand-active.svg);
+  background-image: url(../image/cmm/icn-expand-active.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 60%;
@@ -340,59 +340,59 @@ nav#bt .book .inner ul li a {
 }
 
 nav#bt .book .inner ul li a.firstP {
-  background-image: url(./public_html/images/cmm/icn-first.svg);
+  background-image: url(../image/cmm/icn-first.svg);
 }
 
 nav#bt .book .inner ul li a.firstP:active {
-  background-image: url(./public_html/images/cmm/icn-first-active.svg);
+  background-image: url(../image/cmm/icn-first-active.svg);
 }
 
 nav#bt .book .inner ul li a.prev {
-  background-image: url(./public_html/images/cmm/icn-prev.svg);
+  background-image: url(../image/cmm/icn-prev.svg);
 }
 
 nav#bt .book .inner ul li a.prev:active {
-  background-image: url(./public_html/images/cmm/icn-prev-active.svg);
+  background-image: url(../image/cmm/icn-prev-active.svg);
 }
 
 nav#bt .book .inner ul li a.play {
-  background-image: url(./public_html/images/cmm/icn-play.svg);
+  background-image: url(../image/cmm/icn-play.svg);
 }
 
 nav#bt .book .inner ul li a.stop {
-  background-image: url(./public_html/images/cmm/icn-pause-active.svg);
+  background-image: url(../image/cmm/icn-pause-active.svg);
 }
 
 nav#bt .book .inner ul li a.next {
-  background-image: url(./public_html/images/cmm/icn-next.svg);
+  background-image: url(../image/cmm/icn-next.svg);
 }
 
 nav#bt .book .inner ul li a.next:active {
-  background-image: url(./public_html/images/cmm/icn-next-active.svg);
+  background-image: url(../image/cmm/icn-next-active.svg);
 }
 
 nav#bt .book .inner ul li a.zoom-out {
-  background-image: url(./public_html/images/cmm/icn-minus.svg);
+  background-image: url(../image/cmm/icn-minus.svg);
 }
 
 nav#bt .book .inner ul li a.zoom-out:active {
-  background-image: url(./public_html/images/cmm/icn-minus-active.svg);
+  background-image: url(../image/cmm/icn-minus-active.svg);
 }
 
 nav#bt .book .inner ul li a.zoom-out.act {
-  background-image: url(./public_html/images/cmm/icn-minus-active.svg);
+  background-image: url(../image/cmm/icn-minus-active.svg);
 }
 
 nav#bt .book .inner ul li a.zoom-in {
-  background-image: url(./public_html/images/cmm/icn-zoom.svg);
+  background-image: url(../image/cmm/icn-zoom.svg);
 }
 
 nav#bt .book .inner ul li a.zoom-in:active {
-  background-image: url(./public_html/images/cmm/icn-zoom-active.svg);
+  background-image: url(../image/cmm/icn-zoom-active.svg);
 }
 
 nav#bt .book .inner ul li a.zoom-in.act {
-  background-image: url(./public_html/images/cmm/icn-zoom-active.svg);
+  background-image: url(../image/cmm/icn-zoom-active.svg);
 }
 
 
@@ -566,28 +566,6 @@ section.flex {
 
 .rotate270 {
   transform: translate(-50%, -50%) rotate(270deg);
-}
-
-#pdf-container>div {
-  position: absolute;
-  width: 50%;
-  height: 100%;
-
-  &.right-page {
-    right: 0%;
-  }
-
-  &.left-page {
-    left: 0%;
-  }
-
-  &:first-child.right-page {
-    right: 25%;
-  }
-
-  &:last-child.left-page {
-    left: 25%;
-  }
 }
 
 @media screen and (min-width:640px) {
@@ -767,6 +745,28 @@ section.flex {
   nav.bt .book .inner {
     height: 5.3334em;
   }
+
+  #pdf-container>div {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+
+    &.right-page {
+      right: 0%;
+    }
+
+    &.left-page {
+      left: 0%;
+    }
+
+    &:first-child.right-page {
+      right: 25%;
+    }
+
+    &:last-child.left-page {
+      left: 25%;
+    }
+  }
 }
 
 @media screen and (min-width:640px) and (orientation:landscape) {
@@ -902,5 +902,3 @@ section.flex {
     box-shadow: 0em -2.6em 0em 0em rgba(127, 182, 198, 0.2), 1.8em -1.8em 0 0em rgba(127, 182, 198, 0.2), 2.5em 0em 0 0em rgba(127, 182, 198, 0.2), 1.75em 1.75em 0 0em rgba(127, 182, 198, 0.2), 0em 2.5em 0 0em rgba(127, 182, 198, 0.2), -1.8em 1.8em 0 0em rgba(127, 182, 198, 0.5), -2.6em 0em 0 0em rgba(127, 182, 198, 0.7), -1.8em -1.8em 0 0em #7fb6c6;
   }
 }
-
-/* 240521 contents loading end */
