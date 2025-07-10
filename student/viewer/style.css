@@ -1464,7 +1464,7 @@ nav#bt .volume-range .slider-wrapper {
     display: none;
 }
 
-nav#bt .volume-range:has(.volume.act):hover .slider-wrapper {
+nav#bt .volume-range:hover .slider-wrapper {
     display: block;
     display: flex;
     align-items: center;
