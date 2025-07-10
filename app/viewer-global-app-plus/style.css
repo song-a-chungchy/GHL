@@ -37,84 +37,93 @@ body {
     stroke-width: 1;
 }
 
+button {
+    background: inherit;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0;
+    overflow: visible;
+    cursor: pointer
+}
 
 /* 레벨 레이어팝업 */
 #book-layer {
-  display: block;
-  width: 100%;
-  height: 100%;
-  position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
 }
 
 #book-layer div.level-layer {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin: auto;
-  padding: 0;
-  width: calc(100% - 24px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    padding: 0;
+    width: calc(100% - 24px);
     max-width: 500px;
-  background: #fff;
-  padding: 24px;
-  border-radius: 40px;
-  box-shadow: 2px 2px 4px #939598;
-  z-index: 100;
+    background: #fff;
+    padding: 24px;
+    border-radius: 40px;
+    box-shadow: 2px 2px 4px #939598;
+    z-index: 100;
 }
 
 div.level-layer h1 {
-  margin-bottom: 24px;
-  font-size: 24px;
-  font-weight: 700;
-  color: #4e68d2;
-  display: none;
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #4e68d2;
+    display: none;
 }
 
 div.level-layer h2 {
-  text-align: center;
-  padding-top: 0px !important;
-  margin-bottom: 16px;
-  font-size: 1.1111rem;
-  font-weight: 500;
-  line-height: 140%;
-  letter-spacing: -0.02rem;
+    text-align: center;
+    padding-top: 0px !important;
+    margin-bottom: 16px;
+    font-size: 1.1111rem;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: -0.02rem;
 }
 
 #book-layer .lv-layer-btn {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
 }
 
 .lv-layer-btn button {
-  width: 100%;
-  max-width: 162px;
-  font-size: 16px;
-  padding: 12px;
-  border-radius: 30px;
-  font-weight: 300;
+    width: 100%;
+    max-width: 162px;
+    font-size: 16px;
+    padding: 12px;
+    border-radius: 30px;
+    font-weight: 300;
 }
 
 .lv-layer-btn button.btn-cyan {
-  background-color: #4e68d2;
-  border: 1px solid #cccccc;
-  color: #FFFFFF;
+    background-color: #4e68d2;
+    border: 1px solid #cccccc;
+    color: #FFFFFF;
 }
 
 .lv-layer-btn button.btn-cyan:hover {
-  background-color: #2e4cc5;
+    background-color: #2e4cc5;
 }
 
 .lv-layer-btn button.btn-gray {
-  background-color: #ffffff;
-  border: 1px solid #cccccc;
-  color: #262626;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    color: #262626;
 }
 
 .lv-layer-btn button.btn-gray:hover {
-  background-color: #eeeeee;
+    background-color: #eeeeee;
 }
 
 .modal_transparent {
@@ -172,21 +181,21 @@ nav#top a {
 }
 
 nav#top a.back {
-    background-image: url(/public_html/images/cmm/icn-arrow-left.svg);
+    background-image: url(../image/cmm/icn-arrow-left.svg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 50%;
 }
 
 nav#top a.bookmark {
-    background-image: url(/public_html/images/cmm/icn-bookmark.svg);
+    background-image: url(../image/cmm/icn-bookmark.svg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 60%;
 }
 
 nav#top a.bookmark:active {
-    background-image: url(/public_html/images/cmm/icn-bookmark-active.svg);
+    background-image: url(../image/cmm/icn-bookmark-active.svg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 60%;
@@ -263,59 +272,59 @@ nav#bt .book .inner ul li button {
 }
 
 nav#bt .book .inner ul li button.contents-index {
-    background-image: url(/public_html/images/cmm/icn-list.svg);
+    background-image: url(../image/cmm/icn-list.svg);
 }
 
 nav#bt .book .inner ul li button.contents-index:active {
-    background-image: url(/public_html/images/cmm/icn-list-active.svg);
+    background-image: url(../image/cmm/icn-list-active.svg);
 }
 
 nav#bt .book .inner ul li button.contents-index.act {
-    background-image: url(/public_html/images/cmm/icn-list-active.svg);
+    background-image: url(../image/cmm/icn-list-active.svg);
 }
 
 nav#bt .book .inner ul li a.firstP:active {
-    background-image: url(/public_html/images/cmm/icn-first-active.svg);
+    background-image: url(../image/cmm/icn-first-active.svg);
 }
 
 nav#bt .book .inner ul li a.prev {
-    background-image: url(/public_html/images/cmm/icn-prev.svg);
+    background-image: url(../image/cmm/icn-prev.svg);
 }
 
 nav#bt .book .inner ul li a.prev:active {
-    background-image: url(/public_html/images/cmm/icn-prev-active.svg);
+    background-image: url(../image/cmm/icn-prev-active.svg);
 }
 
 nav#bt .book .inner ul li a.next {
-    background-image: url(/public_html/images/cmm/icn-next.svg);
+    background-image: url(../image/cmm/icn-next.svg);
 }
 
 nav#bt .book .inner ul li a.next:active {
-    background-image: url(/public_html/images/cmm/icn-next-active.svg);
+    background-image: url(../image/cmm/icn-next-active.svg);
 }
 
 nav#bt .book .inner ul li a.zoom-out {
-    background-image: url(/public_html/images/cmm/icn-minus.svg);
+    background-image: url(../image/cmm/icn-minus.svg);
 }
 
 nav#bt .book .inner ul li a.zoom-out:active {
-    background-image: url(/public_html/images/cmm/icn-minus-active.svg);
+    background-image: url(../image/cmm/icn-minus-active.svg);
 }
 
 nav#bt .book .inner ul li a.zoom-out.act {
-    background-image: url(/public_html/images/cmm/icn-minus-active.svg);
+    background-image: url(../image/cmm/icn-minus-active.svg);
 }
 
 nav#bt .book .inner ul li a.zoom-in {
-    background-image: url(/public_html/images/cmm/icn-zoom.svg);
+    background-image: url(../image/cmm/icn-zoom.svg);
 }
 
 nav#bt .book .inner ul li a.zoom-in:active {
-    background-image: url(/public_html/images/cmm/icn-zoom-active.svg);
+    background-image: url(../image/cmm/icn-zoom-active.svg);
 }
 
 nav#bt .book .inner ul li a.zoom-in.act {
-    background-image: url(/public_html/images/cmm/icn-zoom-active.svg);
+    background-image: url(../image/cmm/icn-zoom-active.svg);
 }
 
 
@@ -456,7 +465,7 @@ input#ageInputId[type=range] {
     height: 100%;
     border-right: 1px solid #cecece;
     z-index: 1;
-    background-color: #eb1a1a;
+    background-color: #ffffff;
     box-shadow: 200px 0px 0px rgba(0, 0, 0, 0.0);
     overflow-y: auto;
     overflow-x: visible;
@@ -523,7 +532,7 @@ input#ageInputId[type=range] {
     padding-left: 24px;
     font-size: 16px;
     color: #cecece;
-
+    background-color: #ffffff;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
