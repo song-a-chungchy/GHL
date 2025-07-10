@@ -2885,7 +2885,7 @@ nav.header.assignment-folder .date {
     background-size: contain;
 }
 
-.calendar-wrap.act .date-wrap a.next{
+.calendar-wrap.act .date-wrap a.next {
     transform: scale(-1, 1);
 }
 
@@ -4517,7 +4517,7 @@ div.lv-layer-btn button.btn-gray {
 }
 
 div.two-button button.btn-gray {
-    margin-left: 30px;
+    margin-left: 10px;
 }
 
 /* parent report */
@@ -4616,7 +4616,7 @@ div.two-button button.btn-gray {
     #book-layer div.level-layer {
         width: 90%;
         min-height: 191px;
-        height: 220px;
+        height: 210px;
     }
 
     div.level-layer h2 {
@@ -4638,7 +4638,7 @@ div.two-button button.btn-gray {
 @media screen and (max-width: 320px) {
     #book-layer div.level-layer {
         width: 90%;
-        height: 220px;
+        height: 210px;
     }
 
     .lv-layer-btn.btn-fixed {
@@ -4920,6 +4920,13 @@ div p.pwAlert {
     height: 1.1429vw;
     border-radius: 100px;
     background-color: #248ab2;
+}
+
+#pop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
 }
 
 /* 230613 phonics page end */
