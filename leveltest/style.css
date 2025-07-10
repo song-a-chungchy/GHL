@@ -146,11 +146,11 @@ a.btn2row span {
 
 @media screen and (max-width: 1044px) {
     main.main section {
-        width: 88.08428118773846%;
-        /* 1024/1044 */
-        margin: 0 auto;
-        -webkit-background-size: contain;
-        background-size: contain;
+        width: 87.38583333333333%;
+        /* 748/768 */
+        height: 800px;
+        padding-bottom: 0;
+        margin: 0 10px;
     }
 }
 
@@ -506,7 +506,7 @@ main.main .intro-close {
     position: absolute;
     top: 16px;
     right: 16px;
-    background-image: url(/public_html/images/icn-intro-exit.svg);
+    background-image: url( https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/leveltest/main/icn-intro-exit.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -639,9 +639,8 @@ main.main section>div.up-result {
 
 main.main section>div.result.intro {
     padding-top: 187px;
-    background: url(/public_html/images/intro-page.png) top center no-repeat;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/leveltest/main/intro-page.png) top center no-repeat;
 }
-
 
 .mylevel {
     margin: 0 auto;
@@ -892,7 +891,7 @@ div.resulting div {
 
     main.main section>div.intro {
         margin-top: 12.5000vw;
-        background: url(/public_html/resource/images/leveltest/intro-page.png) top center no-repeat;
+        background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/leveltest/main/intro-page.png) top center no-repeat;
     }
 
     /* .mylevel {
