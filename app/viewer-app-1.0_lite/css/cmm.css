@@ -193,14 +193,14 @@ nav#top a.back {
     background-size: 50%;
 }
 
-nav#top a.dict {
+nav#top a.dict.off {
     background-image: url(../images/cmm/icn-dict.svg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 60%;
 }
 
-nav#top a.dict.on {
+nav#top a.dict {
     background-image: url(../images/cmm/icn-dict-active.svg);
     background-repeat: no-repeat;
     background-position: center center;
