@@ -414,6 +414,22 @@ nav#top a.book-back {
     background-size: 60%;
 }
 
+nav#top a.speed.flex {
+    background-image: none;
+}
+
+nav#top a.speed.flex span:first-child {
+    background-image: url(../images/cmm/icn-shrink-on.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+nav#top a.speed.flex span:last-child {
+    background-image: url(../images/cmm/icn-expand-on.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 /* 책 출력 영역 */
 main {
     min-height: 47.6191em;
@@ -542,13 +558,13 @@ nav#bt ul.clearFix li a.speed.flex {
     background-image: none;
 }
 
-nav#bt ul.clearFix #btn-land-reduce {
+nav#bt ul.clearFix li a.speed.flex span:first-child {
     background-image: url(../images/cmm/icn-shrink-on.svg);
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-nav#bt ul.clearFix #btn-land-extand {
+nav#bt ul.clearFix li a.speed.flex span:last-child {
     background-image: url(../images/cmm/icn-expand-on.svg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -557,7 +573,6 @@ nav#bt ul.clearFix #btn-land-extand {
 nav#bt .inner .volume-range {
     height: 100%;
     aspect-ratio: 1/1;
-
     position: relative;
 }
 
@@ -962,6 +977,26 @@ nav#bt .inner .volume-range .vertical-slider::-moz-range-thumb {
         font-size: 0.9417rem;
         /*36*/
     }
+
+    nav#top a.speed {
+        display: block !important;
+    }
+
+    nav#top a.speed.flex span {
+        height: 100%;
+        aspect-ratio: 1/1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav#top a.speed.flex span img {
+        background-size: 60%;
+    }
+
+    nav#bt ul.clearFix li:last-child {
+        display: none !important;
+    }
 }
 
 @media screen and (min-width: 640px) and (orientation: landscape) {
@@ -1053,15 +1088,6 @@ nav#bt .inner .volume-range .vertical-slider::-moz-range-thumb {
         font-size: 1.0715rem;
         /*36/450*/
     }
-
-    nav#bt ul.clearFix li:last-child {
-        width: 2.5em;
-        height: 2.5em;
-        position: fixed;
-        top: 0.5em;
-        right: 1.25em;
-        /*         transform: translate(-50%, -50%); */
-    }
 }
 
 @media screen and (min-width: 1024px) and (orientation: landscape) {
@@ -1116,15 +1142,6 @@ nav#bt .inner .volume-range .vertical-slider::-moz-range-thumb {
         /* 80px */
         font-size: 1.5239rem;
         /*36*/
-    }
-
-    nav#bt ul.clearFix li:last-child {
-        width: 3em;
-        height: 3em;
-        position: fixed;
-        top: 3em;
-        right: 3em;
-        transform: translate(0%, -50%);
     }
 }
 

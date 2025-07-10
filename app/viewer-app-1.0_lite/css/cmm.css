@@ -200,7 +200,7 @@ nav#top a.dict {
     background-size: 60%;
 }
 
-nav#top a.act {
+nav#top a.dict.act {
     background-image: url(../images/cmm/icn-dict-active.svg);
     background-repeat: no-repeat;
     background-position: center center;
