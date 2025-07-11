@@ -47,6 +47,36 @@ button {
     cursor: pointer
 }
 
+/* book page */
+div.main,
+main.flex,
+section.flex {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+body.act main.flex {
+    padding-top: 52px;
+    padding-bottom: 97px;
+}
+
+main.flex {
+    padding-top: 0;
+    padding-bottom: 97px;
+    transition: 0.5s;
+}
+
+section.flex {
+    display: flex;
+    overflow: auto;
+}
+
+#pdf-container {
+    position: relative;
+    margin: auto;
+}
+
 /* 레벨 레이어팝업 */
 #book-layer {
     display: block;
@@ -201,7 +231,7 @@ nav#top a.bookmark:active {
     background-size: 60%;
 }
 
-.page_div .icn_bookmark {
+.icn_bookmark {
     background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/viewer-global-pc-lite/image/icn_bookmark.png);
     background-repeat: no-repeat;
     background-size: contain;
