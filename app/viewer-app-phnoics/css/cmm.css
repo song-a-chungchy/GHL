@@ -410,7 +410,7 @@ nav#bt .book .inner .speed .option-wrap {
     display: none;
 }
 
-nav#bt .book .inner .speed:hover .option-wrap {
+nav#bt .book .inner .speed.act .option-wrap {
     position: absolute;
     display: block;
     display: flex;
@@ -432,7 +432,7 @@ nav#bt .book .inner .speed .option-wrap li {
     font-weight: 500;
 }
 
-nav#bt .book .inner .speed .option-wrap li:hover {
+nav#bt .book .inner .speed .option-wrap li:active {
     background-color: #fafafa;
     color: #4e68d2;
     font-weight: 600;
