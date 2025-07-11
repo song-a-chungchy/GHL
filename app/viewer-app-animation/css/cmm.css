@@ -615,7 +615,7 @@ nav#bt .inner .speed .option-wrap {
     z-index: 20;
 }
 
-nav#bt .inner .speed:hover .option-wrap {
+nav#bt .inner .speed.act .option-wrap {
     display: block;
 }
 
@@ -632,7 +632,7 @@ nav#bt .inner .speed .option-wrap li {
 
 }
 
-nav#bt .inner .speed .option-wrap li:hover {
+nav#bt .inner .speed .option-wrap li:active {
     background-color: #fafafa;
     color: #ff7f1a;
     font-weight: 600;
@@ -814,9 +814,7 @@ nav#bt .inner .volume-range .vertical-slider::-moz-range-thumb {
     text-align: center;
     color: #ffffff;
     overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    word-break: break-all;
+    word-break: keep-all;
     text-align: center;
 }
 
@@ -871,12 +869,16 @@ nav#bt .inner .volume-range .vertical-slider::-moz-range-thumb {
     }
 
     .nm-fs-44 {
-        font-size: 1.8625rem;
+        font-size: 1.5rem;
         /* 44px */
     }
 
     .nm-fs-md {
         font-size: 1.4392rem;
+    }
+
+    .script-area {
+        height: 4.5em;
     }
 }
 
@@ -901,7 +903,7 @@ nav#bt .inner .volume-range .vertical-slider::-moz-range-thumb {
     }
 
     .nm-fs-44 {
-        font-size: 1.8625rem;
+        font-size: 2rem;
         /* 44px */
     }
 
@@ -1078,7 +1080,7 @@ nav#bt .inner .volume-range .vertical-slider::-moz-range-thumb {
     }
 
     .nm-fs-44 {
-        font-size: 1.8625rem;
+        font-size: 1.5rem;
         /* 44px */
     }
 
@@ -1135,6 +1137,7 @@ nav#bt .inner .volume-range .vertical-slider::-moz-range-thumb {
 
     .script-area {
         bottom: 7rem;
+        height: 4.5em;
     }
 
     .range p {
@@ -1143,6 +1146,12 @@ nav#bt .inner .volume-range .vertical-slider::-moz-range-thumb {
         font-size: 1.5239rem;
         /*36*/
     }
+
+    .nm-fs-44 {
+        font-size: 1.8625rem;
+        /* 44px */
+    }
+
 }
 
 @media screen and (min-width: 1366px) and (orientation: landscape) {
