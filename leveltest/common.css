@@ -523,10 +523,6 @@ main.test section>div {
     -webkit-border-radius: 50%;
 }
 
-.next-btn a {
-    display: none;
-}
-
 @media screen and (max-width: 1044px) {
     .next-btn {
         margin-right: 0;
@@ -594,26 +590,6 @@ main.test section>div {
         /* 40 */
         bottom: 2.1220em;
         /* 110 */
-    }
-
-    .next-btn a {
-        text-align: center;
-        position: fixed;
-        right: 3.7037037037037%; /* 40 */
-        bottom: 2.1220em; /* 110 */
-        min-width: 160px;
-        height: 44px;
-        line-height: 44px;
-        border-radius: 22px;
-        -moz-border-radius: 22px;
-        -webkit-border-radius: 22px;
-        font-size: 1.111111111111111em;
-        font-weight: 600;
-        position: fixed;
-    }
-
-    .next-btn img {
-        display: none;
     }
 }
 
