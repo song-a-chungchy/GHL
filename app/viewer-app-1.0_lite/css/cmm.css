@@ -214,7 +214,7 @@ nav#top a.bookmark {
     background-size: 60%;
 }
 
-nav#top a.bookmark.on{
+nav#top a.bookmark.on {
     background-image: url(../images/cmm/icn-bookmark-active.svg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -439,11 +439,16 @@ nav#bt .book .inner .speed .option-wrap li {
     border: 1px solid #eeeeeeee;
     font-size: 16px;
     font-weight: 500;
-    transition: all 0.5s;
+}
+
+nav#bt .book .inner .speed .option-wrap li:hover {
+    background-color: #c5dcff;
+    color: #4e68d2;
+    font-weight: 600;
 }
 
 nav#bt .book .inner .speed .option-wrap li:active {
-    background-color: #fafafa;
+    background-color: #c5dcff;
     color: #4e68d2;
     font-weight: 600;
 }
