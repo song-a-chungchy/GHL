@@ -629,7 +629,7 @@ nav#bt .inner .speed .option-wrap li {
     font-size: 16px;
     font-weight: 500;
     color: #B7B7B7;
-
+    transition: all 0.5s;
 }
 
 nav#bt .inner .speed .option-wrap li:active {
