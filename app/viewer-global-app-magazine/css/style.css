@@ -516,12 +516,12 @@ section.flex {
 }
 
 body.act main.flex {
-  padding-top: 0;
+  padding-top: 3.125em;
   padding-bottom: 6.2em;
 }
 
 main.flex {
-  padding-top: 3.125em;
+  padding-top: 0;
   padding-bottom: 6.2em;
   transition: 0.5s;
 }
