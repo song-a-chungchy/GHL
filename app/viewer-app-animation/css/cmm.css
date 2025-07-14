@@ -629,11 +629,16 @@ nav#bt .inner .speed .option-wrap li {
     font-size: 16px;
     font-weight: 500;
     color: #B7B7B7;
-    transition: all 0.5s;
+}
+
+nav#bt .inner .speed .option-wrap li:hover {
+    background-color: #ffe2bc;
+    color: #ff7f1a;
+    font-weight: 600;
 }
 
 nav#bt .inner .speed .option-wrap li:active {
-    background-color: #fafafa;
+    background-color: #ffe2bc;
     color: #ff7f1a;
     font-weight: 600;
 }
