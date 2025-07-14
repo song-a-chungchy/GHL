@@ -533,11 +533,11 @@ section.flex {
 }
 
 #pdf-container {
+  height: 100%;
+  width: auto;
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: auto;
-  margin: auto;
+  align-items: flex-start;
 }
 
 #pdf-container>div {
@@ -568,7 +568,19 @@ section.flex {
   transform: translate(-50%, -50%) rotate(270deg);
 }
 
+
 @media screen and (min-width:640px) {
+  body.act main.flex {
+    padding-top: 5.3334em;
+    padding-bottom: 11.4286em;
+  }
+
+  main.flex {
+    padding-top: 0;
+    padding-bottom: 11.4286em;
+    transition: 0.5s;
+  }
+
   nav#top {
     border-bottom-width: 2px;
     height: 5.3334em;
@@ -615,11 +627,6 @@ section.flex {
 
   nav.bt .book .inner ul li a {
     background-size: 3em;
-  }
-
-  body.act main.flex,
-  main.flex {
-    padding-bottom: 11.4286em;
   }
 
   .rangeslider--horizontal {
