@@ -227,7 +227,7 @@ nav#top a.bookmark {
     background-size: 60%;
 }
 
-nav#top a.bookmark:active {
+nav#top a.bookmark.act{
     background-image: url(../image/cmm/icn-bookmark-active.svg);
     background-repeat: no-repeat;
     background-position: center center;
