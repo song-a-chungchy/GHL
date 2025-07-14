@@ -57,17 +57,17 @@ section.flex {
 }
 
 body.act main.flex {
-    padding-top: 52px;
-    padding-bottom: 97px;
+    padding-top: 3.125em;
+    padding-bottom: 6.2em;
 }
 
 main.flex {
     padding-top: 0;
-    padding-bottom: 97px;
+    padding-bottom: 6.2em;
     transition: 0.5s;
 }
 
-section.flex {
+/* section.flex {
     display: flex;
     overflow: auto;
 }
@@ -75,6 +75,25 @@ section.flex {
 #pdf-container {
     position: relative;
     margin: auto;
+}
+ */
+section.flex {
+    /* 240517 add */
+    position: relative;
+    height: 100%;
+}
+
+#pdf-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin: auto;
+}
+
+#pdf-container>div {
+    flex-shrink: 0;
+    min-height: 100%;
 }
 
 /* 레벨 레이어팝업 */
@@ -170,7 +189,7 @@ div.level-layer h2 {
 nav#top {
     display: block;
     position: fixed;
-    top: 0;
+    top: -3.125em;
     width: 100%;
     height: 3.125em;
     border-bottom: 1px solid #d1d3d4;
@@ -180,6 +199,10 @@ nav#top {
     justify-content: space-between;
     align-items: center;
     background-color: #ffffff;
+}
+
+body.act nav#top {
+    top: 0;
 }
 
 nav#top h1 {
@@ -232,15 +255,15 @@ nav#top a.bookmark:active {
 }
 
 .icn_bookmark {
+    position: absolute;
+    top: 13.125vw;
+    right: 3%;
     background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V8_aws/library/public_html/viewer-global-pc-lite/image/icn_bookmark.png);
     background-repeat: no-repeat;
     background-size: contain;
     width: 6.25vw;
     height: 13.125vw;
-    max-height: 87px;
-    position: absolute;
-    right: 10px;
-    z-index: 1;
+    max-width: 44px;
 }
 
 /* 하단 네비게이션 */
@@ -588,6 +611,7 @@ input#ageInputId[type=range] {
     nav#top {
         border-bottom-width: 2px;
         height: 5.3334em;
+        top: -5.3334em;
         /* 126px */
     }
 
@@ -656,7 +680,6 @@ input#ageInputId[type=range] {
         font-size: 20px;
     }
 
-
     .rangeslider--horizontal {
         width: 90%;
         height: 5px;
@@ -693,6 +716,7 @@ input#ageInputId[type=range] {
 @media screen and (min-width: 960px) {
     nav#top {
         height: 7.6191em;
+        top: -7.691em;
     }
 
     nav#top h1 {
@@ -725,6 +749,7 @@ input#ageInputId[type=range] {
 @media screen and (min-width:1024px) {
     nav#top {
         height: 7.6191em;
+        top: -7.6191em;
     }
 
     nav#top h1 {
