@@ -1,0 +1,818 @@
+@charset "UTF-8";
+
+body {
+    position: relative;
+}
+
+section {
+    position: relative;
+    overflow: hidden;
+}
+
+button {
+    background: none;
+    border-style: none;
+}
+
+/* 상단*/
+nav#top {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    /* height: 6.5016em; */
+    background: #fff;
+    z-index: 20;
+    border-bottom: 1px solid #bbc6ce;
+}
+
+nav#top ul li {
+    width: auto;
+    margin: 1.7% 0 1.7% 1.85185185185185%;
+    /*20/1080*/
+    text-align: center;
+    /* box-sizing: border-box; */
+}
+
+nav#top ul li a {
+    display: block;
+    width: 100%;
+    padding: 0 35px;
+    /*4.6%비율*/
+    line-height: 5.0794rem;
+    color: #248ab2;
+    font-size: 1.8286em;
+    /*36/14*/
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    box-sizing: border-box;
+    white-space: nowrap;
+}
+
+nav#top ul li:first-child {
+    margin-left: 2.31481481481481%;
+    /*25/1080*/
+}
+
+nav#top ul li a.act {
+    position: relative;
+    width: auto;
+    background-color: #248ab2;
+    color: #fff;
+}
+
+/* /상단메뉴 */
+
+/* 상단메뉴2-슬라이드*/
+nav.header {
+    position: relative;
+    width: 100%;
+    height: 6.9643rem;
+    /*130*/
+}
+
+nav.header h1 {
+    width: 74.81481481481%;
+    /* 808px */
+    margin: 0 auto;
+    line-height: 6.9643rem;
+    /*130*/
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+nav.header a.back {
+    position: absolute;
+    width: 12.592592592595%;
+    height: 100%;
+    top: 0;
+}
+
+nav.header span {
+    display: block;
+    width: 1.9286rem;
+    /*36*/
+    margin: 0 auto;
+    left: 3.7500rem;
+    line-height: 6.9643rem;
+}
+
+nav.header span img {
+    vertical-align: middle;
+}
+
+nav#top a.fake-active {
+    background-color: #f3f7f9;
+}
+
+/* /상단메뉴 */
+
+.content {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 2.0090rem
+        /*45*/
+}
+
+.content.fix {
+    position: relative;
+    padding: 6.9643rem 2.31481481481481% 2.4108rem;
+    /*130/ 25/1080/ 45*/
+}
+
+.content.fix.wid-no {
+    position: relative;
+    padding: 6.9643rem 0 2.4108rem;
+    /*130/45*/
+}
+
+
+/* cover */
+.content.bg {
+    text-align: center;
+    background: #f6f6f6 url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/learning/cmm/bgbg.png) repeat;
+    background-size: cover;
+}
+
+.content.bg.cover div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.content.cover h2 {
+    font-size: 13.02083333333333vw;
+    /*100*/
+    font-weight: 600;
+}
+
+.content.cover h3 {
+    padding-top: 3.90625vw;
+    font-size: 4.16666666666667vw;
+    /*32*/
+}
+
+.content.cover button {
+    width: 39.0625%;
+    /*400/1024*/
+    margin-top: 9.11458333333333vw;
+    /*70*/
+    padding: 0.4858em 0;
+    /*17*/
+    font-size: 5.20833333333333vw;
+    /*30*/
+}
+
+/* /cover */
+
+header {
+    overflow: hidden;
+}
+
+header h2 img {
+    width: 4.94791666666667vw;
+    /*38*/
+    min-width: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+header .page {
+    margin-top: 1.30208333333333vw;
+    /*10*/
+    float: right;
+    overflow: hidden;
+}
+
+header .page ul li {
+    float: left;
+    width: 5.20833333333333vw;
+    /*40*/
+    min-width: 25px;
+    max-width: 55px;
+    height: 5.20833333333333vw;
+    /*40*/
+    min-height: 25px;
+    max-height: 55px;
+    margin: 0 4px;
+    border: 3px solid #a4acb7;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #a4acb7;
+    font-size: 3.64583333333333vw;
+    /*28*/
+    font-weight: 600;
+    text-align: center;
+}
+
+header .page ul li.check {
+    text-indent: -10000px;
+    color: #fff;
+    border: 3px solid #fff;
+    border-style: double;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/learning/cmm/icn_page-check.png) no-repeat center center;
+    background-size: 70%;
+}
+
+header .page.red ul li.check {
+    background-color: #eb485b;
+}
+
+header .page.red ul li.current {
+    border: 3px solid #eb485b;
+    color: #eb485b;
+}
+
+header .page.yellow ul li.check {
+    background-color: #ffcc00;
+}
+
+header .page.yellow ul li.current {
+    border: 3px solid #ffcc00;
+    color: #ffcc00;
+}
+
+header .page.green ul li.check {
+    background-color: #01c78a;
+}
+
+header .page.green ul li.current {
+    border: 3px solid #01c78a;
+    color: #01c78a;
+}
+
+.content .content-wrap {
+    padding-top: 3.90625vw;
+    /*30*/
+}
+
+.content h2 {
+    font-size: 3.90625vw;
+    /*30*/
+    font-weight: 600;
+}
+
+.content .txt-l {
+    text-align: left;
+}
+
+.content.bg h2.red {
+    color: #eb485b
+}
+
+.content.bg h2.yellow {
+    color: #ffd800;
+}
+
+.content.bg h2.green {
+    color: #01c78a;
+}
+
+.container {
+    margin: 0px 2.31481481481481%;
+    /*25/1080*/
+}
+
+.green {
+    color: #2f9f2a;
+}
+
+.yellow {
+    color: #ffc000;
+}
+
+.red {
+    color: #da2739
+}
+
+.btn {
+    color: #fff;
+    border-radius: 100px;
+}
+
+.btn.btn-red {
+    background-color: #eb485b;
+    box-shadow: 0 2px 8px #b2b2b2;
+}
+
+.btn.btn-yellow {
+    background-color: #ffd800;
+    box-shadow: 0 2px 8px #b2b2b2;
+}
+
+.btn.btn-green {
+    background-color: #01c78a;
+    box-shadow: 0 2px 8px #b2b2b2;
+}
+
+.bottom .btn-prev {
+    position: absolute;
+    bottom: 2%;
+    left: 8px;
+    width: 51px;
+    height: 51px;
+    margin-top: -10px;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/learning/cmm/btn_prev-off.png);
+    cursor: pointer;
+    z-index: 2;
+}
+
+.bottom .btn-next {
+    position: absolute;
+    bottom: 2%;
+    right: 8px;
+    width: 51px;
+    height: 51px;
+    margin-top: -10px;
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/learning/cmm/btn_next-off.png);
+    cursor: pointer;
+    z-index: 2;
+}
+
+.speaking .bottom .btn-prev.on {
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/learning/speaking/btn_prev-on.png);
+    background-size: cover;
+}
+
+.speaking .bottom .btn-next.on {
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/learning/speaking/btn_next-on.png);
+    background-size: cover;
+}
+
+.listening .bottom .btn-prev.on {
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/learning/listening/btn_next-on.png);
+    background-size: cover;
+}
+
+.listening .bottom .btn-next.on {
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/app/learning/listening/btn_next-on.png);
+    background-size: cover;
+}
+
+.thinking .bottom .btn-prev.on {
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/learning/thinking/btn_prev-on.png);
+    background-size: cover;
+}
+
+.thinking .bottom .btn-next.on {
+    background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/learning/thinking/btn_next-on.png);
+    background-size: cover;
+}
+
+/* result */
+.result h2 {
+    margin-top: 6.51041666666667vw;
+    /*50*/
+}
+
+
+.result h2 img {
+    width: 60%;
+}
+
+.result table tr th {
+    padding: 10px;
+    font-size: 3.125vw;
+    /*24*/
+    color: #fff;
+    border-right: 1px solid #fff;
+}
+
+.result table tr td {
+    padding: 14px 2.60416666666667vw;
+    /*20*/
+    font-size: 2.60416666666667vw;
+    /*22*/
+    border: 1px solid #d1d3d4;
+    background-color: #fff;
+}
+
+.result table tr td.score {
+    font-weight: 600;
+}
+
+.result table {
+    margin-top: 3.90625vw;
+    /*30*/
+}
+
+.result table.t-red tr th {
+    background-color: #eb485b;
+}
+
+.result table.t-yellow tr th {
+    background-color: #ffcc00;
+}
+
+.result table td.score img {
+    width: 6.51041666666667vw;
+    /*50*/
+}
+
+/* /result */
+
+@media screen and (min-width: 1024px) {
+    nav#top ul li {
+        margin: 1.2% 0 1.2% 1.85185185185185%;
+    }
+
+    .result h2 img {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    nav#top ul li a,
+    .search-wrap input {
+        font-size: 1.5239em;
+    }
+
+    .search-wrap input {
+        height: 4.2329rem;
+        /*100*/
+    }
+
+    nav#top ul li a {
+        padding: 0 1.5625rem;
+        /*35*/
+    }
+
+    nav#top ul li a,
+    .search-wrap .btn-search span {
+        line-height: 4.2329rem;
+        /*100*/
+    }
+
+    .content {
+        padding-bottom: 2.0090rem
+            /*45*/
+    }
+
+    .bottom .btn-prev,
+    .bottom .btn-next {
+        width: 38px;
+        height: 38px;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    nav#top ul li a,
+    .search-wrap .btn-search span {
+        line-height: 2.9762rem;
+        /*100*/
+    }
+
+    nav#top ul li a {
+        padding: 0 1.0417rem;
+        /*35*/
+    }
+
+    nav#top ul li a,
+    .search-wrap input {
+        font-size: 1.0715rem;
+    }
+
+    nav.header {
+        height: 3.8691rem;
+        /*130*/
+    }
+
+    nav.header h1 {
+        line-height: 3.8691rem;
+        /*130*/
+    }
+
+    nav.header span {
+        left: 2.0834rem;
+        /*70*/
+        width: 1.0715rem;
+        /*36*/
+        line-height: 3.8691rem;
+    }
+
+    .content {
+        padding-bottom: 1.3393rem
+            /*45*/
+    }
+
+    .content.fix {
+        padding: 3.8691rem 2.31481481481481% 1.3393rem;
+        /*130/ 25/1080/ 45*/
+    }
+
+    .bottom .btn-prev,
+    .bottom .btn-next {
+        width: 35px;
+        height: 35px;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    nav#top ul li a,
+    .search-wrap input {
+        font-size: 0.8929em;
+    }
+
+    nav#top ul li a,
+    .search-wrap .btn-search span {
+        line-height: 2.4802rem;
+        /*100*/
+    }
+
+    nav#top ul li {
+        width: auto;
+        margin: 6px 0 6px 1.85185185185185%;
+    }
+
+    nav#top ul li a {
+        padding: 0 0.9156rem;
+        /*35*/
+    }
+
+    nav.header {
+        height: 3.4006rem;
+        /*130*/
+    }
+
+    nav.header h1 {
+        line-height: 3.4006rem;
+        /*130*/
+    }
+
+    nav.header span {
+        left: 1.8311rem;
+        /*70*/
+        width: 0.9417rem;
+        /*36*/
+        line-height: 3.4006rem;
+    }
+
+    .content {
+        padding-bottom: 1.1772rem
+            /*45*/
+    }
+
+    .content.fix {
+        padding: 3.4006rem 2.31481481481481% 1.1772rem;
+        /*130/ 25/1080/ 45*/
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    nav.header .l-btn,
+    nav.header .r-btn {
+        font-size: 0.7620rem;
+        /*36*/
+    }
+
+    .bottom .btn-prev,
+    .bottom .btn-next {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* font-size */
+
+.font30 {
+    font-size: 1.5239rem;
+}
+
+.font32 {
+    font-size: 1.7143rem;
+}
+
+.font36 {
+    font-size: 1.8286rem;
+}
+
+.font40 {
+    font-size: 2.0318rem;
+}
+
+.font48 {
+    font-size: 2.4381rem;
+}
+
+/* 여백사이즈 */
+
+.space60 {
+    margin: 2.5397rem 0;
+}
+
+/* 입력창 */
+
+input[type="text"].one,
+input[type="Password"].one,
+input[type="email"].one {
+    width: 100%;
+    height: 5.0794rem;
+    /*120*/
+    padding: 0 4.16666666666667%;
+    /*/970*/
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #d1d3d4;
+}
+
+textarea {
+    padding: 1.2699rem 2.06185567010309%;
+    /*25 - 20/970*/
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #d1d3d4;
+}
+
+@media screen and (min-width: 1024px) {
+    .font30 {
+        font-size: 2.1429rem;
+    }
+
+    .font32 {
+        font-size: 2.2858rem;
+    }
+
+    .font36 {
+        font-size: 2.5715rem;
+    }
+
+    .font40 {
+        font-size: 2.8572rem;
+    }
+
+    .tabs li .new {
+        right: 23%;
+    }
+}
+
+@media screen and (min-width: 1200px) {}
+
+@media screen and (max-width: 710px) {
+    .font36 {
+        font-size: 1.6905rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .font30 {
+        font-size: 1.2699rem;
+    }
+
+    .font32 {
+        font-size: 1.2699rem;
+    }
+
+    .font36 {
+        font-size: 1.5239rem;
+    }
+
+    .font40 {
+        font-size: 1.6932rem;
+    }
+
+    .font48 {
+        font-size: 2.1429rem;
+    }
+
+    .tabs li .new {
+        right: 18%;
+    }
+
+    nav#top ul li .new {
+        right: 3px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .font36 {
+        font-size: 1.3334rem;
+    }
+
+    .font48 {
+        font-size: 1.7778rem;
+    }
+}
+
+@media screen and (max-width: 487px) {
+    .font36 {
+        font-size: 1.1548rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .font30 {
+        font-size: 0.8929rem;
+    }
+
+    .font32 {
+        font-size: 1.0045rem;
+    }
+
+    .font36 {
+        font-size: 1.0715rem;
+    }
+
+    .font40 {
+        font-size: 1.1905rem;
+    }
+
+    .font48 {
+        font-size: 1.4286rem;
+    }
+
+    .space60 {
+        margin: 1.7858rem 0;
+    }
+
+    input[type="text"].one,
+    input[type="Password"].one,
+    input[type="email"].one {
+        height: 3.5715rem;
+        /*120*/
+    }
+
+    textarea {
+        padding: 0.7441rem 2.06185567010309%;
+        /*25 - 20/970*/
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .font30 {
+        font-size: 0.7848rem;
+    }
+
+    .font32 {
+        font-size: 0.8371rem;
+    }
+
+    .font36 {
+        font-size: 0.9417rem;
+    }
+
+    .font40 {
+        font-size: 1.0464rem;
+    }
+
+    .font48 {
+        font-size: 1.2556rem;
+    }
+
+    .space60 {
+        margin: 1.4881rem 0;
+    }
+
+    input[type="text"].one,
+    input[type="Password"].one,
+    input[type="email"].one {
+        height: 3.1390rem;
+        /*120*/
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .font30 {
+        font-size: 0.6350rem;
+    }
+
+    .font32 {
+        font-size: 0.7143rem;
+    }
+
+    .font36 {
+        font-size: 0.7620rem;
+    }
+
+    .font40 {
+        font-size: 0.8466rem;
+    }
+
+    .font48 {
+        font-size: 1.0159rem;
+    }
+
+    .space60 {
+        margin: 1.2699rem 0;
+    }
+
+    input[type="text"].one,
+    input[type="Password"].one,
+    input[type="email"].one {
+        height: 2.5397rem;
+        /*120*/
+    }
+
+    textarea {
+        padding: 0.5292rem 2.06185567010309%;
+        /*25 - 20/970*/
+    }
+}
