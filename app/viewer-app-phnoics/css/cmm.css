@@ -430,6 +430,7 @@ nav#bt .book .inner .speed .option-wrap li {
     border: 1px solid #eeeeeeee;
     font-size: 16px;
     font-weight: 500;
+        transition: all 0.5s;
 }
 
 nav#bt .book .inner .speed .option-wrap li:active {
