@@ -2235,7 +2235,7 @@ table.inputA td {
     width: 20%;
 }
 
-.new-assignment table.inputA span:has(input[type="date"]) {
+.new-assignment table.inputA span:has(input[type="date"]) span {
     display: flex;
     align-items: center;
 }
