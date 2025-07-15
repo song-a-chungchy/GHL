@@ -1429,7 +1429,7 @@ h2+div.tab {
     color: #fff;
 }
 
-.myprofile .con button.disabled  {
+.myprofile .con button.disabled {
     cursor: default;
     background-color: #FAFAFA;
     color: #989898;
@@ -2556,6 +2556,16 @@ s.avatar li a span {
 
 .myprofile .box .table-wrap table tr td:has(a) {
     padding: 0;
+}
+
+.myprofile .box .table-wrap table tr td:has(img) img {
+    display: inline;
+    margin-right: 4px;
+    line-height: 19px;
+}
+
+.myprofile .box .table-wrap table tr td:has(img) a {
+    display: inline;
 }
 
 .myprofile .box .table-wrap table tr td a {
