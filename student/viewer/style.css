@@ -1411,11 +1411,18 @@ nav#bt .speed .option-wrap li {
     font-size: 16px;
     font-weight: 500;
     color: #B7B7B7;
-
 }
 
-nav#bt .speed.on .option-wrap li:hover {
-    background-color: #fafafa;
+nav .speed p {
+    color: #4e68d2;
+}
+
+nav.videos .speed p {
+    color: #ff7f1a;
+}
+
+nav#bt.videos .speed .option-wrap li:hover {
+    background-color: #fff0e6;
     color: #ff7f1a;
     font-weight: 600;
 }
