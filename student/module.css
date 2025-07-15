@@ -663,7 +663,7 @@ select {
     position: relative;
     padding: 12px 50px 12px 15px;
     background-color: inherit;
-    background-image: url(/public_html/resource/images/new/icn_input-arrow.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/new/icn_input-arrow.svg);
     background-position: right 15px center;
     background-size: 24px;
     z-index: 2;
@@ -1187,27 +1187,27 @@ td.table-lv {
 }
 
 td.table-lv.table-lv1_2 {
-    background-image: url(/public_html/resource/images/mypage/level_1_2.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/study/studyhistory/level_1_2.svg);
 }
 
 td.table-lv.table-lv3_8 {
-    background-image: url(/public_html/resource/images/mypage/level_3_8.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/study/studyhistory/level_3_8.svg);
 }
 
 td.table-lv.table-lv9_14 {
-    background-image: url(/public_html/resource/images/mypage/level_9_14.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/study/studyhistory/level_9_14.svg);
 }
 
 td.table-lv.table-lv15_20 {
-    background-image: url(/public_html/resource/images/mypage/level_15_20.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/study/studyhistory/level_15_20.svg);
 }
 
 td.table-lv.table-lv21_26 {
-    background-image: url(/public_html/resource/images/mypage/level_21_26.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/study/studyhistory/level_21_26.svg);
 }
 
 td.table-lv.table-lv27_30 {
-    background-image: url(/public_html/resource/images/mypage/level_27_30.svg);
+    background-image: url(https://web-cdn.chungchy.com/Highlights_Global_V9/lms/public_html/resource/images/study/studyhistory/level_27_30.svg);
 }
 
 th {
