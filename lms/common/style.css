@@ -238,7 +238,7 @@
     width: 1000px;
     height: 160px;
     border: 1px solid #dbdbdb;
-    box-sizing: border-box;
+/*     box-sizing: border-box; */
     margin-bottom: 30px;
     border-radius: 3px;
 }
