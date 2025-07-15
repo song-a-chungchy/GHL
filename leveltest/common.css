@@ -982,7 +982,7 @@ td.table-title {
     content: ".";
     clear: both;
     text-indent: -9999px;
-    height: 0;
+    height: 0px;
 }
 
 div.beta {

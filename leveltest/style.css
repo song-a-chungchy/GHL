@@ -91,6 +91,24 @@ h1.up-h1 {
     display: none;
 }
 
+div.main-btn {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+div.main-btn.up-main-btn {
+    max-width: none;
+    position: static;
+}
+
+.main-btn {
+    margin: 0 auto;
+}
+
 .main-btn a {
     display: block;
     width: 100%;
@@ -102,6 +120,7 @@ h1.up-h1 {
     /*     font-size: 1.555555555555556em; */
     /* 28/18 */
     font-weight: 700;
+    /*     max-width: 300px; */
 }
 
 .main-btn a:hover {
@@ -513,8 +532,11 @@ main.main section>div.intro .student-info {
 
 main.main section>div.intro .info-wrap {
     text-align: left;
-    margin: 0 auto;
+    margin: 16px auto;
     font-size: 24px;
+    background-color: rgba(235, 249, 255, 0.8);
+    border-radius: 30px;
+    padding: 24px;
 }
 
 main.main section>div.intro .info-wrap h2 {
@@ -855,6 +877,10 @@ div.resulting div {
     main.main section>div.intro {
         margin-top: 12.5000vw;
         background: url(https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/images/leveltest/main/intro-page.png) top center no-repeat;
+    }
+
+    main.main section>div.intro .info-wrap {
+        padding: 16px;
     }
 
     /* .mylevel {
