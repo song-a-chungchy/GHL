@@ -864,7 +864,7 @@ nav#top h1 {
     font-size: 1.1905em;
     color: #4E68D2;
     text-align: center;
-    font-weight: 400;
+    font-weight: 400; 
 }
 
 nav#top.phonics h1 {
@@ -934,6 +934,7 @@ nav#top a.bookmark {
 
 nav .set.a-cmm {
     display: flex;
+    align-items: center;
     height: 100%;
 }
 
@@ -1617,11 +1618,11 @@ nav#bt .volume-range input[type=range]:focus::-webkit-slider-runnable-track {
     }
 
     nav#top.phonics h1 {
-        width: calc(100% - 6em - 26px);
+        width: calc(100% - 168px);
     }
 
     nav#top.books h1 {
-        width: calc(100% - 6em - 26px);
+               width: calc(100% - 168px);
     }
 
     nav#top.videos h1 {
