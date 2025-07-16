@@ -589,7 +589,7 @@ div.level-layer h2 {
     padding: 12px;
     border-radius: 30px;
     font-weight: 300;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .lv-layer-btn button.btn-cyan {
@@ -907,6 +907,12 @@ nav#top a.expand {
     top: 0;
     right: 0;
 }
+nav#top a.reduce {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 
 nav#top a.zoom {
     position: absolute;
@@ -986,7 +992,7 @@ nav a.expand.on {
     background-image: url(../image/icn-expand-on.svg);
 }
 
-nav a.expand.on.act {
+nav a.reduce.on {
     background-image: url(../image/icn-shrink-on.svg);
 }
 
@@ -1566,6 +1572,12 @@ nav#bt .volume-range input[type=range]:focus::-webkit-slider-runnable-track {
     }
 
     nav#top a.expand {
+        top: 50%;
+        transform: translateY(-50%);
+        right: 10px;
+    }
+
+    nav#top a.reduce {
         top: 50%;
         transform: translateY(-50%);
         right: 10px;
