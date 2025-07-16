@@ -862,6 +862,7 @@
     border-radius: 20px;
     box-shadow: 0px 0px 10px 0px #6BB6FF;
     transition: all 0.5s;
+    cursor: pointer;
 }
 
 .phonics .con .book_wrap img {
@@ -2115,6 +2116,10 @@ h2+div.tab {
     background-color: #ffffff;
 }
 
+.myprofile .box:first-child{
+    margin-top: 0px;
+}
+
 .myprofile .box .contents-wrap {
     padding: 6px 12px;
 }
@@ -2187,6 +2192,10 @@ h2+div.tab {
 }
 
 .myprofile .parent_setting .parent_report.disabled .toggle-button>li {
+    cursor: default;
+}
+
+.myprofile .parent_setting .parent_report.disabled button {
     cursor: default;
 }
 
@@ -2788,7 +2797,7 @@ s.avatar li a span {
     background-position: center -480px;
 }
 
-.myprofile .box.blue-box .level-badge.mlv-yellow{
+.myprofile .box.blue-box .level-badge.mlv-yellow {
     background-position: center -600px;
 }
 
