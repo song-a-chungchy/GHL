@@ -91,6 +91,10 @@ h1.up-h1 {
     display: none;
 }
 
+.mb-main-bottom-dummmy {
+    margin-bottom: 260px;
+}
+
 div.main-btn {
     position: static;
     width: 300px;
@@ -161,9 +165,17 @@ a.btn2row span {
         padding-bottom: 0;
         margin: 0 10px;
     }
+            .mb-main-bottom-dummmy {
+            margin-bottom: 320px;
+        }
+
 }
 
 @media screen and (max-width: 768px) {
+    .mb-main-bottom-dummmy {
+        margin-bottom: 200px;
+    }
+
     main.main section {
         width: 87.38583333333333%;
         /* 748/768 */
