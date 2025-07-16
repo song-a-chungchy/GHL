@@ -150,7 +150,7 @@ nav#top {
     height: 3.125em;
     border-bottom: 1px solid #d1d3d4;
     z-index: 16;
-    padding: 0 5.625vw;
+/*     padding: 0 5.625vw; */
     display: flex;
     justify-content: space-between;
     align-items: center;
