@@ -75,11 +75,11 @@ body {
 }
 
 #gray .leftCornerBtn.on {
-    background: url(https://library.highlights.com/public_html/viewer-global-pc-magazine/image/viewer_left_on.png) no-repeat 0 0;
+    background: url(..image/viewer_left_on.png) no-repeat 0 0;
 }
 
 #gray .leftCornerBtn.off {
-    background: url(https://library.highlights.com/public_html/viewer-global-pc-magazine/image/viewer_left_off.png) no-repeat 0 0;
+    background: url(../image/viewer_left_off.png) no-repeat 0 0;
 }
 
 #gray .rightCornerBtn {
@@ -96,11 +96,11 @@ body {
 }
 
 #gray .rightCornerBtn.on {
-    background: url(https://library.highlights.com/public_html/viewer-global-pc-magazine/image/viewer_right_on.png) no-repeat 0 0;
+    background: url(../image/viewer_right_on.png) no-repeat 0 0;
 }
 
 #gray .rightCornerBtn.off {
-    background: url(https://library.highlights.com/public_html/viewer-global-pc-magazine/image/viewer_right_off.png) no-repeat 0 0;
+    background: url(../image/viewer_right_off.png) no-repeat 0 0;
 }
 
 .modal_black {
@@ -589,6 +589,7 @@ div.level-layer h2 {
     padding: 12px;
     border-radius: 30px;
     font-weight: 300;
+    cursor: pointer;
 }
 
 .lv-layer-btn button.btn-cyan {
@@ -983,6 +984,10 @@ nav a.book.on {
 
 nav a.expand.on {
     background-image: url(../image/icn-expand-on.svg);
+}
+
+nav a.expand.on.act {
+    background-image: url(../image/icn-shrink-on.svg);
 }
 
 nav a.reduce.on {
@@ -1422,13 +1427,13 @@ nav.videos .speed p {
 }
 
 nav#bt.videos .speed .option-wrap li:hover {
-    background-color: #ffe2bc;
+    background-color: #fff0e6;
     color: #ff7f1a;
     font-weight: 600;
 }
 
 nav#bt .speed .option-wrap li:hover {
-    background-color: #c5dcff;
+    background-color: #eaf8ff;
     color: #4e68d2;
     font-weight: 600;
 }
@@ -2016,7 +2021,7 @@ input#ageInputId[type=range] {
     left: 26px;
     width: 16px;
     height: 16px;
-    background-image: url(https://library.highlights.com/public_html/viewer-global-pc-magazine/image/icn-dots.png);
+    background-image: url(../image/icn-dots.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -2030,7 +2035,7 @@ input#ageInputId[type=range] {
 
 #outlineContainer>ul>li a:hover::before {
     left: 46px;
-    background-image: url(https://library.highlights.com/public_html/viewer-global-pc-magazine/image/icn-dots-hover.png);
+    background-image: url(../image/icn-dots-hover.png);
 }
 
 #outlineContainer>ul>li ul {
