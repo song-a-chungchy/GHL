@@ -537,12 +537,15 @@ section.flex {
   width: auto;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 
 #pdf-container>div {
   flex-shrink: 0;
   min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .rotate-container {
