@@ -1004,9 +1004,9 @@ article.quick_stats ul li {
 
 article.quick_stats ul li h1 {
     height: 7.488987vw;
-    font-size: 3.0837vw;
+    font-size: 3vw;
     letter-spacing: -0.220264vw;
-    margin-bottom: 1.101322vw;
+    margin-bottom: 3vw;
 }
 
 article.quick_stats ul .first_li h1,
@@ -3770,6 +3770,7 @@ pre {
         font-size: 14px;
         letter-spacing: -1px;
         margin-bottom: 5px;
+        margin-bottom: 0;
     }
 
     article.quick_stats h3,
@@ -3786,6 +3787,7 @@ pre {
 
     article.quick_stats ul li p {
         font-size: 30px;
+        margin-bottom: 10px;
     }
 
     article.quick_stats .btn_info {
