@@ -159,7 +159,7 @@ nav#top {
 
 nav#top h1 {
     letter-spacing: -0.02em;
-    width: calc(100% - 9.375em);
+    width:100%;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
