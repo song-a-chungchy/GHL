@@ -986,7 +986,7 @@ nav a.expand.on {
     background-image: url(../image/icn-expand-on.svg);
 }
 
-nav a.reduce.on {
+nav a.expand.on.act {
     background-image: url(../image/icn-shrink-on.svg);
 }
 
