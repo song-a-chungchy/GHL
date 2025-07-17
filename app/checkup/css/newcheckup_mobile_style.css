@@ -1,5 +1,41 @@
-/* wrapper */
+@charset "utf-8";
 
+@font-face {
+    font-family: 'Montserrat';
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/fonts/Montserrat-Thin.eot');
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/fonts/Montserrat-Thin.eot?#iefix') format('embedded-opentype'), url('https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/fonts/Montserrat-Thin.ttf') format('truetype'), url('https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/fonts/Montserrat-Thin.woff') format('woff');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/fonts/Montserrat-Light.eot');
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/fonts/Montserrat-Light.eot?#iefix') format('embedded-opentype'), url('https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/fonts/Montserrat-Light.ttf') format('truetype'), url('https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/fonts/Montserrat-Light.woff') format('woff');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/fonts/Montserrat-Regular.eot');
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'), url('https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/fonts/Montserrat-Regular.ttf') format('truetype'), url('https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/fonts/Montserrat-Bold.eot');
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'), url('https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/fonts/Montserrat-Bold.ttf') format('truetype'), url('https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/fonts/Montserrat-Bold.woff') format('woff');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/fonts/Montserrat-Black.eot');
+    src: url('https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/fonts/Montserrat-Black.eot?#iefix') format('embedded-opentype'), url('https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/fonts/Montserrat-Black.ttf') format('truetype'), url('https://web-cdn.chungchy.com/Highlights_Global_V9/library/public_html/resource/fonts/Montserrat-Black.woff') format('woff');
+    font-weight: 900;
+}
+
+/* wrapper */
 #wrapper {
     -moz-transition: opacity 0.45s ease;
     -webkit-transition: opacity 0.45s ease;
@@ -2773,13 +2809,16 @@ div.star {
 
 /* pop-up */
 #pop {
+    font: 14px "Montserrat", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: static !important;
 }
 
 .pop-up {
-    width: 64.81481481481481%;
+    width: calc(100% - 72px);
+    max-width: 600px;
     /*700/1080*/
     border-radius: 7px;
     -webkit-border-radius: 7px;
@@ -2789,7 +2828,7 @@ div.star {
 
 .pop-up .content {
     border-radius: 7px;
-    padding: 36px 10px;
+    padding: 36px 0px;
     /*80*/
 }
 
@@ -2798,6 +2837,7 @@ div.star {
 }
 
 .pop-up .content p {
+    margin-top: 16px;
     font-weight: 300;
     letter-spacing: -1px;
     font-size: 14px;
@@ -2809,6 +2849,47 @@ div.star {
     height: 50px;
     /*85*/
     line-height: 50px;
+    /*85*/
+    color: #fff;
+    font-size: 16px;
+}
+
+.pop-up .btn-wrap .btn.gray {
+    border-radius: 0 0 0 5px;
+    -webkit-border-radius: 0 0 0 5px;
+    background-color: #bcbec0;
+}
+
+.pop-up .btn-wrap .btn.cyan {
+    border-radius: 0 0 7px 0;
+    -webkit-border-radius: 0 0 7px 0;
+    background-color: #248ab2;
+}
+
+.pop-up .btn-wrap .btn.one {
+    width: 100%;
+    border-radius: 0 0 7px 7px;
+    -webkit-border-radius: 0 0 7px 7px;
+}
+
+.pop-up .content h2.font40 {
+    font-size: 2.0318rem;
+}
+
+.pop-up .btn-wrap .btn {
+    font-size: 2.0318rem;
+}
+
+.pop-up .content .font36 {
+    font-size: 1.8286rem;
+}
+
+.pop-up .btn-wrap .btn {
+    float: left;
+    width: 50%;
+    height: 85px;
+    /*85*/
+    line-height: 85px;
     /*85*/
     color: #fff;
 }
@@ -2830,6 +2911,81 @@ div.star {
     border-radius: 0 0 7px 7px;
     -webkit-border-radius: 0 0 7px 7px;
 }
+
+.pop-up .content h2.font40 {
+    font-size: 2.0318rem;
+}
+
+@media screen and (max-width: 710px) {
+    .pop-up .content .font36 {
+        font-size: 1.6905rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .pop-up .content h2.font40 {
+        font-size: 1.6932rem;
+    }
+
+    .pop-up .btn-wrap .btn {
+        font-size: 1.6932rem;
+    }
+
+    .pop-up .content .font36 {
+        font-size: 1.5239rem;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .pop-up .content .font36 {
+        font-size: 1.3334rem;
+    }
+}
+
+@media screen and (max-width: 487px) {
+    .pop-up .content.font36 {
+        font-size: 1.1548rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .pop-up .content h2.font40 {
+        font-size: 1.1905rem;
+    }
+
+    .pop-up .btn-wrap .btn {
+        height: 50px;
+        line-height: 50px;
+        font-size: 1.1905rem;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .pop-up .content h2.font40 {
+        font-size: 1.0464rem;
+    }
+
+    .pop-up .content .font36 {
+        font-size: 0.9417rem;
+    }
+
+    .pop-up .btn-wrap .btn {
+        font-size: 1.0464rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .pop-up .content h2.font40 {
+        font-size: 0.8466rem;
+    }
+
+    .pop-up .btn-wrap .btn {
+        font-size: 0.8466rem;
+    }
+}
+
+/* pop-up */
 
 /* pop-up */
 
