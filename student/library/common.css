@@ -18,7 +18,7 @@
 }
 
 #body2 {
-    background: rgba(0, 0, 0, 0.7);
+    background: transparent;
     min-width: inherit;
     min-height: inherit;
     margin: 0;
