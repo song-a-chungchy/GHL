@@ -2833,11 +2833,11 @@ div.star {
 }
 
 .pop-up .content h2 {
-    font-size: 16px;
+    font-size: 0.8466rem;
 }
 
-.pop-up .content h2 b{
-    font-weight: normal;
+.pop-up .content h2 b {
+    font-weight: 600;
 }
 
 .pop-up .content p {
@@ -2955,6 +2955,10 @@ div.star {
 @media screen and (max-width: 450px) {
     .pop-up .content h2.font40 {
         font-size: 1.1905rem;
+    }
+
+    .pop-up .content .font36 {
+        font-size: 1.0715rem;
     }
 
     .pop-up .btn-wrap .btn {
