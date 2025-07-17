@@ -5125,7 +5125,7 @@ footer a:hover {
 }
 
 .result-popUp .assignment .btn-wrap:has(.btn:nth-child(4)) {
-    justify-content: flex-start;
+/*     justify-content: flex-start; */
 }
 
 .result-popUp .assignment .btn.btn-video {
