@@ -2836,6 +2836,10 @@ div.star {
     font-size: 16px;
 }
 
+.pop-up .content h2 b{
+    font-weight: normal;
+}
+
 .pop-up .content p {
     margin-top: 16px;
     font-weight: 300;
