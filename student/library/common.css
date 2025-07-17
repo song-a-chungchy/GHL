@@ -5116,11 +5116,11 @@ footer a:hover {
 
 .result-popUp .assignment .btn-wrap .btn {
     width: calc((100% - 18px) / 3);
-    font-size: 18px;
-    padding: 12px 0px;
-    max-width: 128px;
-    border-radius: 30px;
-    color: white;
+    padding: 12px 0;
+    border-radius: 100px;
+    font-size: 14px;
+    box-shadow: none;
+    color: #ffffff;
     cursor: pointer;
 }
 
@@ -5331,5 +5331,6 @@ footer a:hover {
 
     .result-popUp .assignment .btn-wrap .btn {
         width: calc((100% - 12px) / 2);
+        max-width: 160px;
     }
 }
