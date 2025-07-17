@@ -699,9 +699,10 @@ div.two-button button.btn-gray {
 }
 
 /* pop-up */
-#pop{
+#pop {
     position: static !important;
 }
+
 .pop-up {
     width: calc(100% - 72px);
     max-width: 600px;
