@@ -301,7 +301,7 @@ button {
 }
 
 .thinking .pic.no {
-   margin-top: 10vh;
+    margin-top: 10vh;
 }
 
 .thinking .pic.no div {
@@ -764,8 +764,12 @@ div.two-button button.btn-gray {
 /*레벨 레이어팝업*/
 
 /* pop-up */
+#pop{
+    position: static !important;
+}
 .pop-up {
-    width: 64.81481481481481%;
+    width: calc(100% - 72px);
+    max-width: 600px;
     /*700/1080*/
     border-radius: 7px;
     -webkit-border-radius: 7px;
@@ -774,7 +778,7 @@ div.two-button button.btn-gray {
 }
 
 .pop-up .content {
-    padding: 10.41666666666667vw 0;
+    padding: 36px 16px;
     /*80*/
 }
 
@@ -786,9 +790,9 @@ div.two-button button.btn-gray {
 .pop-up .btn-wrap .btn {
     float: left;
     width: 50%;
-    height: 11.06770833333333vw;
+    height: 85px;
     /*85*/
-    line-height: 11.06770833333333vw;
+    line-height: 85px;
     /*85*/
     color: #fff;
 }
@@ -809,6 +813,42 @@ div.two-button button.btn-gray {
     width: 100%;
     border-radius: 0 0 7px 7px;
     -webkit-border-radius: 0 0 7px 7px;
+}
+
+.pop-up .content h2.font40 {
+    font-size: 2.0318rem;
+}
+
+@media screen and (max-width: 640px) {
+    .pop-up .content h2.font40 {
+        font-size: 1.6932rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .pop-up .content h2.font40 {
+        font-size: 1.1905rem;
+    }
+
+    .pop-up .btn-wrap .btn {
+        height: 50px;
+        /*85*/
+        line-height: 50px;
+        /*85*/
+        color: #fff;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .pop-up .content h2.font40 {
+        font-size: 1.0464rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .pop-up .content h2.font40 {
+        font-size: 0.8466rem;
+    }
 }
 
 /* pop-up */
