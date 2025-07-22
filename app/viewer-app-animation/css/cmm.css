@@ -348,7 +348,7 @@ nav#top {
     height: 3.125em;
     border-bottom: 1px solid #d1d3d4;
     z-index: 16;
-/*     padding: 0 5.625vw; */
+    /*     padding: 0 5.625vw; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -416,6 +416,10 @@ nav#top a.book-back {
 
 nav#top a.speed.flex {
     background-image: none;
+}
+
+nav#top a.speed.flex span img{
+    display: none;
 }
 
 nav#top a.speed.flex span:first-child {
@@ -558,7 +562,7 @@ nav#bt ul.clearFix li a.speed.flex {
     background-image: none;
 }
 
-nav#bt ul.clearFix li a #btn-land-extand{
+nav#bt ul.clearFix li a #btn-land-extand {
     background-image: url(../images/cmm/icn-shrink-on.svg);
     background-repeat: no-repeat;
     background-position: center center;
