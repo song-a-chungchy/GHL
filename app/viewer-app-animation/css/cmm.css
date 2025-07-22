@@ -422,14 +422,8 @@ nav#top a.speed.flex span img{
     display: none;
 }
 
-nav#top a.speed.flex span:first-child {
+nav#top a.speed.flex span {
     background-image: url(../images/cmm/icn-shrink-on.svg);
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-nav#top a.speed.flex span:last-child {
-    background-image: url(../images/cmm/icn-expand-on.svg);
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -562,13 +556,7 @@ nav#bt ul.clearFix li a.speed.flex {
     background-image: none;
 }
 
-nav#bt ul.clearFix li a #btn-land-extand {
-    background-image: url(../images/cmm/icn-shrink-on.svg);
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-nav#bt ul.clearFix li a #btn-land-reduce {
+nav#bt ul.clearFix li a.speed.flex span {
     background-image: url(../images/cmm/icn-expand-on.svg);
     background-repeat: no-repeat;
     background-position: center center;
