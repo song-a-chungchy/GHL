@@ -2813,7 +2813,14 @@ div.star {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#pop:has(.pop-up) {
     position: static !important;
+}
+
+#pop:has(.result-popUp) {
+    position: absolute !important;
 }
 
 .pop-up {
